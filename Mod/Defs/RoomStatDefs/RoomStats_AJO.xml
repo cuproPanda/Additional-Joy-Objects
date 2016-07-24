@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RoomStatDefs>
+
+	<RoomStatDef>
+		<defName>AJO_WritingSpeedFactor</defName>
+		<label>current room impressiveness</label>
+		<workerClass>RoomStatWorker_GraveVisitingJoyGainFactor</workerClass>
+		<updatePriority>0</updatePriority>
+		<isHidden>true</isHidden>
+		<defaultScore>1</defaultScore>
+	</RoomStatDef>
+
+</RoomStatDefs>

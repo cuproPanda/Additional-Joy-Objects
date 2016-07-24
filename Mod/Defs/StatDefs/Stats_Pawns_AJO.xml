@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StatDef>
+		<defName>AJO_WritingSpeed</defName>
+		<label>writing speed</label>
+		<description>Speed at which this person is able to conceptualize and write stories.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>AJO_WritingSpeedFactor</li>
+		</statFactors>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Social</skill>
+				<baseFactor>0.52</baseFactor>
+				<bonusFactor>0.12</bonusFactor>
+			</li>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Artistic</skill>
+				<baseFactor>0.16</baseFactor>
+				<bonusFactor>0.14</bonusFactor>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.75</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+</Defs>

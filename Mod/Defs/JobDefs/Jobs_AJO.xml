@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<JobDef>
+		<defName>AJO_PlayDarts</defName>
+		<driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass>
+		<reportString>Playing darts.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>3</joyMaxParticipants>
+		<joyGainRate>1</joyGainRate>
+		<joySkill>Shooting</joySkill>
+		<joyXpPerTick>0.003</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayCards</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>Playing a card game.</reportString>
+		<joyDuration>5000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joySkill>Research</joySkill>
+		<joyXpPerTick>0.001</joyXpPerTick>
+		<joyKind>Passive</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayRimColony</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>Playing RimColony.</reportString>
+		<joyDuration>6000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joySkill>Social</joySkill>
+		<joyXpPerTick>0.001</joyXpPerTick>
+		<joyKind>Social</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_ReadBook</defName>
+		<driverClass>AdditionalJoyObjects.JobDriver_GetBookReadBook</driverClass>
+		<reportString>Sitting down to read a book.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joyKind>Passive</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_SkimBook</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Skimming through books.</reportString>
+		<joyDuration>1250</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joyKind>Passive</joyKind>
+	</JobDef>
+
+
+	<JobDef>
+		<defName>AJO_Doodle</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Doodling.</reportString>
+		<joyDuration>2500</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joySkill>Artistic</joySkill>
+		<joyXpPerTick>0.006</joyXpPerTick>
+		<joyKind>Meditative</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_InterpretArt</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Interpreting artwork.</reportString>
+		<joyDuration>2500</joyDuration>
+		<joyMaxParticipants>8</joyMaxParticipants>
+		<joyGainRate>1</joyGainRate>
+		<joyKind>Study</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeRS</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Rum Swirled.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Construction</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingCerebral</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeMC</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing MintCraft.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Crafting</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingCerebral</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeHL</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Halva Life.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Shooting</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeES</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Elder Scones.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Melee</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeBG</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Baguettris.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Research</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingCerebral</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeCB</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Cooking Baba.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Cooking</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingCerebral</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadePS</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Plants Vs. Salamis.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Growing</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadePK</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Psycho Knots.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Artistic</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingCerebral</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeSP</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Speltunky.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Mining</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeTZ</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing The Zimz.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Social</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>Social</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeTV</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Trauma Vendor.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Medicine</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>GamingDexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayArcadeGD</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Playing Glutendogs.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joySkill>Animals</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>Social</joyKind>
+	</JobDef>
+
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="MoteBase" Abstract="True">
+		<thingClass>MoteThrown</thingClass>
+		<label>Mote</label>
+		<category>Mote</category>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<shaderType>Mote</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<isSaveable>false</isSaveable>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<ThingDef Name="DartBase" ParentName="MoteBase" Abstract="True">
+		<altitudeLayer>FlyingItem</altitudeLayer>
+		<mote>
+			<ticksBeforeStartFadeout>200</ticksBeforeStartFadeout>
+			<fadeoutDuration>25</fadeoutDuration>
+		</mote>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_RedDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/RedDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_GreenDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/GreenDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_BlueDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/BlueDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

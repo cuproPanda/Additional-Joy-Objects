@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<ThingDef Name="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef Name="FurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+	</ThingDef>
+
+	<ThingDef Name="HighQualityFurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Furniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<DesignationCategory>Furniture</DesignationCategory>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+	</ThingDef>
+
+	<ThingDef Name="OnWallBase" ParentName="BuildingBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fillPercent>0.0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CorePanda.CompProperties_Hanger">
+				<HangingType>Wall</HangingType>
+				<WallHeight>High</WallHeight>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>CorePanda.PlaceWorker_AgainstWall</li>
+		</placeWorkers>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+	</ThingDef>
+
+	<ThingDef Name="JoyTableBase" ParentName="FurnitureBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<size>(1,1)</size>
+		<pathCost>70</pathCost>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+
+
+	<!-- ========================== Joy Tables ============================== -->
+
+
+	<ThingDef ParentName="JoyTableBase">
+		<defName>AJO_CardTable</defName>
+		<label>card table</label>
+		<description>A table specially made for playing a wide variety of card games. Suitable for 1-4 players </description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/CardTable</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Beauty>15</Beauty>
+		</statBases>
+		<costList>
+			<WoodLog>100</WoodLog>
+			<Cloth>10</Cloth>
+		</costList>
+		<designationCategory>Joy</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="JoyTableBase">
+		<defName>AJO_RimColony</defName>
+		<label>RimColony</label>
+		<description>RimColony is a game about building and sustaining a colony after crash landing on a rim world. Some roaming trader had a twisted sense of humor bringing this along.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/RimColony</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Beauty>20</Beauty>
+		</statBases>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_Joy</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<!-- ========================== Furniture ============================== -->
+
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>AJO_Thurible</defName>
+		<label>thurible</label>
+		<thingClass>AdditionalJoyObjects.Building_Thurible</thingClass>
+		<description>A thurible designed for burning special AEA Tanks. Releases a mood-altering vapor into the air which affects all nearby colonists.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Utility/Thurible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0.3,0.4,0.4)</rect>
+			</damageData>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>300</WorkToMake>
+			<Flammability>0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<rotatable>false</rotatable>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<designationCategory>Joy</designationCategory>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>200.0</fuelConsumptionRate>
+				<autoRefuelPercent>0.0</autoRefuelPercent>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AJO_AEAtank</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+			</li> 
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AdditionalJoyObjects.PlaceWorker_Thurible</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<ThingDef ParentName="OnWallBase">
+		<defName>AJO_Dartboard</defName>
+		<label>dartboard</label>
+		<description>A game about accuracy often played at pubs and bars. Players throw darts from a distance and attempt to get them to hit certain areas on the board. It's relaxing, and even trains hand-eye coordination.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Dartboard/Dartboard</texPath>
+		</graphicData>
+		<uiIconPath>Cupro/Object/Furniture/Dartboard/Dartboard_MenuIcon</uiIconPath>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToMake>250</WorkToMake>
+			<Beauty>2</Beauty>
+			<Flammability>1.0</Flammability>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<costList>
+			<WoodLog>15</WoodLog>
+			<Steel>5</Steel>
+			<Cloth>5</Cloth>
+		</costList>
+		<building>
+			<watchBuildingStandDistanceRange>
+				<min>5</min>
+				<max>5</max>
+			</watchBuildingStandDistanceRange>
+			<watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers> 
+		<designationCategory>Joy</designationCategory>
+	</ThingDef>
+
+</ThingDefs>

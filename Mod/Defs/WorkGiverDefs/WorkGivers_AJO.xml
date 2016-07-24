@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+	<WorkGiverDef>
+		<defName>AJO_DoBillsMakePainting</defName>
+		<label>paint at easel</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Art</workType>
+		<priorityInType>90</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AJO_Easel</li>
+		</fixedBillGiverDefs>
+		<verb>paint at</verb>
+		<gerund>painting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>AJO_DoBillsWritingTable</defName>
+		<label>work on a book</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Art</workType>
+		<priorityInType>95</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AJO_WritingTable</li>
+		</fixedBillGiverDefs>
+		<verb>write at</verb>
+		<gerund>writing at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>AJO_DoBillsArcadeConstruction</defName>
+		<label>craft an arcade</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>90</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AJO_TableArcadeConstruction</li>
+		</fixedBillGiverDefs>
+		<verb>craft at</verb>
+		<gerund>crafting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</WorkGivers>

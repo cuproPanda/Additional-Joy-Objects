@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<AdditionalJoyObjects.BookNameDef>
+		<defName>BookNames</defName>
+		<label>BookNames</label>
+		<BookNames>
+			<!--  Simply add new titles inside of <li> </li> tags to have more book titles for your colonists!   -->
+			<li>The Ingenious Gentleman Don Chayote</li>
+			<li>A Kale of Two Cities</li>
+			<li>The Gourd of the Beans</li>
+			<li>The Lime, the Witch, and the Wardrobe</li>
+			<li>And Then There Were Onions</li>
+			<li>Molasses</li>
+		</BookNames>
+	</AdditionalJoyObjects.BookNameDef>
+
+</GameData>

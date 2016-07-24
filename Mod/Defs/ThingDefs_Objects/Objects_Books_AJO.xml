@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="BookStorageBase" ParentName="BuildingBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>false</castEdgeShadows>
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<size>(1,1)</size>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_Joy</li>
+		</tradeTags>
+		<tickerType>Rare</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<!--===================Furniture===================-->
+
+
+	<ThingDef ParentName="BookStorageBase">
+		<defName>AJO_BookRack</defName>
+		<label>book rack</label>
+		<description>A small bookshelf with a few books. Can be upgraded to a bookshelf. \nBoosts writing speed by 5% when placed near a writing table. Only one book rack can be linked to a single writing table.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/BookRack/BookRack</texPath>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<uiIconPath>Cupro/Object/Furniture/BookRack/BookRack_MenuIcon</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>20</pathCost>
+		<fillPercent>0.2</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>500</WorkToMake>
+			<MarketValue>75</MarketValue>
+			<Beauty>10</Beauty>
+			<EntertainmentStrengthFactor>0.8</EntertainmentStrengthFactor>
+		</statBases>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<AJO_PileOfBooks>1</AJO_PileOfBooks>
+		</costList>
+		<designationCategory>Joy</designationCategory>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li Class="CorePanda.CompProperties_Upgradeable">
+				<UpgradeTex>Cupro/UI/Commands/Upgrade</UpgradeTex>
+				<BlueprintThingDef>AJO_Bookshelf</BlueprintThingDef>
+				<UpgradeDescString>Upgrade to bookshelf</UpgradeDescString>
+				<UpgradeLabelString>Upgrade</UpgradeLabelString>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BookStorageBase">
+		<defName>AJO_Bookshelf</defName>
+		<label>bookshelf</label>
+		<description>A bookshelf with a variety of books. Can be upgraded to a bookcase. \nBoosts writing speed by 10% when placed near a writing table. Only two bookshelves can be linked to a single writing table.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Bookshelf/Bookshelf</texPath>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<uiIconPath>Cupro/Object/Furniture/Bookshelf/Bookshelf_MenuIcon</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>40</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<MarketValue>200</MarketValue>
+			<Beauty>25</Beauty>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<DesignationCategory>Unplaceable</DesignationCategory>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<AJO_PileOfBooks>2</AJO_PileOfBooks>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>2</maxSimultaneous>
+			</li>
+			<li Class="CorePanda.CompProperties_Upgradeable">
+				<UpgradeTex>Cupro/UI/Commands/Upgrade</UpgradeTex>
+				<BlueprintThingDef>AJO_Bookcase</BlueprintThingDef>
+				<UpgradeDescString>Upgrade to bookcase</UpgradeDescString>
+				<UpgradeLabelString>Upgrade</UpgradeLabelString>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BookStorageBase">
+		<defName>AJO_Bookcase</defName>
+		<label>bookcase</label>
+		<description>A bookcase with a wide variety of books. \nBoosts writing speed by 20% when placed near a writing table. Up to four bookcases can be linked to a single writing table.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Bookcase/Bookcase</texPath>
+		</graphicData>
+		<uiIconPath>Cupro/Object/Furniture/Bookcase/Bookcase_MenuIcon</uiIconPath>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<pathCost>70</pathCost>
+		<fillPercent>0.75</fillPercent>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<MarketValue>400</MarketValue>
+			<Beauty>50</Beauty>
+			<EntertainmentStrengthFactor>1.15</EntertainmentStrengthFactor>
+		</statBases>
+		<DesignationCategory>Unplaceable</DesignationCategory>
+		<costList>
+			<WoodLog>40</WoodLog>
+			<AJO_PileOfBooks>2</AJO_PileOfBooks>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.2</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>4</maxSimultaneous>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Furniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Superior</minQualityForArtistic>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>AJO_ReadingTable</defName>
+		<label>reading table</label>
+		<description>A small table made to be the perfect height for reading. Colonists can read at it when placed near a book rack, bookshelf, or bookcase.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/ReadingTable/ReadingTable</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<uiIconPath>Cupro/Object/Furniture/ReadingTable/ReadingTable_back</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<pathCost>70</pathCost>
+		<passability>PassThroughOnly</passability>
+		<designationCategory>Joy</designationCategory>
+	</ThingDef>
+
+
+	<!--==================Production==================-->
+
+
+	<ThingDef ParentName="FurnitureBase">
+		<DefName>AJO_WritingTable</DefName>
+		<label>writing table</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>A simple table for writing at.</Description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/WritingTable/WritingTable</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Cupro/Object/Furniture/WritingTable/WritingTable_back</uiIconPath>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<WorkToMake>800</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<DesignationCategory>Production</DesignationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>AJO_BookRack</li>
+					<li>AJO_Bookshelf</li>
+					<li>AJO_Bookcase</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+</ThingDefs>

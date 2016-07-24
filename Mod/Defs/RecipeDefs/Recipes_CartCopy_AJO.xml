@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef Name="AJO_CartCopyBase" Abstract="True">
+		<description>Duplicate a game cartridge's data to get more cartridges.</description>
+		<jobString>Copying cartridge.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CP_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CP_Copper</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AJO_TableArcadeConstruction</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartRS</defName>
+		<label>Copy Rum Swirled</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartRS</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartRS</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartRS>2</AJO_CartRS>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartMC</defName>
+		<label>Copy MintCraft</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartMC</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartMC</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartMC>2</AJO_CartMC>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartHL</defName>
+		<label>Copy Halva Life</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartHL</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartHL</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartHL>2</AJO_CartHL>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartES</defName>
+		<label>Copy Elder Scones</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartES</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartES</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartES>2</AJO_CartES>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartBG</defName>
+		<label>Copy Baguettris</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartBG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartBG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartBG>2</AJO_CartBG>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartCB</defName>
+		<label>Copy Cooking Baba</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartCB</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartCB</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartCB>2</AJO_CartCB>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartPS</defName>
+		<label>Copy Plants Vs. Salamis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartPS</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartPS</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartPS>2</AJO_CartPS>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartPK</defName>
+		<label>Copy Psycho Knots</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartPK</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartPK</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartPK>2</AJO_CartPK>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartSP</defName>
+		<label>Copy Speltunky</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartSP</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartSP</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartSP>2</AJO_CartSP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartTZ</defName>
+		<label>Copy The Zimz</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartTZ</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartTZ</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartTZ>2</AJO_CartTZ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartTV</defName>
+		<label>Copy Trauma Vendor</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartTV</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartTV</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartTV>2</AJO_CartTV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartGD</defName>
+		<label>Copy Glutendogs</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartGD</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartGD</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartGD>2</AJO_CartGD>
+		</products>
+	</RecipeDef>
+
+</RecipeDefs>

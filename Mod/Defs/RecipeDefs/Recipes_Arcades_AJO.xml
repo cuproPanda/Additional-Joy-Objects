@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+
+	<RecipeDef>
+		<defName>AJO_MakeArcadeEmpty</defName>
+		<label>Craft empty arcade</label>
+		<description>Make an empty arcade cabinet for putting cartridges into.</description>
+		<jobString>Crafting empty arcade.</jobString>
+		<workAmount>2500</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CP_Copper</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CP_Glass</li>
+						<li>CP_FusedQuartz</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>CP_Copper</li>
+				<li>CP_Glass</li>
+				<li>CP_FusedQuartz</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeEmpty>1</AJO_ArcadeEmpty>
+		</products>
+		<recipeUsers>
+			<li>AJO_TableArcadeConstruction</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<RecipeDef Name="AJO_ArcadeRecipeBase" Abstract="True">
+		<description>Install a game cartridge into an empty arcade cabinet.</description>
+		<jobString>Configuring arcade.</jobString>
+		<workAmount>500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_ArcadeEmpty</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_ArcadeEmpty</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AJO_TableArcadeConstruction</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeRS</defName>
+		<label>Install Rum Swirled</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartRS</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartRS</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeRS>1</AJO_ArcadeRS>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeMC</defName>
+		<label>Install MintCraft</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartMC</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartMC</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeMC>1</AJO_ArcadeMC>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeHL</defName>
+		<label>Install Halva Life</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartHL</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartHL</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeHL>1</AJO_ArcadeHL>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeES</defName>
+		<label>Install Elder Scones</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartES</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartES</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeES>1</AJO_ArcadeES>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeBG</defName>
+		<label>Install Baguettris</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartBG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartBG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeBG>1</AJO_ArcadeBG>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeCB</defName>
+		<label>Install Cooking Baba</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartCB</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartCB</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeCB>1</AJO_ArcadeCB>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadePS</defName>
+		<label>Install Plants Vs. Salamis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartPS</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartPS</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadePS>1</AJO_ArcadePS>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadePK</defName>
+		<label>Install Psycho Knots</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartPK</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartPK</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadePK>1</AJO_ArcadePK>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeSP</defName>
+		<label>Install Speltunky</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartSP</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartSP</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeSP>1</AJO_ArcadeSP>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeTZ</defName>
+		<label>Install The Zimz</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartTZ</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartTZ</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeTZ>1</AJO_ArcadeTZ>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeTV</defName>
+		<label>Install Trauma Vendor</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartTV</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartTV</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeTV>1</AJO_ArcadeTV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeGD</defName>
+		<label>Install Glutendogs</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartGD</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartGD</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeGD>1</AJO_ArcadeGD>
+		</products>
+	</RecipeDef>
+
+</RecipeDefs>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<!--===================Furniture===================-->
+
+
+	<ThingDef ParentName="OnWallBase">
+		<defName>AJO_Painting</defName>
+		<thingClass>Building_Art</thingClass>
+		<label>painting</label>
+		<description>A painting. Useful for covering up holes, and quite easy on the eyes.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Painting/Painting</texPath>
+		</graphicData>
+		<uiIconPath>Cupro/Object/Furniture/Painting/Painting_MenuIcon</uiIconPath>
+		<size>(1,1)</size>
+		<minifiedDef>AJO_MinifiedPainting</minifiedDef>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MarketValue>30</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>30</Beauty>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<costList>
+			<Cloth>1</Cloth>
+		</costList>
+		<building>
+			<watchBuildingStandDistanceRange>
+				<min>1</min>
+				<max>3</max>
+			</watchBuildingStandDistanceRange> 
+			<watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Sculpture</nameMaker>
+				<descriptionMaker>AJO_ArtDescription_Painting</descriptionMaker>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>	
+	</ThingDef>
+
+
+	<!--==================Production==================-->
+
+
+	<ThingDef ParentName="FurnitureBase">
+		<DefName>AJO_Easel</DefName>
+		<label>painting easel</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>An easel equipped for artistic painting.</Description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Easel/Easel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<uiIconPath>Cupro/Object/Furniture/Easel/Easel_front</uiIconPath>
+		<costList>
+			<WoodLog>15</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+		</statBases>
+		<size>(1,1)</size>
+		<DesignationCategory>Production</DesignationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+	</ThingDef>
+
+
+	<!-- ======================= Packages ========================= -->
+
+
+	<ThingDef Name="MinifiedBase" Abstract="True">
+		<thingClass>MinifiedThing</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<!-- for CompForbiddable -->
+		<drawerType>RealtimeOnly</drawerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedBase">
+		<defName>AJO_MinifiedPainting</defName>
+		<label>Painting</label>
+		<thingCategories>
+			<li>Art</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+</ThingDefs>

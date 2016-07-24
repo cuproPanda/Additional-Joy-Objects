@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StuffCategoryDef>
+		<defName>AJO_Paint</defName>
+		<label>paint</label>
+	</StuffCategoryDef>  
+
+	<StuffCategoryDef>
+		<defName>AJO_BlankBook</defName>
+		<label>blank book</label>
+	</StuffCategoryDef>   
+
+</Defs>

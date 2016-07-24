@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JoyGiverDef>
+		<defName>AJO_PlayDarts</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>2.3</baseChance>
+		<thingDefs>
+			<li>AJO_Dartboard</li>
+		</thingDefs>
+		<jobDef>AJO_PlayDarts</jobDef>
+		<desireSit>false</desireSit>
+		<joyKind>GamingDexterity</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_PlayCards</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>2</baseChance>
+		<thingDefs>
+			<li>AJO_CardTable</li>
+		</thingDefs>
+		<jobDef>AJO_PlayCards</jobDef>
+		<joyKind>Passive</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_PlayRimColony</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>2.5</baseChance>
+		<thingDefs>
+			<li>AJO_RimColony</li>
+		</thingDefs>
+		<jobDef>AJO_PlayRimColony</jobDef>
+		<joyKind>Social</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_ReadBook</defName>
+		<giverClass>AdditionalJoyObjects.JoyGiver_GetBookReadBook</giverClass>
+		<baseChance>2</baseChance>
+		<pctPawnsEverDo>0.9</pctPawnsEverDo>
+		<thingDefs>
+			<li>AJO_ReadingTable</li>
+		</thingDefs>
+		<jobDef>AJO_ReadBook</jobDef>
+		<joyKind>Passive</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_SkimBook</defName>
+		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<baseChance>1.5</baseChance>
+		<thingDefs>
+			<li>AJO_Bookcase</li>
+		</thingDefs>
+		<jobDef>AJO_SkimBook</jobDef>
+		<joyKind>Passive</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+
+	<JoyGiverDef>
+		<defName>AJO_Doodle</defName>
+		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<baseChance>2</baseChance>
+		<pctPawnsEverDo>0.8</pctPawnsEverDo>
+		<thingDefs>
+			<li>AJO_Easel</li>
+		</thingDefs>
+		<jobDef>AJO_Doodle</jobDef>
+		<joyKind>Meditative</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_InterpretArt</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>2</baseChance>
+		<pctPawnsEverDo>0.7</pctPawnsEverDo>
+		<canDoWhileInBed>true</canDoWhileInBed>
+		<thingDefs>
+			<li>AJO_Painting</li>
+		</thingDefs>
+		<jobDef>AJO_InterpretArt</jobDef>
+		<desireSit>false</desireSit>
+		<joyKind>Study</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_DrinkSpectagoTea</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>2</baseChance>
+		<pctPawnsEverDo>0.8</pctPawnsEverDo>
+		<thingDefs>
+			<li>AJO_SpectagoTea</li>
+		</thingDefs>
+		<joyKind>Gluttonous</joyKind>
+		<requiredCapacities>
+			<li>Eating</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_DosePerodyne</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>1</baseChance>
+		<pctPawnsEverDo>0.7</pctPawnsEverDo>
+		<thingDefs>
+			<li>AJO_Perodyne</li>
+		</thingDefs>
+		<joyKind>Chemical</joyKind>
+		<requiredCapacities>
+			<li>Eating</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+
+
+	<!--=======Arcades=======-->
+
+
+	<JoyGiverDef Name="jgArcadeBase" Abstract="True">
+		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<baseChance>2</baseChance>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeRS</defName>
+		<thingDefs>
+			<li>AJO_ArcadeRS</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeRS</jobDef>
+		<joyKind>GamingCerebral</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeMC</defName>
+		<thingDefs>
+			<li>AJO_ArcadeMC</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeMC</jobDef>
+		<joyKind>GamingCerebral</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeHL</defName>
+		<thingDefs>
+			<li>AJO_ArcadeHL</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeHL</jobDef>
+		<joyKind>GamingDexterity</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeES</defName>
+		<thingDefs>
+			<li>AJO_ArcadeES</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeES</jobDef>
+		<joyKind>GamingDexterity</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeBG</defName>
+		<thingDefs>
+			<li>AJO_ArcadeBG</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeBG</jobDef>
+		<joyKind>GamingCerebral</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeCB</defName>
+		<thingDefs>
+			<li>AJO_ArcadeCB</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeCB</jobDef>
+		<joyKind>GamingCerebral</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadePS</defName>
+		<thingDefs>
+			<li>AJO_ArcadePS</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadePS</jobDef>
+		<joyKind>GamingDexterity</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadePK</defName>
+		<thingDefs>
+			<li>AJO_ArcadePK</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadePK</jobDef>
+		<joyKind>GamingCerebral</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeSP</defName>
+		<thingDefs>
+			<li>AJO_ArcadeSP</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeSP</jobDef>
+		<joyKind>GamingDexterity</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeTZ</defName>
+		<thingDefs>
+			<li>AJO_ArcadeTZ</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeTZ</jobDef>
+		<joyKind>Social</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeTV</defName>
+		<thingDefs>
+			<li>AJO_ArcadeTV</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeTV</jobDef>
+		<joyKind>GamingDexterity</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeGD</defName>
+		<thingDefs>
+			<li>AJO_ArcadeGD</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeGD</jobDef>
+		<joyKind>Social</joyKind>
+	</JoyGiverDef>
+
+</Defs>

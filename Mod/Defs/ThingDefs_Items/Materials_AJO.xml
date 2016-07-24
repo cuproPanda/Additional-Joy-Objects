@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+	<ThingDef Name="ResourceBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<label>unspecified resource</label>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+	<!-- ========================== Inheritors ============================== -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_AEAtank</defName>
+		<label>AEA tank</label>
+		<description>A tank filled with a liquid mood enhancer. Multiple scents are available, but the company only produces "mystery capsules".</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/AEAtank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<stackLimit>5</stackLimit>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_PileOfBooks</defName>
+		<label>pile of books</label>
+		<description>A random assortment of books.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/PileOfBooks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>35</MarketValue>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeability>Stockable</tradeability>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_PaintingSupplies</defName>
+		<label>painting supplies</label>
+		<description>A large assortment of brushes and paints, perfect for any artist.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/PaintingSupplies</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+		<stuffProps>
+			<categories>
+				<li>AJO_Paint</li>
+			</categories>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_Paper</defName>
+		<label>paper</label>
+		<description>Flat and smooth, ready for writing.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/Paper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<stackLimit>500</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>	
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_BlankBook</defName>
+		<label>blank book</label>
+		<description>A book ready for writing.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/BlankBook</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<SellPriceFactor>0.75</SellPriceFactor>
+		</statBases>
+		<stackLimit>5</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>	
+		<stuffProps>
+			<categories>
+				<li>AJO_BlankBook</li>
+			</categories>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_WrittenBook</defName>
+		<label>written book</label>
+		<description>A book that has been written by a colonist.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/WrittenBook</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>150</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Art</li>
+		</thingCategories>
+		<stackLimit>1</stackLimit>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>		
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Sculpture</nameMaker>
+				<descriptionMaker>AJO_ArtDescription_Book</descriptionMaker>
+			</li>
+		</comps>
+		<tradeability>Sellable</tradeability>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+</Resources>
+
+
+
+
+
+

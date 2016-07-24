@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StatDef>
+		<defName>AJO_WritingSpeedFactor</defName>
+		<label>current room impressiveness</label>
+		<description>Speed at which people write is multiplied by this value.</description>
+		<category>Building</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0.8</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<parts>
+			<li Class="StatPart_RoomStat">
+				<roomStat>AJO_WritingSpeedFactor</roomStat>
+				<customLabel>Impressiveness</customLabel>
+			</li>
+		</parts>
+		<postProcessCurve>
+			<points>
+				<li>(0,0.8)</li>
+				<li>(1.05,1)</li>
+				<li>(1.1,1.5)</li>
+				<li>(1.15,2)</li>
+				<li>(1.2,2.5)</li>
+			</points>
+		</postProcessCurve>
+	</StatDef>
+
+</Defs>
