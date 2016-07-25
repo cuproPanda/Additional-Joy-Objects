@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using UnityEngine;
+
 using RimWorld;
 using Verse;
 
@@ -88,7 +88,7 @@ namespace AdditionalJoyObjects {
                 Pawn p = pawnsInRange[t] as Pawn;
                 if (p.IsColonist && p.needs.joy != null) {
                   // Add joy, but not above 100%
-                  p.needs.joy.CurLevel = Mathf.Clamp01(p.needs.joy.CurLevel + enjoyment);
+                  p.needs.joy.CurLevel += enjoyment;
                   // Use fuel and throw a puff of smoke/dust/vapor
                   refuelableComp.Notify_UsedThisTick();
                   MoteThrower.ThrowDustPuff(base.Position, 0.6f); 
