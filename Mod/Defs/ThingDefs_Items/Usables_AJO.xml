@@ -58,6 +58,9 @@ Side Effects:
 			<MaxHitPoints>100</MaxHitPoints>
 			<MarketValue>10</MarketValue>
 		</statBases>
+		<thingCategories>
+			<li>Medicine</li>
+		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<foodType>Processed</foodType>

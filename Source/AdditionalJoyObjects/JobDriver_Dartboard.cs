@@ -63,9 +63,9 @@ namespace AdditionalJoyObjects {
       ThingDef dart;
 
       // Speed for the dart
-      float num = Rand.Range(0.20f, 0.25f);
-      // The target to throw the dart to, plus accuracy
-      Vector3 vector = targetCell.ToVector3Shifted() + Vector3Utility.RandomHorizontalOffset(0.01f - thrower.skills.GetSkill(SkillDefOf.Shooting).level / 2000f);
+      float num = Rand.Range(0.20f, 0.30f);
+      // The target to throw the dart to
+      Vector3 vector = targetCell.ToVector3Shifted();
 
       // Set dart color based on player
       if (targetCell.x == (thrower.Position.x - 1) || targetCell.z == (thrower.Position.z - 1)) {

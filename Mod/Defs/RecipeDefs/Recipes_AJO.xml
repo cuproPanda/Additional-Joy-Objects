@@ -16,7 +16,7 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -237,6 +237,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>CP_RainbowPetals</li>
+				<li>CP_FreshWaterBucket</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -304,7 +305,7 @@
 		<jobString>Binding.</jobString>
 		<workAmount>500</workAmount>
 		<workSpeedStat>WorkSpeedGlobal</workSpeedStat>
-		<workSkill>Crafting</workSkill>
+		<workSkill>Artistic</workSkill>
 		<ingredients>
 			<li>
 				<filter>
@@ -346,7 +347,7 @@
 		<jobString>Writing.</jobString>
 		<workAmount>20000</workAmount>
 		<workSpeedStat>AJO_WritingSpeed</workSpeedStat>
-		<workSkill>Crafting</workSkill>
+		<workSkill>Artistic</workSkill>
 		<ingredients>
 			<li>
 				<filter>
@@ -378,7 +379,7 @@
 		<jobString>Collating.</jobString>
 		<workAmount>50</workAmount>
 		<workSpeedStat>WorkSpeedGlobal</workSpeedStat>
-		<workSkill>Crafting</workSkill>
+		<workSkill>Artistic</workSkill>
 		<ingredients>
 			<li>
 				<filter>
@@ -398,6 +399,7 @@
 			<AJO_PileOfBooks>1</AJO_PileOfBooks>
 		</products>
 		<recipeUsers>
+			<li>CraftingSpot</li>
 			<li>AJO_WritingTable</li>
 		</recipeUsers>
 	</RecipeDef>

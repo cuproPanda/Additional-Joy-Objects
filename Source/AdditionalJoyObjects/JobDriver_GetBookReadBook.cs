@@ -3,6 +3,7 @@
 using RimWorld;
 using Verse;
 using Verse.AI;
+using UnityEngine;
 
 namespace AdditionalJoyObjects {
 
@@ -16,6 +17,16 @@ namespace AdditionalJoyObjects {
     protected override IEnumerable<Toil> MakeNewToils() {
 
       Pawn actor = GetActor();
+      Building bookcase = TargetB.Thing as Building;
+      int upgradeLevel = 0;
+      if (bookcase != null) {
+        if (bookcase.def == ThingDef.Named("AJO_Bookshelf")) {
+          upgradeLevel = 1;
+        }
+        if (bookcase.def == ThingDef.Named("AJO_Bookcase")) {
+          upgradeLevel = 2;
+        }
+      }
 
       // TargetIndex.A is the reading table
       // TargetIndex.B is the bookcase
@@ -62,9 +73,14 @@ namespace AdditionalJoyObjects {
 
       // Read the book
       Toil read = new Toil();
+      JoyKindDef joyKind = DefDatabase<JobDef>.GetNamed("AJO_ReadBook").joyKind;
       read.socialMode = RandomSocialMode.Off;
       read.tickAction = () => {
         base.WatchTickAction();
+        // Give extra joy based on the variety of books
+        if (bookcase != null) {
+          actor.needs.joy.GainJoy(upgradeLevel * 0.000144f, joyKind);
+        }
       };
       read.defaultCompleteMode = ToilCompleteMode.Delay;
       read.defaultDuration = CurJob.def.joyDuration;
