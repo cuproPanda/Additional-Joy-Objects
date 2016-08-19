@@ -19,8 +19,9 @@
 	<ThingDef Name="DartBase" ParentName="MoteBase" Abstract="True">
 		<altitudeLayer>FlyingItem</altitudeLayer>
 		<mote>
-			<ticksBeforeStartFadeout>200</ticksBeforeStartFadeout>
-			<fadeoutDuration>25</fadeoutDuration>
+      <collide>true</collide>
+      <solidTime>2.0</solidTime>
+      <fadeOutTime>0.01</fadeOutTime>
 		</mote>
 	</ThingDef>
 

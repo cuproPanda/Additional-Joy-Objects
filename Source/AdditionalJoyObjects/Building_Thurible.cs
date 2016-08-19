@@ -91,7 +91,7 @@ namespace AdditionalJoyObjects {
                   p.needs.joy.CurLevel += enjoyment;
                   // Use fuel and throw a puff of smoke/dust/vapor
                   refuelableComp.Notify_UsedThisTick();
-                  MoteThrower.ThrowDustPuff(base.Position, 0.6f); 
+                  MoteMaker.ThrowDustPuff(Position, 0.6f); 
                 }
               }
             }

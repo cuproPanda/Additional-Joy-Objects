@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cannabis>
+
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>Joint</defName>
+    <label>joint</label>
+    <description>Marijuana leaves prepared and stuffed in small rolls of paper for smoking. The drug produces heightened mood and increased appetite, but reduces focus and ability to work. It also makes users hungry. Though not intensely addictive, cannabis use can produce a dependency.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Joint</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>22</MarketValue>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+      <joy>0.8</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestHoldOffsetStanding>(0.27,0,0.08)</ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <hediffGivers>
+        <li>
+          <hediffDef>CannabisHigh</hediffDef>
+          <severity>0.5</severity>
+          <chemical>Cannabis</chemical>
+        </li>
+        <li>
+          <hediffDef>CannabisTolerance</hediffDef>
+          <severity>0.02</severity>
+        </li>
+      </hediffGivers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <MarijuanaLeaves>10</MarijuanaLeaves>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Cannabis</chemical>
+        <addictiveness>0.001</addictiveness>
+        <addictionHediffSeverityOffset>0.06</addictionHediffSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>CannabisHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on cannabis</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <hungerRateFactor>1.3</hungerRateFactor>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>-0.2</offset>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>-0.1</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>CannabisHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CannabisHigh</hediff>
+    <stages>
+      <li>
+        <label>high on cannabis</label>
+        <description>I'm, like, stoned, man.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Cannabis addiction -->
+
+  <ChemicalDef>
+    <defName>Cannabis</defName>
+    <label>cannabis</label>
+    <addictionHediff>CannabisAddiction</addictionHediff>
+  </ChemicalDef>
+
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_Cannabis</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>cannabis</label>
+    <description>Because of a developed cannabis dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>
+  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CannabisTolerance</defName>
+    <label>cannabis tolerance</label>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.06</severityPerDay>
+      </li>
+      <li>
+        <compClass>HediffComp_DrugEffectFactor</compClass>
+        <chemical>Cannabis</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>CannabisAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>cannabis dependence</label>
+    <causesNeed>Chemical_Cannabis</causesNeed>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.05</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Eating</capacity>
+            <setMax>0.8</setMax>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>WanderSad</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>CannabisWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CannabisAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>cannabis withdrawal</label>
+        <description>I really wish I could smoke.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Cannabis>

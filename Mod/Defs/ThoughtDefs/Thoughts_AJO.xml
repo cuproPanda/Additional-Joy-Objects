@@ -26,43 +26,4 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef>
-		<defName>AJO_Perodyne</defName>
-		<workerClass>ThoughtWorker_Hediff</workerClass>
-		<hediff>AJO_Perodyne</hediff>
-		<stages>
-			<li>
-				<label>initial-hidden</label>
-				<description>Should not appear.</description>
-				<baseMoodEffect>0</baseMoodEffect>
-				<visible>false</visible>
-			</li>
-			<li>
-				<label>comfortable</label>
-				<description>I feel a bit more relaxed now.</description>
-				<baseMoodEffect>6</baseMoodEffect>
-			</li>
-			<li>
-				<label>buzzed</label>
-				<description>Everything feels better.</description>
-				<baseMoodEffect>12</baseMoodEffect>
-			</li>      
-			<li>
-				<label>numb</label>
-				<description>It's hard not to feel good, everything's tingly!</description>
-				<baseMoodEffect>20</baseMoodEffect>
-			</li>   
-			<li>
-				<label>floating by</label>
-				<description>I feel like I'm underwater. Nothing can bother me down here.</description>
-				<baseMoodEffect>30</baseMoodEffect>
-			</li>   
-			<li>
-				<label>wasted</label>
-				<description>Hehhh...</description>
-				<baseMoodEffect>40</baseMoodEffect>
-			</li>   
-		</stages>
-	</ThoughtDef>
-
 </Defs>

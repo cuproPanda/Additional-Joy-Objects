@@ -26,8 +26,7 @@
 			<joy>0.10</joy>
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<soundEat>Ingest_Beer</soundEat>
-			<isPleasureDrug>false</isPleasureDrug>
+			<ingestSound>Ingest_Beer</ingestSound>
 			<hediffGivers>
 				<li>
 					<chance>1</chance>
@@ -35,59 +34,6 @@
 				</li>
 			</hediffGivers>
 		</ingestible>
-	</ThingDef>
-
-	<ThingDef ParentName="ResourceBase">
-		<defName>AJO_Perodyne</defName>
-		<label>Perodyne</label>
-		<description>Euphoria-inducing painkillers.\n
-Side Effects:
-  Blurred vision
-  Dizziness
-  Dry mouth
-  Impaired speech
-		</description>
-		<graphicData>
-			<texPath>Cupro/Item/Usable/Perodyne</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<socialPropernessMatters>true</socialPropernessMatters>
-		<stackLimit>10</stackLimit>
-		<statBases>
-			<DeteriorationRate>0</DeteriorationRate>
-			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>10</MarketValue>
-		</statBases>
-		<thingCategories>
-			<li>Medicine</li>
-		</thingCategories>
-		<ingestible>
-			<preferability>NeverForNutrition</preferability>
-			<foodType>Processed</foodType>
-			<nutrition>0.01</nutrition>
-			<joy>0.1</joy>
-			<joyKind>Chemical</joyKind>
-			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<soundEat>Meal_Eat</soundEat>
-			<isPleasureDrug>true</isPleasureDrug>
-			<hediffGivers>
-				<li>
-					<chance>1</chance>
-					<hediffDef>AJO_Perodyne</hediffDef>
-				</li>
-			</hediffGivers>
-		</ingestible>
-		<tickerType>Rare</tickerType>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>300</daysToRotStart>
-			</li>
-		</comps>
-		<tradeTags>
-			<li>Exotic</li>
-			<li>AJO_JoyItem</li>
-			<li>RPH_Pharma</li>
-		</tradeTags>
 	</ThingDef>
 
 </Resources>

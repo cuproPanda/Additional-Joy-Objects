@@ -7,10 +7,6 @@ using Verse.AI;
 
 namespace AdditionalJoyObjects {
 
-  // Parts of this code, especially MakeNewToils(),
-  // come from Haplo's mod, Miscellaneous
-  // Thread URL: https://ludeon.com/forums/index.php?topic=3612.0
-
   public class JobDriver_Dartboard : JobDriver_WatchBuilding {
     // Interval at which darts will be thrown
     private const int throwDartInterval = 400;
@@ -19,7 +15,7 @@ namespace AdditionalJoyObjects {
     // If 400 ticks have passed, throw a dart
     protected override void WatchTickAction() {
       if (pawn.IsHashIntervalTick(throwDartInterval)) {
-        ThrowDart(pawn, TargetA.Center);
+        ThrowDart(pawn, TargetA.Cell);
       }
       base.WatchTickAction();
     }
@@ -63,9 +59,10 @@ namespace AdditionalJoyObjects {
       ThingDef dart;
 
       // Speed for the dart
-      float num = Rand.Range(0.20f, 0.30f);
+      float num = 20f;
       // The target to throw the dart to
       Vector3 vector = targetCell.ToVector3Shifted();
+      //vector.y = thrower.DrawPos.y;
 
       // Set dart color based on player
       if (targetCell.x == (thrower.Position.x - 1) || targetCell.z == (thrower.Position.z - 1)) {
@@ -78,19 +75,18 @@ namespace AdditionalJoyObjects {
         dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_BlueDart");
       }
 
-      // Graphics for the dart
+      // Transforms for the dart
       MoteThrown moteThrown = (MoteThrown)ThingMaker.MakeThing(dart, null);
-
-      moteThrown.ScaleUniform = 1f;
-      moteThrown.exactRotationRate = 0f;
+      moteThrown.Scale = 1f;
+      moteThrown.rotationRate = 0f;
       moteThrown.exactPosition = thrower.DrawPos;
       moteThrown.exactRotation = (vector - moteThrown.exactPosition).AngleFlat();
-      moteThrown.SetVelocityAngleSpeed((vector - moteThrown.exactPosition).AngleFlat(), num);
-      moteThrown.airTicksLeft = Mathf.RoundToInt((moteThrown.exactPosition - vector).MagnitudeHorizontal() / num);
+      moteThrown.SetVelocity((vector - moteThrown.exactPosition).AngleFlat(), num);
+      moteThrown.MoveAngle = (vector - moteThrown.exactPosition).AngleFlat();
+      moteThrown.airTimeLeft = (moteThrown.exactPosition - vector).MagnitudeHorizontal() / num;
+
       // Throw the dart
       GenSpawn.Spawn(moteThrown, thrower.Position);
     }
-
-
   }
 }
