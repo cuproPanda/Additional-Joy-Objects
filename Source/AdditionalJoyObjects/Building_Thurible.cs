@@ -10,7 +10,7 @@ namespace AdditionalJoyObjects {
     public CompRefuelable refuelableComp;     // This building's CompRefuelable
     public CompQuality qualityComp;           // Needed for inspect string data
     private string curScent;                  // Title of the current scent produced. Just for appearances.
-    private List<string> fluffScent = DefDatabase<ThuribleScentDef>.GetNamed("ScentNames").ScentNames;
+    private List<string> fluffScent = DefDatabase<ThuribleScentDef>.GetNamed("ScentNames").scentNames;
     private bool emptied;                     // Boolean for determining when the thurible runs out of fuel
     private float enjoyment = 0.005f;         // How much joy to add every TickRare (0.005f = 0.5%)
 

@@ -7,6 +7,6 @@ namespace AdditionalJoyObjects {
   public class ThuribleScentDef : Def {
     // This adds a new acceptable entry to the defs, which
     // can be accessed by other classes/methods
-    public List<string> ScentNames;
+    public List<string> scentNames;
   }
 }

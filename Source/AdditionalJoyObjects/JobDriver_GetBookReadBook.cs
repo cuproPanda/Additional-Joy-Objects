@@ -3,13 +3,12 @@
 using RimWorld;
 using Verse;
 using Verse.AI;
-using UnityEngine;
 
 namespace AdditionalJoyObjects {
 
   public class JobDriver_GetBookReadBook : JobDriver_WatchBuilding {
 
-    private List<string> bookNames = DefDatabase<BookNameDef>.GetNamed("BookNames").BookNames;
+    private List<string> bookNames = DefDatabase<BookNameDef>.GetNamed("BookNames").bookNames;
     private int n;
     private bool choosing = false;
     private bool reading = false;
