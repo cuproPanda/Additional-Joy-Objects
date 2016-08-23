@@ -26,7 +26,7 @@
 			<joy>0.10</joy>
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestSound>CP_PlainDrink</ingestSound>
 			<hediffGivers>
 				<li>
 					<chance>1</chance>
