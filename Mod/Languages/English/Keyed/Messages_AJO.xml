@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- Thurible -->
-  
-  <AJO_Tank>Tank</AJO_Tank>
-  <AJO_Scent>Current scent</AJO_Scent>
-  <AJO_ClosedRoom>Needs a closed environment to work.</AJO_ClosedRoom>
-  
-  <!-- Book Reading Job -->
-  
-  <AJO_Reading>Reading</AJO_Reading>
-  <AJO_Choosing>Choosing a book</AJO_Choosing>
+	<!-- Placement Restrictors -->
+	<AJO_MustBePlacedOnWall>{0} must be placed on a wall.</AJO_MustBePlacedOnWall>
+	
+	<!-- Chandelier -->
+	<AJO_ObjectTooTall>{0} is too tall to place a {1} here</AJO_ObjectTooTall>
+	<AJO_NeedsRoof>{0} needs to be placed under a roof</AJO_NeedsRoof>
+
+	<!-- Book Reading Job -->
+	<AJO_Reading>Reading</AJO_Reading>
+	<AJO_Choosing>Choosing a book</AJO_Choosing>
 
 </LanguageData>

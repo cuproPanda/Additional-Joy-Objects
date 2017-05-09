@@ -44,6 +44,25 @@
 				</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+				<price>Cheap</price>
+				<countRange>
+					<min>400</min>
+					<max>1000</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<totalPriceRange>
+					<min>4000</min>
+					<max>10000</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>GlitterworldMedicine</thingDef>
 				<countRange>
 					<min>-30</min>

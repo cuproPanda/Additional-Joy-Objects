@@ -51,8 +51,9 @@ namespace AdditionalJoyObjects {
 
     // Process the dart
     public static void ThrowDart(Pawn thrower, IntVec3 targetCell) {
+
       // If the pawn can't spawn motes, do nothing
-      if (!thrower.Position.ShouldSpawnMotesAt() || MoteCounter.Saturated) {
+      if (!thrower.Position.ShouldSpawnMotesAt(thrower.Map) || thrower.Map.moteCounter.SaturatedLowPriority) {
         return;
       }
 
@@ -86,7 +87,7 @@ namespace AdditionalJoyObjects {
       moteThrown.airTimeLeft = (moteThrown.exactPosition - vector).MagnitudeHorizontal() / num;
 
       // Throw the dart
-      GenSpawn.Spawn(moteThrown, thrower.Position);
+      GenSpawn.Spawn(moteThrown, thrower.Position, thrower.Map);
     }
   }
 }

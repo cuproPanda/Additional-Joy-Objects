@@ -27,12 +27,11 @@
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<ingestSound>CP_PlainDrink</ingestSound>
-			<hediffGivers>
-				<li>
-					<chance>1</chance>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AJO_SpectagoTea</hediffDef>
 				</li>
-			</hediffGivers>
+			</outcomeDoers>
 		</ingestible>
 	</ThingDef>
 

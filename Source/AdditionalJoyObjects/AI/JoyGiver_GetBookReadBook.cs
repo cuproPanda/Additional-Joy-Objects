@@ -11,13 +11,14 @@ namespace AdditionalJoyObjects {
       Thing chair = null;
       Thing bookcase = null;
       IntVec3 cell = t.Position;
-      Room room = RoomQuery.RoomAt(cell);
+      Map pawnMap = pawn.Map;
+      Room room = RegionAndRoomQuery.RoomAt(cell, pawnMap);
       int radius = 0;
 
       for (int i = 0; i < 4; i++) {
         IntVec3 c = t.Position + GenAdj.CardinalDirections[i];
         if (!c.IsForbidden(pawn)) {
-          Building edifice = c.GetEdifice();
+          Building edifice = c.GetEdifice(pawnMap);
           if (edifice != null && edifice.def.building.isSittable && pawn.CanReserve(edifice, 1)) {
             chair = edifice;
             break;
@@ -34,9 +35,9 @@ namespace AdditionalJoyObjects {
         // Get the tiles within the radius range, starting from the middle
         IntVec3 radCell = cell + GenRadial.RadialPattern[radius];
         // If we are still in the same room, and under a roof
-        if (RoomQuery.RoomAt(radCell) == room && Find.RoofGrid.Roofed(radCell)) {
+        if (RegionAndRoomQuery.RoomAt(radCell, pawnMap) == room && pawnMap.roofGrid.Roofed(radCell)) {
           // Add all things on this tile to thingsInRoom
-          List<Thing> thingsInRoom = radCell.GetThingList();
+          List<Thing> thingsInRoom = radCell.GetThingList(pawnMap);
           for (int i = 0; i < thingsInRoom.Count; i++) {
             // If an acceptable bookcase is found, save it, then stop scanning
             if ((thingsInRoom[i].def.defName == "AJO_BookRack" ||

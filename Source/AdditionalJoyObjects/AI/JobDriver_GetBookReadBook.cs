@@ -9,7 +9,7 @@ namespace AdditionalJoyObjects {
   public class JobDriver_GetBookReadBook : JobDriver_WatchBuilding {
 
     private List<string> bookNames = DefDatabase<BookNameDef>.GetNamed("BookNames").bookNames;
-    private int n;
+    private int name;
     private bool choosing = false;
     private bool reading = false;
 
@@ -17,13 +17,16 @@ namespace AdditionalJoyObjects {
 
       Pawn actor = GetActor();
       Building bookcase = TargetB.Thing as Building;
-      int upgradeLevel = 0;
+
+      // For larger bookcases, give more joy
+      // The pawn is able to choose a book they like more, so they get more joy
+      int bookOptionsBuff = 0;
       if (bookcase != null) {
         if (bookcase.def == ThingDef.Named("AJO_Bookshelf")) {
-          upgradeLevel = 1;
+          bookOptionsBuff = 1;
         }
         if (bookcase.def == ThingDef.Named("AJO_Bookcase")) {
-          upgradeLevel = 2;
+          bookOptionsBuff = 2;
         }
       }
 
@@ -58,7 +61,7 @@ namespace AdditionalJoyObjects {
       getBook.defaultDuration = 60;
       getBook.AddFinishAction(() => {
         // Get the randomized name of the book being read
-        n = Rand.Range(0, bookNames.Count);
+        name = Rand.Range(0, bookNames.Count);
         reading = true;
         choosing = false;
       });
@@ -78,7 +81,7 @@ namespace AdditionalJoyObjects {
         base.WatchTickAction();
         // Give extra joy based on the variety of books
         if (bookcase != null) {
-          actor.needs.joy.GainJoy(upgradeLevel * 0.000144f, joyKind);
+          actor.needs.joy.GainJoy(bookOptionsBuff * 0.000144f, joyKind);
         }
       };
       read.defaultCompleteMode = ToilCompleteMode.Delay;
@@ -96,7 +99,7 @@ namespace AdditionalJoyObjects {
         return "AJO_Choosing".Translate();
       }
       if (reading) {
-        return ("AJO_Reading".Translate() + " '" + bookNames[n] + "'.");
+        return ("AJO_Reading".Translate() + " '" + bookNames[name] + "'.");
       }
       return base.GetReport();
     }

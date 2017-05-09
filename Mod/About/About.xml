@@ -3,6 +3,6 @@
   <name>Additional Joy Objects</name>
   <author>cuproPanda</author>
   <url>https://ludeon.com/forums/index.php?topic=13400.0</url>
-  <targetVersion>0.15.0</targetVersion>
-  <description>(Load after CorePanda 15.00+) \n Adds new objects and activities that bring joy to colonists.</description>
+  <targetVersion>0.17.0</targetVersion>
+  <description>Adds new objects and activities that bring joy to colonists.</description>
 </ModMetaData>
