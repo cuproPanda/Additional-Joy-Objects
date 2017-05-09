@@ -103,6 +103,7 @@
 		<canDoWhileInBed>true</canDoWhileInBed>
 		<thingDefs>
 			<li>AJO_Painting</li>
+			<li>AJO_Fountain</li>
 		</thingDefs>
 		<jobDef>AJO_InterpretArt</jobDef>
 		<desireSit>false</desireSit>

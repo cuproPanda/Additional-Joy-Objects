@@ -16,6 +16,7 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 			<MarketValue>800</MarketValue>
+			<Mass>60</Mass>
 			<Beauty>10</Beauty>
 			<EntertainmentStrengthFactor>1.2</EntertainmentStrengthFactor>
 		</statBases>
@@ -26,10 +27,8 @@
 		<pathCost>150</pathCost>
 		<!-- This is to strictly define what is dropped when deconstructed, Allowing for the return of cartridges -->
 		<resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
-		<DesignationCategory>Unplaceable</DesignationCategory>
 		<costList>
-			<Steel>30</Steel>
-			<CP_Copper>15</CP_Copper>
+			<Steel>45</Steel>
 		</costList>
 		<tradeTags>
 			<li>Exotic</li>
@@ -57,6 +56,7 @@
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>100</MarketValue>
+			<Mass>0.2</Mass>
 			<MaxHitPoints>80</MaxHitPoints>
 		</statBases>
 		<thingCategories>
@@ -84,6 +84,7 @@
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>500</MarketValue>
+			<Mass>59.8</Mass>
 			<MaxHitPoints>150</MaxHitPoints>
 		</statBases>
 		<thingCategories>
@@ -116,15 +117,14 @@
 			</damageData>
 		</graphicData>
 		<CostList>
-			<CP_Copper>100</CP_Copper>
-			<Steel>50</Steel>
+			<Steel>150</Steel>
 			<Component>1</Component>
 		</CostList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
-			<WorkToMake>2000</WorkToMake>
+			<WorkToBuild>2000</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 			<Cleanliness>-1</Cleanliness>

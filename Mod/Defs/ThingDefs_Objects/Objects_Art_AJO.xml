@@ -19,6 +19,7 @@
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
 			<MarketValue>30</MarketValue>
+			<Mass>1</Mass>
 			<MaxHitPoints>10</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Beauty>30</Beauty>
@@ -74,8 +75,9 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<WorkToMake>500</WorkToMake>
+			<WorkToBuild>500</WorkToBuild>
 			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>3</Mass>
 			<Flammability>1.0</Flammability>
 			<Beauty>5</Beauty>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>

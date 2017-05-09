@@ -46,7 +46,8 @@
 		<fillPercent>0.2</fillPercent>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>500</WorkToMake>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>12.5</Mass>
 			<MarketValue>75</MarketValue>
 			<Beauty>10</Beauty>
 			<EntertainmentStrengthFactor>0.8</EntertainmentStrengthFactor>
@@ -62,12 +63,6 @@
 					<WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
-			</li>
-			<li Class="CorePanda.CompProperties_Upgradeable">
-				<UpgradeTex>Cupro/UI/Commands/Upgrade</UpgradeTex>
-				<BlueprintThingDef>AJO_Bookshelf</BlueprintThingDef>
-				<UpgradeDescString>Upgrade to bookshelf</UpgradeDescString>
-				<UpgradeLabelString>Upgrade</UpgradeLabelString>
 			</li>
 		</comps>
 	</ThingDef>
@@ -86,15 +81,15 @@
 		<fillPercent>0.4</fillPercent>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>25</Mass>
 			<MarketValue>200</MarketValue>
 			<Beauty>25</Beauty>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
 		</statBases>
-		<DesignationCategory>Unplaceable</DesignationCategory>
 		<costList>
-			<WoodLog>30</WoodLog>
-			<AJO_PileOfBooks>2</AJO_PileOfBooks>
+			<WoodLog>60</WoodLog>
+			<AJO_PileOfBooks>3</AJO_PileOfBooks>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Facility">
@@ -102,12 +97,6 @@
 					<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>2</maxSimultaneous>
-			</li>
-			<li Class="CorePanda.CompProperties_Upgradeable">
-				<UpgradeTex>Cupro/UI/Commands/Upgrade</UpgradeTex>
-				<BlueprintThingDef>AJO_Bookcase</BlueprintThingDef>
-				<UpgradeDescString>Upgrade to bookcase</UpgradeDescString>
-				<UpgradeLabelString>Upgrade</UpgradeLabelString>
 			</li>
 		</comps>
 	</ThingDef>
@@ -125,15 +114,15 @@
 		<fillPercent>0.75</fillPercent>
 		<statBases>
 			<MaxHitPoints>600</MaxHitPoints>
-			<WorkToMake>2000</WorkToMake>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>50</Mass>
 			<MarketValue>400</MarketValue>
 			<Beauty>50</Beauty>
 			<EntertainmentStrengthFactor>1.15</EntertainmentStrengthFactor>
 		</statBases>
-		<DesignationCategory>Unplaceable</DesignationCategory>
 		<costList>
-			<WoodLog>40</WoodLog>
-			<AJO_PileOfBooks>2</AJO_PileOfBooks>
+			<WoodLog>100</WoodLog>
+			<AJO_PileOfBooks>5</AJO_PileOfBooks>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Facility">
@@ -185,7 +174,8 @@
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>5</Mass>
 			<Flammability>1.0</Flammability>
 			<Beauty>10</Beauty>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -234,8 +224,9 @@
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<WorkToMake>800</WorkToMake>
+			<WorkToBuild>800</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>7</Mass>
 			<Flammability>1.0</Flammability>
 			<Beauty>10</Beauty>
 		</statBases>

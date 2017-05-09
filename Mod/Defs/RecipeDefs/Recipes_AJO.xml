@@ -56,7 +56,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CP_RainbowPetals</li>
+						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -73,7 +73,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WoodLog</li>
-				<li>CP_RainbowPetals</li>
+				<li>AJO_RainbowPetals</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -106,7 +106,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CP_RainbowPetals</li>
+						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -132,7 +132,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WoodLog</li>
-				<li>CP_RainbowPetals</li>
+				<li>AJO_RainbowPetals</li>
 			</thingDefs>
 			<categories>
 				<li>EggsUnfertilized</li>
@@ -170,15 +170,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CP_BottledWater</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>CP_RainbowPetals</li>
+						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -186,8 +178,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>CP_BottledWater</li>
-				<li>CP_RainbowPetals</li>
+				<li>AJO_RainbowPetals</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -220,15 +211,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CP_FreshWaterBucket</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>CP_RainbowPetals</li>
+						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -236,8 +219,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>CP_RainbowPetals</li>
-				<li>CP_FreshWaterBucket</li>
+				<li>AJO_RainbowPetals</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
