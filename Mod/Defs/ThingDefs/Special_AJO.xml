@@ -50,29 +50,5 @@
 			<li>AJO_BlankBook</li>
 		</stuffCategories>
 	</ThingDef>
-	
-	<ThingDef ParentName="BuildingBase">
-		<defName>AJO_MovingWater</defName>
-		<label>moving water</label>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Cupro/Null</texPath>
-			<drawSize>(0,0)</drawSize>
-		</graphicData>
-		<size>(1,1)</size>
-		<useHitPoints>false</useHitPoints>
-		<statBases>
-			<Beauty>35</Beauty>
-			<Flammability>0</Flammability>
-		</statBases>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<passability>Standable</passability>
-		<selectable>false</selectable>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<building>
-			<isEdifice>false</isEdifice>
-			<deconstructible>false</deconstructible>
-		</building>
-	</ThingDef>
 
 </ThingDefinitions>
