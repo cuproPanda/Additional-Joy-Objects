@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Perodyne>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="DrugPillBase">
 		<defName>AJO_Perodyne</defName>
 		<label>Perodyne</label>
 		<description>Euphoria-inducing painkillers.\n
@@ -15,27 +15,17 @@ Side Effects:
 			<texPath>Cupro/Item/Usable/Perodyne</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<socialPropernessMatters>true</socialPropernessMatters>
 		<stackLimit>10</stackLimit>
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
 			<MaxHitPoints>100</MaxHitPoints>
 			<MarketValue>10</MarketValue>
+			<Mass>0.01</Mass>
 		</statBases>
-		<thingCategories>
-			<li>Medicine</li>
-		</thingCategories>
 		<techLevel>Industrial</techLevel>
 		<ingestible>
-			<preferability>NeverForNutrition</preferability>
-			<foodType>Processed</foodType>
 			<nutrition>0.01</nutrition>
 			<joy>0.1</joy>
-			<joyKind>Chemical</joyKind>
-			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<ingestSound>Ingest_Pill</ingestSound>
-			<ingestCommandString>Take {0}</ingestCommandString>
-			<ingestReportString>Taking {0}.</ingestReportString>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>PerodyneHigh</hediffDef>
@@ -78,8 +68,7 @@ Side Effects:
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
-			<li>
-				<compClass>HediffComp_SeverityPerDay</compClass>
+			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.8</severityPerDay>
 			</li>
 		</comps>
@@ -247,6 +236,7 @@ Side Effects:
 		<defName>PerodyneHigh</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<hediff>PerodyneHigh</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
 		<stages>
 			<li>
 				<label>initial-hidden</label>
@@ -289,6 +279,7 @@ Side Effects:
 		<label>perodyne</label>
 		<addictionHediff>PerodyneAddiction</addictionHediff>
 		<toleranceHediff>PerodyneTolerance</toleranceHediff>
+		<canBinge>false</canBinge>
 	</ChemicalDef>
 
 	<NeedDef ParentName="DrugAddictionNeedBase">
@@ -303,12 +294,10 @@ Side Effects:
 		<defName>PerodyneTolerance</defName>
 		<label>perodyne tolerance</label>
 		<comps>
-			<li>
-				<compClass>HediffComp_SeverityPerDay</compClass>
+			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.01</severityPerDay>
 			</li>
-			<li>
-				<compClass>HediffComp_DrugEffectFactor</compClass>
+			<li Class="HediffCompProperties_DrugEffectFactor">
 				<chemical>Perodyne</chemical>
 			</li>
 		</comps>
@@ -320,8 +309,7 @@ Side Effects:
 		<label>perodyne dependence</label>
 		<causesNeed>Chemical_Perodyne</causesNeed>
 		<comps>
-			<li>
-				<compClass>HediffComp_SeverityPerDay</compClass>
+			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.05</severityPerDay>
 			</li>
 		</comps>

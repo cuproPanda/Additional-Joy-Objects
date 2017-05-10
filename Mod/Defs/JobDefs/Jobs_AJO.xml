@@ -21,7 +21,7 @@
 		<joyDuration>5000</joyDuration>
 		<joyMaxParticipants>4</joyMaxParticipants>
 		<joyGainRate>0.8</joyGainRate>
-		<joySkill>Research</joySkill>
+		<joySkill>Intellectual</joySkill>
 		<joyXpPerTick>0.001</joyXpPerTick>
 		<joyKind>Passive</joyKind>
 	</JobDef>
@@ -136,7 +136,7 @@
 		<joyDuration>4000</joyDuration>
 		<joyMaxParticipants>1</joyMaxParticipants>
 		<joyGainRate>1.2</joyGainRate>
-		<joySkill>Research</joySkill>
+		<joySkill>Intellectual</joySkill>
 		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>

@@ -18,7 +18,7 @@
 			<MarketValue>10</MarketValue>
 		</statBases>
 		<thingCategories>
-			<li>CP_Drinks</li>
+			<li>FoodMeals</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
@@ -27,7 +27,7 @@
 			<joy>0.10</joy>
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<ingestSound>CP_PlainDrink</ingestSound>
+			<ingestSound>Ingest_Beer</ingestSound>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AJO_SpectagoTea</hediffDef>

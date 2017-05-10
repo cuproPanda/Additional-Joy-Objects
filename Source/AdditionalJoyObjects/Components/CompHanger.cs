@@ -16,8 +16,8 @@ namespace AdditionalJoyObjects {
     }
 
 
-    public override void PostDeSpawn(Map map) {
-      base.PostDeSpawn(map);
+    public override void PostSpawnSetup(bool respawningAfterLoad) {
+      base.PostSpawnSetup(respawningAfterLoad);
 
       parentMap = parent.Map;
     }

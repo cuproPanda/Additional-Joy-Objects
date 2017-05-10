@@ -28,6 +28,28 @@
 
 
 	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_RainbowPetals</defName>
+		<label>rainbow petals</label>
+		<description>A small bundle of multi-colored flower petals.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/RainbowPetals</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>2</MarketValue>
+		</statBases>
+		<stackLimit>100</stackLimit>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
 		<defName>AJO_PileOfBooks</defName>
 		<label>pile of books</label>
 		<description>A random assortment of books.</description>

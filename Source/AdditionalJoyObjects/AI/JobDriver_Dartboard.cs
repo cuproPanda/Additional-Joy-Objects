@@ -21,34 +21,6 @@ namespace AdditionalJoyObjects {
     }
 
 
-    protected override IEnumerable<Toil> MakeNewToils() {
-      //TargetA is the building
-      //TargetB is the place to stand to watch
-      //TargetC is the chair to sit in (can be null)
-
-      // If the dartboard doesn't exist, end the job
-      this.EndOnDespawnedOrNull<JobDriver_Dartboard>(TargetIndex.A, JobCondition.Incompletable);
-
-      // Reserve the dartboard and the place to stand, minding the max participants
-      yield return Toils_Reserve.Reserve(TargetIndex.A, CurJob.def.joyMaxParticipants);
-      yield return Toils_Reserve.Reserve(TargetIndex.B);
-
-      // If the place to stand has a sittable object, reserve it
-      if (TargetC.HasThing)
-        yield return Toils_Reserve.Reserve(TargetIndex.C);
-
-      // Go to the standable area
-      yield return Toils_Goto.GotoCell(TargetIndex.B, PathEndMode.OnCell);
-
-      // Info for the toil
-      Toil play = new Toil();
-      play.tickAction = () => WatchTickAction();
-      play.defaultCompleteMode = ToilCompleteMode.Delay;
-      play.defaultDuration = CurJob.def.joyDuration;
-      play.AddFinishAction(() => JoyUtility.TryGainRecRoomThought(pawn));
-      yield return play;
-    }
-
     // Process the dart
     public static void ThrowDart(Pawn thrower, IntVec3 targetCell) {
 
@@ -66,10 +38,10 @@ namespace AdditionalJoyObjects {
       //vector.y = thrower.DrawPos.y;
 
       // Set dart color based on player
-      if (targetCell.x == (thrower.Position.x - 1) || targetCell.z == (thrower.Position.z - 1)) {
+      if (targetCell.x == thrower.Position.x - 1 || targetCell.z == thrower.Position.z - 1) {
         dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_GreenDart");
       }
-      else if (targetCell.x == (thrower.Position.x + 1) || targetCell.z == (thrower.Position.z + 1)) {
+      else if (targetCell.x == thrower.Position.x + 1 || targetCell.z == thrower.Position.z + 1) {
         dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_RedDart");
       }
       else {

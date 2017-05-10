@@ -9,6 +9,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Steel</li>

@@ -172,7 +172,7 @@
 
 
 	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_Support_1x1</defName>
+		<defName>ChanPart_1x1_Support</defName>
 		<label>small chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
@@ -199,7 +199,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_Support_2x2</defName>
+		<defName>ChanPart_2x2_Support</defName>
 		<label>chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
@@ -226,7 +226,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_Support_3x3</defName>
+		<defName>ChanPart_3x3_Support</defName>
 		<label>large chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
@@ -257,7 +257,7 @@
 
 
 	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_Bowl_1x1</defName>
+		<defName>ChanPart_1x1_Bowl</defName>
 		<graphicData>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -265,7 +265,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_Bowl_2x2</defName>
+		<defName>ChanPart_2x2_Bowl</defName>
 		<graphicData>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -273,7 +273,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_Bowl_3x3</defName>
+		<defName>ChanPart_3x3_Bowl</defName>
 		<graphicData>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>

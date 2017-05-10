@@ -65,7 +65,7 @@
 			<Beauty>35</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
-		<altitudeLayer>Floor</altitudeLayer>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>Standable</passability>
 		<selectable>false</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>

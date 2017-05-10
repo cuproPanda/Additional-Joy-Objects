@@ -6,18 +6,21 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
+		<blockLight>false</blockLight>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>false</castEdgeShadows>
 		<statBases>
 			<Flammability>1.0</Flammability>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
 		</statBases>
+		<designationCategory>Joy</designationCategory>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<size>(1,1)</size>
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<rotatable>true</rotatable>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
 		<tradeTags>
 			<li>Exotic</li>
 			<li>AJO_Joy</li>
@@ -35,11 +38,10 @@
 	<ThingDef ParentName="BookStorageBase">
 		<defName>AJO_BookRack</defName>
 		<label>book rack</label>
-		<description>A small bookshelf with a few books. Can be upgraded to a bookshelf. \nBoosts writing speed by 5% when placed near a writing table. Only one book rack can be linked to a single writing table.</description>
+		<description>A small bookshelf with a few books. \nBoosts writing speed by 5% when placed near a writing table. Only one book rack can be linked to a single writing table.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/BookRack/BookRack</texPath>
 		</graphicData>
-		<blockLight>false</blockLight>
 		<uiIconPath>Cupro/Object/Furniture/BookRack/BookRack_MenuIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>20</pathCost>
@@ -56,7 +58,6 @@
 			<WoodLog>30</WoodLog>
 			<AJO_PileOfBooks>1</AJO_PileOfBooks>
 		</costList>
-		<designationCategory>Joy</designationCategory>
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
@@ -70,11 +71,10 @@
 	<ThingDef ParentName="BookStorageBase">
 		<defName>AJO_Bookshelf</defName>
 		<label>bookshelf</label>
-		<description>A bookshelf with a variety of books. Can be upgraded to a bookcase. \nBoosts writing speed by 10% when placed near a writing table. Only two bookshelves can be linked to a single writing table.</description>
+		<description>A bookshelf with a variety of books. \nBoosts writing speed by 10% when placed near a writing table. Only two bookshelves can be linked to a single writing table.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/Bookshelf/Bookshelf</texPath>
 		</graphicData>
-		<blockLight>false</blockLight>
 		<uiIconPath>Cupro/Object/Furniture/Bookshelf/Bookshelf_MenuIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>40</pathCost>

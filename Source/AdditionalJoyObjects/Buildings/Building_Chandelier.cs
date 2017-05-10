@@ -14,11 +14,11 @@ namespace AdditionalJoyObjects {
       if (Spawned && bowl == null) {
 
         int size = def.Size.x;
-        string bowlName = "ChanPart_Bowl_" + size + "x" + size;
+        string bowlName = "ChanPart_" + size + "x" + size + "_Bowl";
 
         if (ThingDef.Named(bowlName) == null) {
           Log.Warning("AdditionalJoyObjects:: Could not determine what chandelier bowl to spawn. Spawning a 1x1. Enjoy your weirdly small chandelier bowl!");
-          bowl = ThingMaker.MakeThing(ThingDef.Named("ChanPart_Bowl_1x1")) as Building_ChandelierBowl;
+          bowl = ThingMaker.MakeThing(ThingDef.Named("ChanPart_1x1_Bowl")) as Building_ChandelierBowl;
         }
         else {
           bowl = ThingMaker.MakeThing(ThingDef.Named(bowlName)) as Building_ChandelierBowl;
