@@ -39,15 +39,15 @@ namespace AdditionalJoyObjects {
 
       // If a pawn is using this arcade, comsume full power
       // Otherwise, only use standby power
-      for (int p = 0; p < pawnsInCell.Count; p++) {
-        if (pawnsInCell[p] is Pawn) {
-          Pawn pawn = pawnsInCell[p] as Pawn;
-          if (pawn.CurJob != null && (pawn.CurJob.targetA != null && pawn.CurJob.targetA.Thing == parent) || (pawn.CurJob.targetB != null && pawn.CurJob.targetB.Thing == parent)) {
-            if (flickableComp.SwitchIsOn && !parent.IsBrokenDown()) {
+      if (flickableComp.SwitchIsOn && !parent.IsBrokenDown()) {
+        for (int p = 0; p < pawnsInCell.Count; p++) {
+          if (pawnsInCell[p] is Pawn) {
+            Pawn pawn = pawnsInCell[p] as Pawn;
+            if (pawn.CurJob != null && (pawn.CurJob.targetA != null && pawn.CurJob.targetA.Thing == parent) || (pawn.CurJob.targetB != null && pawn.CurJob.targetB.Thing == parent)) {
               return true;
             }
           }
-        }
+        } 
       }
       return false;
     }
