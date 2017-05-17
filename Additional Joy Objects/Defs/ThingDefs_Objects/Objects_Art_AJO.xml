@@ -85,6 +85,7 @@
 		<size>(1,1)</size>
 		<DesignationCategory>Production</DesignationCategory>
 		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
 		<pathCost>40</pathCost>
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>

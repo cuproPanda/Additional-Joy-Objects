@@ -8,6 +8,7 @@
 		</graphicData>
 		<blockLight>false</blockLight>
 		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
 		<castEdgeShadows>false</castEdgeShadows>
 		<statBases>
 			<Flammability>1.0</Flammability>

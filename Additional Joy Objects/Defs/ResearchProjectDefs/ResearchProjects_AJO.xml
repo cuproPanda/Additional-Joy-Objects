@@ -3,22 +3,28 @@
 
 	<ResearchProjectDef>
 		<defName>AJO_TemperaPainting</defName>
-		<label>Tempera Paint</label>
+		<label>Tempera paint</label>
 		<description>Allows more efficient paint making by binding spectago pigment with eggs.</description>
+		<tab>cP</tab>
 		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>AJO_ArcadeConstruction</defName>
-		<label>Arcade Construction</label>
+		<label>Arcade construction</label>
 		<description>Allows colonists to copy game cartridges and assemble arcades.</description>
+		<tab>cP</tab>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>ElectricSmelting</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 </ResearchProjectDefs>

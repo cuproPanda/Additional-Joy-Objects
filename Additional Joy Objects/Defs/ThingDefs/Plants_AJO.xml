@@ -4,10 +4,10 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>AJO_PlantOutdoorSpectago</defName>
 		<label>spectago</label>
-		<description>One of the few known breeds of photochromic flowers, each petal of the spectago plant changes color throughout the month depending on how much light they are exposed to, the nutrients they get, and their overall mood.</description>
+		<description>One of the few known breeds of photochromic flowers, each petal of the spectago plant changes color throughout the month. The petals are used by many tribal settlements to make dyes, as well as tea.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
-			<Beauty>35</Beauty>
+			<Beauty>25</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Cupro/Object/Plant/Spectago_Outdoors</texPath>
@@ -58,10 +58,10 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>AJO_PlantIndoorSpectago</defName>
 		<label>spectago</label>
-		<description>When grown indoors, the spectago flower doesn't gain the needed nutrients to produce useful petals.</description>
+		<description>When grown indoors, the spectago flower doesn't gain the needed nutrients to produce useful petals, but the flower is still quite beautiful.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
-			<Beauty>25</Beauty>
+			<Beauty>15</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Cupro/Object/Plant/Spectago_Indoors</texPath>

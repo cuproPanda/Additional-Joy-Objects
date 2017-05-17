@@ -93,6 +93,7 @@
 		<size>(1,1)</size>
 		<pathCost>70</pathCost>
 		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
 	</ThingDef>
 
 	<ThingDef Name="ChanPart_Base" ParentName="FurnitureBase" Abstract="True">

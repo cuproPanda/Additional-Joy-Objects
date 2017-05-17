@@ -24,6 +24,7 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
 		<pathCost>150</pathCost>
 		<!-- This is to strictly define what is dropped when deconstructed, Allowing for the return of cartridges -->
 		<resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
@@ -39,9 +40,12 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<startElectricalFires>true</startElectricalFires>
-				<basePowerConsumption>100</basePowerConsumption>
+				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>AdditionalJoyObjects.CompArcadeStandbyPower</compClass>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -132,6 +136,7 @@
 		<Size>(3,1)</Size>
 		<DesignationCategory>Production</DesignationCategory>
 		<Passability>PassThroughOnly</Passability>
+		<canOverlapZones>false</canOverlapZones>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
