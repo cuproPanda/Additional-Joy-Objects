@@ -102,6 +102,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>3</targetCountAdjustment>
 		<ingredients>
 			<li>
 				<filter>
@@ -166,6 +167,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>2</targetCountAdjustment>
 		<ingredients>
 			<li>
 				<filter>
@@ -207,6 +209,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>20</targetCountAdjustment>
 		<ingredients>
 			<li>
 				<filter>
@@ -248,6 +251,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>100</targetCountAdjustment>
 		<ingredients>
 			<li>
 				<filter>

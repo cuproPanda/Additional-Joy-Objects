@@ -8,6 +8,7 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
+		<targetCountAdjustment>2</targetCountAdjustment>
 		<ingredients>
 			<li>
 				<filter>
