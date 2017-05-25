@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RoomRoleDefs>
+  
+  <RoomRoleDef>
+    <defName>AJO_Library</defName>
+    <label>library</label>
+    <workerClass>AdditionalJoyObjects.RoomRoleWorker_Library</workerClass>
+    <relatedStats>
+      <li>Beauty</li>
+      <li>Cleanliness</li>
+      <li>Wealth</li>
+      <li>Space</li>
+      <li>Impressiveness</li>
+    </relatedStats>
+  </RoomRoleDef>
+
+</RoomRoleDefs>

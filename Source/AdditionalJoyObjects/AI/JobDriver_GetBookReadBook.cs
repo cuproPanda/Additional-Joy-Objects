@@ -22,10 +22,10 @@ namespace AdditionalJoyObjects {
       // The pawn is able to choose a book they like more, so they get more joy
       int bookOptionsBuff = 0;
       if (bookcase != null) {
-        if (bookcase.def == ThingDef.Named("AJO_Bookshelf")) {
+        if (bookcase.def.defName == "AJO_Bookshelf") {
           bookOptionsBuff = 1;
         }
-        if (bookcase.def == ThingDef.Named("AJO_Bookcase")) {
+        else if (bookcase.def.defName == "AJO_Bookcase") {
           bookOptionsBuff = 2;
         }
       }
@@ -86,7 +86,15 @@ namespace AdditionalJoyObjects {
       };
       read.defaultCompleteMode = ToilCompleteMode.Delay;
       read.defaultDuration = CurJob.def.joyDuration;
-      read.AddFinishAction(() => JoyUtility.TryGainRecRoomThought(pawn));
+      read.AddFinishAction(() => {
+        Room room = pawn.GetRoom();
+        if (room != null) {
+          int scoreStageIndex = RoomStatDefOf.Impressiveness.GetScoreStageIndex(room.GetStat(RoomStatDefOf.Impressiveness));
+          if (ThoughtDef.Named("AJO_ReadInImpressiveLibrary").stages[scoreStageIndex] != null) {
+            pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtMaker.MakeThought(ThoughtDef.Named("AJO_ReadInImpressiveLibrary"), scoreStageIndex));
+          }
+        }
+      });
       yield return read;
 
       // Return the book
