@@ -44,9 +44,6 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-		<tradeTags>
-			<li>Exotic</li>
-		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
@@ -129,9 +126,6 @@
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
-		<tradeTags>
-			<li>Exotic</li>
-		</tradeTags>	
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
@@ -156,7 +150,6 @@
 			<li>Manufactured</li>
 		</thingCategories>
 		<tradeTags>
-			<li>Exotic</li>
 			<li>AJO_JoyItem</li>
 		</tradeTags>	
 		<stuffProps>
@@ -201,6 +194,9 @@
 		<inspectorTabs>
 			<li>ITab_Art</li>
 		</inspectorTabs>
+		<tradeTags>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
 	</ThingDef>
 
 </Resources>

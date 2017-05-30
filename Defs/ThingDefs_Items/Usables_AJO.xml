@@ -34,6 +34,9 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+		<tradeTags>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
 	</ThingDef>
 
 </Resources>

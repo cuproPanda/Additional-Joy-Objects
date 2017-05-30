@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_Joy</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>1</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_JoyItem</tradeTag>
+						<thingDefCountRange>
+							<min>4</min>
+							<max>20</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>5</min>
+							<max>50</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_JoyItem</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>5</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_Joy</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>5</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>5</min>
+							<max>20</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_JoyItem</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>1</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_Joy</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>5</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>5</min>
+							<max>50</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_JoyItem</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>5</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>AJO_Joy</tradeTag>
+						<thingDefCountRange>
+							<min>0</min>
+							<max>5</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>5</min>
+							<max>20</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>
