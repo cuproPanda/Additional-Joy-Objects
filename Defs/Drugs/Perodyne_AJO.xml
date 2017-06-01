@@ -24,6 +24,7 @@ Side Effects:
 		</statBases>
 		<techLevel>Industrial</techLevel>
 		<ingestible>
+			<drugCategory>Medical</drugCategory>
 			<nutrition>0.01</nutrition>
 			<joy>0.1</joy>
 			<outcomeDoers>
