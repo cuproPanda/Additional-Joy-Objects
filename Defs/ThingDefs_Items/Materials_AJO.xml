@@ -86,7 +86,7 @@
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>20</MarketValue>
+			<MarketValue>15</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
 		<stackLimit>10</stackLimit>

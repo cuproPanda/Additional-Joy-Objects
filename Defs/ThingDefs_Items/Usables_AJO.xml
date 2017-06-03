@@ -15,7 +15,7 @@
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>0.3</Mass>
-			<MarketValue>10</MarketValue>
+			<MarketValue>5</MarketValue>
 		</statBases>
 		<thingCategories>
 			<li>FoodMeals</li>
