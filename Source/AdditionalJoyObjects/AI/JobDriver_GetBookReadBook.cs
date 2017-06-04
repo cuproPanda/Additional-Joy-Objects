@@ -49,9 +49,7 @@ namespace AdditionalJoyObjects {
 
       // Get a book
       Toil getBook = new Toil();
-      getBook.initAction = () => {
-        getBook.handlingFacing = true;
-      };
+      getBook.handlingFacing = true;
       getBook.tickAction = () => {
         choosing = true;
         base.WatchTickAction();

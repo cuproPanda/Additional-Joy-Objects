@@ -35,7 +35,8 @@ namespace AdditionalJoyObjects {
         // Get the tile behind this object
         IntVec3 c = parent.Position - parent.Rotation.FacingCell;
         // Minify this if the wall is missing
-        if (c.GetEdifice(parentMap) == null || (c.GetEdifice(parentMap).def != ThingDefOf.Wall && !c.GetEdifice(parentMap).def.building.isNaturalRock)) {
+        Building edifice = c.GetEdifice(parentMap);
+        if (edifice == null || (edifice.def != ThingDefOf.Wall && !edifice.def.building.isNaturalRock && (edifice.Faction != Faction.OfPlayer || (LinkFlags.Wall & edifice.def.graphicData.linkFlags) == LinkFlags.None))) {
           Minify();
         }
       }

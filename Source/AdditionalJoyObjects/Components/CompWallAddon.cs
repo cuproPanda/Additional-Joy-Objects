@@ -9,9 +9,8 @@ namespace AdditionalJoyObjects {
     /// <summary></summary>
     public override void CompTickRare() {
 
-      Building wall = parent.Position.GetEdifice(parent.Map);
-
-      if (wall == null || wall.def != ThingDefOf.Wall) {
+      Building edifice = parent.Position.GetEdifice(parent.Map);
+      if (edifice == null || (edifice.def != ThingDefOf.Wall && !edifice.def.building.isNaturalRock && (edifice.Faction != Faction.OfPlayer || (LinkFlags.Wall & edifice.def.graphicData.linkFlags) == LinkFlags.None))) {
         parent.Destroy(DestroyMode.KillFinalize);
       }
     }
