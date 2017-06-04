@@ -14,8 +14,7 @@ namespace AdditionalJoyObjects {
     private bool reading = false;
 
     protected override IEnumerable<Toil> MakeNewToils() {
-
-      Pawn actor = GetActor();
+      
       Building bookcase = TargetB.Thing as Building;
 
       // For larger bookcases, give more joy
@@ -37,8 +36,6 @@ namespace AdditionalJoyObjects {
       // Set fail conditions
       this.FailOnBurningImmobile(TargetIndex.A);
       this.FailOnBurningImmobile(TargetIndex.B);
-      this.FailOnDespawnedOrNull(TargetIndex.A);
-      this.FailOnDespawnedOrNull(TargetIndex.B);
       this.FailOnDestroyedOrNull(TargetIndex.A);
       this.FailOnDestroyedOrNull(TargetIndex.B);
 
@@ -52,10 +49,13 @@ namespace AdditionalJoyObjects {
 
       // Get a book
       Toil getBook = new Toil();
+      getBook.initAction = () => {
+        getBook.handlingFacing = true;
+      };
       getBook.tickAction = () => {
         choosing = true;
         base.WatchTickAction();
-        actor.Drawer.rotator.FaceCell(TargetB.Cell);
+        pawn.Drawer.rotator.FaceCell(TargetB.Cell);
       };
       getBook.defaultCompleteMode = ToilCompleteMode.Delay;
       getBook.defaultDuration = 60;
@@ -81,7 +81,7 @@ namespace AdditionalJoyObjects {
         base.WatchTickAction();
         // Give extra joy based on the variety of books
         if (bookcase != null) {
-          actor.needs.joy.GainJoy(bookOptionsBuff * 0.000144f, joyKind);
+          pawn.needs.joy.GainJoy(bookOptionsBuff * 0.000144f, joyKind);
         }
       };
       read.defaultCompleteMode = ToilCompleteMode.Delay;

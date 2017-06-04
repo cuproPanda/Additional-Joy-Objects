@@ -22,7 +22,7 @@ namespace AdditionalJoyObjects {
       }
 
       // Only allow placing on a natural or constructed wall
-      if (edifice == null || (edifice.def != ThingDefOf.Wall && !edifice.def.building.isNaturalRock)) {
+      if (edifice == null || (edifice.def != ThingDefOf.Wall && !edifice.def.building.isNaturalRock && (edifice.Faction != Faction.OfPlayer || (LinkFlags.Wall & edifice.def.graphicData.linkFlags) == LinkFlags.None))) {
         return new AcceptanceReport("AJO_MustBePlacedOnWall".Translate(new object[] { checkingDef.LabelCap }));
       }
 
