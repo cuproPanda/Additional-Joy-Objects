@@ -50,6 +50,9 @@ namespace AdditionalJoyObjects {
           if (!parentMap.roofGrid.Roofed(current)) {
             roofCells++;
           }
+          if (current.GetEdifice(parent.Map).def.blockWind == true || current.GetEdifice(parent.Map).def.holdsRoof == true) {
+            Minify();
+          }
         }
         if (((float)(occCells - roofCells) / occCells) < 0.5f) {
           Minify();

@@ -13,13 +13,13 @@ namespace AdditionalJoyObjects {
       for (int i = 0; i < containedAndAdjacentThings.Count; i++) {
         Thing thing = containedAndAdjacentThings[i];
         if (thing.def.category == ThingCategory.Building) {
-          if (thing.def.defName == "AJO_BookRack" || thing.def.defName == "AJO_ReadingTable") {
+          if (thing.def == AjoDefOf.AJO_BookRack || thing.def == AjoDefOf.AJO_ReadingTable) {
             num++;
           }
-          else if (thing.def.defName == "AJO_Bookshelf") {
+          else if (thing.def == AjoDefOf.AJO_Bookshelf) {
             num += 2;
           }
-          else if (thing.def.defName == "AJO_Bookcase") {
+          else if (thing.def == AjoDefOf.AJO_Bookcase) {
             num += 3;
           }
         }

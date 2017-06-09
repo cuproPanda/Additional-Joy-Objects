@@ -8,7 +8,7 @@ namespace AdditionalJoyObjects {
 
   public class JobDriver_GetBookReadBook : JobDriver_WatchBuilding {
 
-    private List<string> bookNames = DefDatabase<BookNameDef>.GetNamed("BookNames").bookNames;
+    private List<string> bookNames = AjoDefOf.BookNames.bookNames;
     private int name;
     private bool choosing = false;
     private bool reading = false;
@@ -21,10 +21,10 @@ namespace AdditionalJoyObjects {
       // The pawn is able to choose a book they like more, so they get more joy
       int bookOptionsBuff = 0;
       if (bookcase != null) {
-        if (bookcase.def.defName == "AJO_Bookshelf") {
+        if (bookcase.def == AjoDefOf.AJO_Bookshelf) {
           bookOptionsBuff = 1;
         }
-        else if (bookcase.def.defName == "AJO_Bookcase") {
+        else if (bookcase.def == AjoDefOf.AJO_Bookcase) {
           bookOptionsBuff = 2;
         }
       }
@@ -73,7 +73,7 @@ namespace AdditionalJoyObjects {
 
       // Read the book
       Toil read = new Toil();
-      JoyKindDef joyKind = DefDatabase<JobDef>.GetNamed("AJO_ReadBook").joyKind;
+      JoyKindDef joyKind = AjoDefOf.AJO_ReadBook.joyKind;
       read.socialMode = RandomSocialMode.Off;
       read.tickAction = () => {
         base.WatchTickAction();
@@ -88,8 +88,8 @@ namespace AdditionalJoyObjects {
         Room room = pawn.GetRoom();
         if (room != null) {
           int scoreStageIndex = RoomStatDefOf.Impressiveness.GetScoreStageIndex(room.GetStat(RoomStatDefOf.Impressiveness));
-          if (ThoughtDef.Named("AJO_ReadInImpressiveLibrary").stages[scoreStageIndex] != null) {
-            pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtMaker.MakeThought(ThoughtDef.Named("AJO_ReadInImpressiveLibrary"), scoreStageIndex));
+          if (AjoDefOf.AJO_ReadInImpressiveLibrary.stages[scoreStageIndex] != null) {
+            pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtMaker.MakeThought(AjoDefOf.AJO_ReadInImpressiveLibrary, scoreStageIndex));
           }
         }
       });
@@ -102,10 +102,10 @@ namespace AdditionalJoyObjects {
 
     public override string GetReport() {
       if (choosing) {
-        return "AJO_Choosing".Translate();
+        return Static.AJO_Choosing;
       }
       if (reading) {
-        return ("AJO_Reading".Translate() + " '" + bookNames[name] + "'.");
+        return (Static.AJO_Reading + " '" + bookNames[name] + "'.");
       }
       return base.GetReport();
     }

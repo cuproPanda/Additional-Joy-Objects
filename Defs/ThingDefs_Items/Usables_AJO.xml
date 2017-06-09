@@ -14,7 +14,7 @@
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
-			<Mass>0.3</Mass>
+			<Mass>0.1</Mass>
 			<MarketValue>5</MarketValue>
 		</statBases>
 		<thingCategories>
@@ -24,8 +24,6 @@
 			<preferability>NeverForNutrition</preferability>
 			<foodType>Fluid, Processed</foodType>
 			<nutrition>0.02</nutrition>
-			<joy>0.10</joy>
-			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<ingestSound>Ingest_Beer</ingestSound>
 			<outcomeDoers>

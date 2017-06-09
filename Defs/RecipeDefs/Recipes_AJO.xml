@@ -358,7 +358,7 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef>
+	<RecipeDef Name="AJO_RecipeDefInsertion">
 		<defName>AJO_CollateBook</defName>
 		<label>collate books</label>
 		<description>Group books together for storage or crafting.</description>

@@ -39,6 +39,7 @@
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<MarketValue>2</MarketValue>
+			<Mass>0.03</Mass>
 		</statBases>
 		<stackLimit>100</stackLimit>
 		<thingCategories>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- If Medieval Times is found, add recipes -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>Medieval Times</modName>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/RecipeDefs/RecipeDef[@Name = "AJO_RecipeDefInsertion"]</xpath>
+				<Order>Prepend</Order>
+				<value>
+					<RecipeDef>
+						<defName>AJO_CollateMedTimesGraphicNovel</defName>
+						<label>collate graphic novels</label>
+						<description>Group graphic novels together for making bookcases. Graphic novels are not as long as written books, so more are required to fill a bookcase.</description>
+						<jobString>Collating.</jobString>
+						<workAmount>50</workAmount>
+						<workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+						<workSkill>Artistic</workSkill>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>MedTimes_GraphicNovel</li>
+									</thingDefs>
+								</filter>
+								<count>13</count>
+							</li>
+						</ingredients>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>MedTimes_GraphicNovel</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+						<products>
+							<AJO_PileOfBooks>1</AJO_PileOfBooks>
+						</products>
+						<recipeUsers>
+							<li>CraftingSpot</li>
+							<li>AJO_WritingTable</li>
+						</recipeUsers>
+					</RecipeDef>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+	<!-- If Medieval Times is found, add recipes -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>Medieval Times</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/ThingDefs/ThingDef[defName = "MedTimes_Desk"]</xpath>
+				<value>
+					<recipes>
+						<li>AJO_BindBook</li>
+						<li>AJO_WriteBook</li>
+						<li>AJO_CollateBook</li>
+						<li>AJO_CollateMedTimesGraphicNovel</li>
+					</recipes>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>

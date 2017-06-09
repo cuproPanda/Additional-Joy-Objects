@@ -49,6 +49,7 @@
     <Compile Include="AI\JobDriver_Dartboard.cs" />
     <Compile Include="AI\JobDriver_GetBookReadBook.cs" />
     <Compile Include="AI\JoyGiver_GetBookReadBook.cs" />
+    <Compile Include="AjoDefOf.cs" />
     <Compile Include="Buildings\Building_Chandelier.cs" />
     <Compile Include="Buildings\Building_ChandelierBowl.cs" />
     <Compile Include="Components\CompArcadeStandbyPower.cs" />
@@ -58,11 +59,13 @@
     <Compile Include="Defs\BookNameDef.cs" />
     <Compile Include="Enums\HangingType.cs" />
     <Compile Include="Enums\WallHeight.cs" />
+    <Compile Include="PatchOperationFindMod.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_AgainstWall.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Chandelier.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Roofed.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoomRoleWorker_Library.cs" />
+    <Compile Include="Static.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

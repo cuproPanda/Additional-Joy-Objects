@@ -40,9 +40,9 @@ namespace AdditionalJoyObjects {
           List<Thing> thingsInRoom = radCell.GetThingList(pawnMap);
           for (int i = 0; i < thingsInRoom.Count; i++) {
             // If an acceptable bookcase is found, save it, then stop scanning
-            if ((thingsInRoom[i].def.defName == "AJO_BookRack" ||
-                 thingsInRoom[i].def.defName == "AJO_Bookshelf" ||
-                 thingsInRoom[i].def.defName == "AJO_Bookcase") && 
+            if ((thingsInRoom[i].def == AjoDefOf.AJO_BookRack ||
+                 thingsInRoom[i].def == AjoDefOf.AJO_Bookshelf ||
+                 thingsInRoom[i].def == AjoDefOf.AJO_Bookcase) && 
                  pawn.CanReserve(thingsInRoom[i], 1)) {
               bookcase = thingsInRoom[i];
               goto Out;
@@ -57,7 +57,7 @@ namespace AdditionalJoyObjects {
         return null;
       }
 
-      return new Job(this.def.jobDef, t, bookcase, chair);
+      return new Job(def.jobDef, t, bookcase, chair);
     }
   }
 }

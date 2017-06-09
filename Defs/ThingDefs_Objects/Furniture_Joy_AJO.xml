@@ -115,6 +115,9 @@
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 
@@ -160,11 +163,6 @@
 				<HangingType>Ceiling</HangingType>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
-				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-				<minQualityForArtistic>Masterwork</minQualityForArtistic>
-			</li>
 		</Comps>
 	</ThingDef>
 
@@ -196,6 +194,11 @@
 				<glowRadius>10</glowRadius>
 				<glowColor>(200,200,200,0)</glowColor>
 			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Furniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Masterwork</minQualityForArtistic>
+			</li>
 		</Comps>
 	</ThingDef>
 
@@ -223,6 +226,11 @@
 				<glowRadius>13</glowRadius>
 				<glowColor>(200,200,200,0)</glowColor>
 			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Furniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
 		</Comps>
 	</ThingDef>
 
@@ -249,6 +257,11 @@
 			<li Class="CompProperties_Glower">
 				<glowRadius>16</glowRadius>
 				<glowColor>(200,200,200,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_Furniture</nameMaker>
+				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+				<minQualityForArtistic>Superior</minQualityForArtistic>
 			</li>
 		</Comps>
 	</ThingDef>

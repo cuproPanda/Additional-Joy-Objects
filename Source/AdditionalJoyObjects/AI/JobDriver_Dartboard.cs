@@ -1,9 +1,6 @@
-﻿using System.Collections.Generic;
-
-using UnityEngine;
+﻿using UnityEngine;
 using RimWorld;
 using Verse;
-using Verse.AI;
 
 namespace AdditionalJoyObjects {
 
@@ -39,13 +36,13 @@ namespace AdditionalJoyObjects {
 
       // Set dart color based on player
       if (targetCell.x == thrower.Position.x - 1 || targetCell.z == thrower.Position.z - 1) {
-        dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_GreenDart");
+        dart = AjoDefOf.AJO_Mote_GreenDart;
       }
       else if (targetCell.x == thrower.Position.x + 1 || targetCell.z == thrower.Position.z + 1) {
-        dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_RedDart");
+        dart = AjoDefOf.AJO_Mote_RedDart;
       }
       else {
-        dart = DefDatabase<ThingDef>.GetNamed("AJO_Mote_BlueDart");
+        dart = AjoDefOf.AJO_Mote_BlueDart;
       }
 
       // Transforms for the dart

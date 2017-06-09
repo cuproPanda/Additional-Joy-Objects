@@ -18,7 +18,7 @@ namespace AdditionalJoyObjects {
 
         if (ThingDef.Named(bowlName) == null) {
           Log.Warning("AdditionalJoyObjects:: Could not determine what chandelier bowl to spawn. Spawning a 1x1. Enjoy your weirdly small chandelier bowl!");
-          bowl = ThingMaker.MakeThing(ThingDef.Named("ChanPart_1x1_Bowl")) as Building_ChandelierBowl;
+          bowl = ThingMaker.MakeThing(AjoDefOf.ChanPart_1x1_Bowl) as Building_ChandelierBowl;
         }
         else {
           bowl = ThingMaker.MakeThing(ThingDef.Named(bowlName)) as Building_ChandelierBowl;
