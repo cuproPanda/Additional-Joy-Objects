@@ -24,6 +24,8 @@
 			<preferability>NeverForNutrition</preferability>
 			<foodType>Fluid, Processed</foodType>
 			<nutrition>0.02</nutrition>
+			<joy>0.10</joy>
+			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<ingestSound>Ingest_Beer</ingestSound>
 			<outcomeDoers>

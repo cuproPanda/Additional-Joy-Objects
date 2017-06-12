@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- If SeedsPlease is found, add seeds -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>SeedsPlease</modName>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/RecipeDefs/RecipeDef[@Name="AJO_RecipeInsertion"]</xpath>
+				<order>Prepend</order>
+				<value>
+					<RecipeDef Abstract="True" Name="ExtractSeed">
+						<jobString>Extracting seeds.</jobString>
+						<workSpeedStat>CookSpeed</workSpeedStat>
+						<effectWorking>Cook</effectWorking>
+						<workSkill>Cooking</workSkill>
+						<workAmount>600</workAmount>
+						<recipeUsers>
+							<li>PlantProcessingTable</li>
+						</recipeUsers>
+					</RecipeDef>
+					<SeedsPlease.RecipeDef ParentName="ExtractSeed">
+						<defName>AJO_ExtractSpectagoSeed</defName>
+						<label>extract spectago seeds</label>
+						<description>Extract seeds from spectago.</description>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>AJO_RainbowPetals</li>
+									</thingDefs>
+								</filter>
+								<count>9</count>
+							</li>
+						</ingredients>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>AJO_RainbowPetals</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+						<products>
+							<AJO_SeedSpectago>4</AJO_SeedSpectago>
+						</products>
+					</SeedsPlease.RecipeDef>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>SeedsPlease</modName>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Plants/ThingDef[defName="AJO_PlantOutdoorSpectago"]</xpath>
+				<value>
+					<blueprintDef>AJO_SeedSpectago</blueprintDef>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<Operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>SeedsPlease</modName>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Resources/ThingDef[@Name="AJO_ThingInsertion"]</xpath>
+				<order>Prepend</order>
+				<value>
+					<SeedsPlease.SeedDef Name="SeedBase" ParentName="ResourceBase" Abstract="True">
+						<thingClass>SeedsPlease.Seed</thingClass>
+						<label>unspecified seed</label>
+						<description>These are genetically engineered seeds capable of thriving in a wide range of alien environments over multiple generations.</description>
+						<graphicData>
+							<texPath>Things/Item/Seeds/Seeds</texPath>
+							<graphicClass>Graphic_StackCount</graphicClass>
+						</graphicData>
+						<statBases>
+							<MaxHitPoints>15</MaxHitPoints>
+							<Mass>0.015</Mass>
+							<Flammability>1.0</Flammability>
+							<DeteriorationRate>1</DeteriorationRate>
+							<MarketValue>0</MarketValue>
+							<SellPriceFactor>0.01</SellPriceFactor>
+						</statBases>
+						<soundInteract>Grain_Drop</soundInteract>
+						<soundDrop>Grain_Drop</soundDrop>
+						<thingCategories>
+							<li>SeedsCategory</li>
+						</thingCategories>
+						<tradeTags>
+							<li>Seeds</li>
+						</tradeTags>
+						<seed>
+							<harvestFactor>1.0</harvestFactor>
+							<seedFactor>1.0</seedFactor>
+							<baseChance>0.95</baseChance>
+							<extraChance>0.15</extraChance>
+						</seed>
+						<stackLimit>500</stackLimit>
+					</SeedsPlease.SeedDef>
+
+					<SeedsPlease.SeedDef ParentName="SeedBase">
+						<defName>AJO_SeedSpectago</defName>
+						<label>spectago seeds</label>
+						<plant>AJO_PlantOutdoorSpectago</plant>
+					</SeedsPlease.SeedDef>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>

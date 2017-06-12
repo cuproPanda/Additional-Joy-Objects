@@ -27,7 +27,7 @@
 	<!-- ========================== Inheritors ============================== -->
 
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef Name="AJO_ThingInsertion" ParentName="ResourceBase">
 		<defName>AJO_RainbowPetals</defName>
 		<label>rainbow petals</label>
 		<description>A small bundle of multi-colored flower petals.</description>
@@ -35,7 +35,6 @@
 			<texPath>Cupro/Item/Material/RainbowPetals</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<MarketValue>2</MarketValue>
@@ -55,7 +54,6 @@
 			<texPath>Cupro/Item/Material/PileOfBooks</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -82,7 +80,6 @@
 			<texPath>Cupro/Item/Material/PaintingSupplies</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -114,7 +111,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -137,7 +133,6 @@
 			<texPath>Cupro/Item/Material/BlankBook</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -168,7 +163,6 @@
 			<texPath>Cupro/Item/Material/WrittenBook</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<resourceReadoutPriority>First</resourceReadoutPriority>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>

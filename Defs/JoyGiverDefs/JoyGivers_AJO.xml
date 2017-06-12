@@ -116,7 +116,6 @@
 		<defName>AJO_DrinkSpectagoTea</defName>
 		<giverClass>JoyGiver_Ingest</giverClass>
 		<baseChance>2</baseChance>
-		<pctPawnsEverDo>0.8</pctPawnsEverDo>
 		<thingDefs>
 			<li>AJO_SpectagoTea</li>
 		</thingDefs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-	<RecipeDef>
+	<RecipeDef Name="AJO_RecipeInsertion">
 		<defName>AJO_MakePainting</defName>
 		<label>make painting</label>
 		<description>Paint a painting.</description>
