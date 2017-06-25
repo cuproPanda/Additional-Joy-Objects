@@ -53,14 +53,18 @@
 			<texPath>Cupro/Item/Material/RainbowPetals</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<MarketValue>2</MarketValue>
-			<Mass>0.03</Mass>
 		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
 		<stackLimit>100</stackLimit>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>PlantMatter</li>
 		</thingCategories>
 	</ThingDef>
 	
