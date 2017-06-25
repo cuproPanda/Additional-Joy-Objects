@@ -25,6 +25,22 @@
 			</li>      
 		</stages>
 	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AJO_SpectagoTeaWithdrawal</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AJO_SpectagoTeaAddiction</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>spectago tea withdrawal</label>
+				<description>I just feel empty and low all the time. I never thought I'd want a cup of tea that much.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 	
 	<ThoughtDef>
 		<defName>AJO_ReadInImpressiveLibrary</defName>
