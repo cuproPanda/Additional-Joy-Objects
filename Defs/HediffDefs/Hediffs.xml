@@ -8,6 +8,7 @@
 		<label>spectago tea</label>
 		<defaultLabelColor>(0,0.5,0.3)</defaultLabelColor>
 		<initialSeverity>0.18</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.8</severityPerDay>
@@ -48,6 +49,58 @@
 						<offset>0.2</offset>
 					</li>
 				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+    <HediffDef ParentName="DrugToleranceBase">
+    	<defName>AJO_SpectagoTeaTolerance</defName>
+    	<label>Spectago tolerance</label>
+    	<comps>
+    		<li Class="HediffCompProperties_SeverityPerDay">
+    			<severityPerDay>-0.015</severityPerDay>
+    		</li>
+    		<li Class="HediffCompProperties_DrugEffectFactor">
+    			<chemical>SpectagoTea</chemical>
+    		</li>
+    	</comps>
+    </HediffDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>AJO_SpectagoTeaAddiction</defName>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<label>spectago addiction</label>
+		<causesNeed>Chemical_SpectagoTea</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			</li>
+			<li>
+				<label>withdrawal</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.03</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.02</offset>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BingingFood</mentalState>
+						<mtbDays>30</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderSad</mentalState>
+						<mtbDays>50</mtbDays>
+					</li>
+				</mentalStateGivers>
 			</li>
 		</stages>
 	</HediffDef>
