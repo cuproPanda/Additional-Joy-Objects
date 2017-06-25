@@ -25,6 +25,7 @@
 
 
 	<ThingDef Name="AJO_ThingInsertion" ParentName="ResourceBase">
+	<ThingDef Name="AJO_ThingInsertion" ParentName="RoughPlantBase">
 		<defName>AJO_RainbowPetals</defName>
 		<label>rainbow petals</label>
 		<description>A small bundle of multi-colored flower petals.</description>
