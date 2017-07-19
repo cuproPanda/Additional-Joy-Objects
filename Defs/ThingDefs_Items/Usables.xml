@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Resources>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="DrugBase">
 		<defName>AJO_SpectagoTea</defName>
 		<label>spectago tea</label>
 		<description>A delicious preparation of brewed spectago leaves and water. Very pleasurable to drink.</description>
@@ -9,35 +9,67 @@
 			<texPath>Cupro/Item/Usable/SpectagoTea</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<socialPropernessMatters>true</socialPropernessMatters>
+		<rotatable>false</rotatable>
 		<stackLimit>50</stackLimit>
-		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<DeteriorationRate>0</DeteriorationRate>
+			<DeteriorationRate>1</DeteriorationRate>
 			<Mass>0.1</Mass>
 			<MarketValue>5</MarketValue>
 		</statBases>
-		<thingCategories>
-			<li>FoodMeals</li>
-		</thingCategories>
+		<socialPropernessMatters>false</socialPropernessMatters>
 		<ingestible>
-			<preferability>NeverForNutrition</preferability>
 			<foodType>Fluid, Processed</foodType>
 			<nutrition>0.02</nutrition>
 			<joy>0.10</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
 			<joyKind>Meditative</joyKind>
-			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<ingestSound>Ingest_Beer</ingestSound>
+			<chairSearchRadius>25</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AJO_SpectagoTea</hediffDef>
+					<toleranceChemical>SpectagoTea</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AJO_SpectagoTeaTolerance</hediffDef>
+					<severity>0.030</severity>
+					<divideByBodySize>true</divideByBodySize>
 				</li>
 			</outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>SpectagoTea</chemical>
+				<addictiveness>0.008</addictiveness>
+				<minToleranceToAddict>0.4</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
+				<needLevelOffset>1</needLevelOffset>
+				<listOrder>20</listOrder>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>AJO_JoyItem</li>
 		</tradeTags>
 	</ThingDef>
+
+  <!-- SpectagoTea addiction -->
+
+	<ChemicalDef>
+		<defName>SpectagoTea</defName>
+		<label>spectago tea</label>
+		<addictionHediff>AJO_SpectagoTeaAddiction</addictionHediff>
+		<toleranceHediff>AJO_SpectagoTeaTolerance</toleranceHediff>
+		<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+	</ChemicalDef>
+
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_SpectagoTea</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>spectago tea</label>
+    <description>Because of a developed Spectago dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>
 
 </Resources>
 
