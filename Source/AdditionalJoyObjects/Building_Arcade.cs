@@ -76,11 +76,6 @@ namespace AdditionalJoyObjects {
 		}
 
 
-		public override void SpawnSetup(Map map, bool respawningAfterLoad) {
-			base.SpawnSetup(map, respawningAfterLoad);
-		}
-
-
 		public override void DeSpawn() {
 			RemoveAllOwners();
 			base.DeSpawn();
@@ -153,9 +148,7 @@ namespace AdditionalJoyObjects {
 
 
 		private void RemoveAllOwners() {
-			for (int i = owners.Count - 1; i >= 0; i--) {
-				owners[i].ownership.UnclaimBed();
-			}
+			owners.Clear();
 		}
 	}
 }
