@@ -147,7 +147,7 @@
 
 
 	<JoyGiverDef Name="jgArcadeBase" Abstract="True">
-		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<giverClass>AdditionalJoyObjects.JoyGiver_PlayArcade</giverClass>
 		<baseChance>2</baseChance>
 		<requiredCapacities>
 			<li>Sight</li>

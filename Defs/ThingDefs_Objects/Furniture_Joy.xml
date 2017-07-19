@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-
 	<ThingDef Name="BuildingBase" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -96,204 +95,6 @@
 		<canOverlapZones>false</canOverlapZones>
 	</ThingDef>
 
-	<ThingDef Name="ChanPart_Base" ParentName="FurnitureBase" Abstract="True">
-		<category>Building</category>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<rotatable>false</rotatable>
-		<fillPercent>0</fillPercent>
-		<passability>Standable</passability>
-		<selectable>true</selectable>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<altitudeLayer>FlyingItem</altitudeLayer>
-		<pathCost>0</pathCost>
-		<statBases>
-			<Flammability>0</Flammability>
-		</statBases>
-		<building>
-			<isEdifice>false</isEdifice>
-		</building>
-		<researchPrerequisites>
-			<li>Electricity</li>
-		</researchPrerequisites>
-	</ThingDef>
-
-
-	<ThingDef Name="ChanPart_Bowl_Base" ParentName="ChanPart_Base" Abstract="True">
-		<label>chandelier bowl</label>
-		<description>null</description>
-		<thingClass>AdditionalJoyObjects.Building_ChandelierBowl</thingClass>
-		<graphicData>
-			<texPath>Cupro/Object/Furniture/Chandelier/ChandelierGlass</texPath>
-			<shaderType>Transparent</shaderType>
-		</graphicData>
-		<selectable>false</selectable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<tickerType>Rare</tickerType>
-		<tradeability>Never</tradeability>
-	</ThingDef>
-
-
-	<ThingDef Name="ChanPart_Support_Base" ParentName="ChanPart_Base" Abstract="True">
-		<thingClass>AdditionalJoyObjects.Building_Chandelier</thingClass>
-		<graphicData>
-			<texPath>Cupro/Object/Furniture/Chandelier/Chandelier</texPath>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<designationCategory>Furniture</designationCategory>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<altitudeLayer>FlyingItem</altitudeLayer>
-		<tickerType>Rare</tickerType>
-		<placeWorkers>
-			<li>AdditionalJoyObjects.PlaceWorker_Roofed</li>
-			<li>AdditionalJoyObjects.PlaceWorker_Chandelier</li>
-		</placeWorkers>
-		<tradeTags>
-			<li>Furniture</li>
-		</tradeTags>
-		<Comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="AdditionalJoyObjects.CompProperties_Hanger">
-				<HangingType>Ceiling</HangingType>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-		</Comps>
-	</ThingDef>
-
-
-	<!-- ========================== Inheritors ============================== -->
-
-
-	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_1x1_Support</defName>
-		<label>small chandelier</label>
-		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
-		<graphicData>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<size>(1,1)</size>
-		<statBases>
-			<WorkToBuild>350</WorkToBuild>
-			<Mass>3</Mass>
-			<Beauty>10</Beauty>
-		</statBases>
-		<costStuffCount>25</costStuffCount>
-		<Comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>75</basePowerConsumption>
-				<shortCircuitInRain>false</shortCircuitInRain>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>10</glowRadius>
-				<glowColor>(200,200,200,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
-				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-				<minQualityForArtistic>Masterwork</minQualityForArtistic>
-			</li>
-		</Comps>
-	</ThingDef>
-
-	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_2x2_Support</defName>
-		<label>chandelier</label>
-		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
-		<graphicData>
-			<drawSize>(2,2)</drawSize>
-		</graphicData>
-		<size>(2,2)</size>
-		<statBases>
-			<WorkToBuild>500</WorkToBuild>
-			<Mass>12</Mass>
-			<Beauty>20</Beauty>
-		</statBases>
-		<costStuffCount>45</costStuffCount>
-		<Comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>150</basePowerConsumption>
-				<shortCircuitInRain>false</shortCircuitInRain>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>13</glowRadius>
-				<glowColor>(200,200,200,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
-				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</Comps>
-	</ThingDef>
-
-	<ThingDef ParentName="ChanPart_Support_Base">
-		<defName>ChanPart_3x3_Support</defName>
-		<label>large chandelier</label>
-		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
-		<graphicData>
-			<drawSize>(3,3)</drawSize>
-		</graphicData>
-		<size>(3,3)</size>
-		<statBases>
-			<WorkToBuild>750</WorkToBuild>
-			<Mass>27</Mass>
-			<Beauty>30</Beauty>
-		</statBases>
-		<costStuffCount>70</costStuffCount>
-		<Comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>250</basePowerConsumption>
-				<shortCircuitInRain>false</shortCircuitInRain>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>16</glowRadius>
-				<glowColor>(200,200,200,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
-				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-				<minQualityForArtistic>Superior</minQualityForArtistic>
-			</li>
-		</Comps>
-	</ThingDef>
-
-
-	<!-- =============== Bowl =============== -->
-
-
-	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_1x1_Bowl</defName>
-		<graphicData>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<size>(1,1)</size>
-	</ThingDef>
-
-	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_2x2_Bowl</defName>
-		<graphicData>
-			<drawSize>(2,2)</drawSize>
-		</graphicData>
-		<size>(2,2)</size>
-	</ThingDef>
-
-	<ThingDef ParentName="ChanPart_Bowl_Base">
-		<defName>ChanPart_3x3_Bowl</defName>
-		<graphicData>
-			<drawSize>(3,3)</drawSize>
-		</graphicData>
-		<size>(3,3)</size>
-	</ThingDef>
-
 
 	<!-- ========================== Joy Tables ============================== -->
 
@@ -304,14 +105,18 @@
 		<description>A table specially made for playing a wide variety of card games. Suitable for 1-4 players </description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/CardTable</texPath>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToBuild>10000</WorkToBuild>
 			<Mass>7</Mass>
 			<Beauty>15</Beauty>
 		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
 		<costList>
-			<WoodLog>100</WoodLog>
 			<Cloth>10</Cloth>
 		</costList>
 		<designationCategory>Joy</designationCategory>

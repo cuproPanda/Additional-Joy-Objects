@@ -12,4 +12,7 @@
 	<AJO_Reading>Reading</AJO_Reading>
 	<AJO_Choosing>Choosing a book</AJO_Choosing>
 
+	<!-- Arcade -->
+	<AJO_CommandArcadeSetOwnerDesc>Assign this arcade to be owned by specific colonists. If owners are specified, only colonists that are listed as owners will play at this arcade.</AJO_CommandArcadeSetOwnerDesc>
+
 </LanguageData>

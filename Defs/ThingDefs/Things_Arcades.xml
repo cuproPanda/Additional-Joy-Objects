@@ -2,6 +2,7 @@
 <ThingDefs>
 
 	<ThingDef Name="ArcadeBase" ParentName="FurnitureBase" Abstract="True">
+		<thingClass>AdditionalJoyObjects.Building_Arcade</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<damageData>
@@ -160,9 +161,14 @@
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -170,6 +176,7 @@
 		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 	</ThingDef>
 

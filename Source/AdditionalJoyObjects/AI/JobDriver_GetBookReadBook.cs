@@ -102,10 +102,10 @@ namespace AdditionalJoyObjects {
 
     public override string GetReport() {
       if (choosing) {
-        return Static.AJO_Choosing;
+        return Static.Inspect_Choosing;
       }
       if (reading) {
-        return (Static.AJO_Reading + " '" + bookNames[name] + "'.");
+        return (Static.Inspect_Reading + " '" + bookNames[name] + "'.");
       }
       return base.GetReport();
     }

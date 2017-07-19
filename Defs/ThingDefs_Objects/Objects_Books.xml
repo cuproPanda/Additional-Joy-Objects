@@ -14,6 +14,9 @@
 			<Flammability>1.0</Flammability>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
 		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
 		<designationCategory>Joy</designationCategory>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<size>(1,1)</size>
@@ -42,6 +45,7 @@
 		<description>A small bookshelf with a few books. \nBoosts writing speed by 5% when placed near a writing table. Only one book rack can be linked to a single writing table.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/BookRack/BookRack</texPath>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconPath>Cupro/Object/Furniture/BookRack/BookRack_MenuIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
@@ -55,8 +59,8 @@
 			<Beauty>10</Beauty>
 			<EntertainmentStrengthFactor>0.8</EntertainmentStrengthFactor>
 		</statBases>
+		<costStuffCount>30</costStuffCount>
 		<costList>
-			<WoodLog>30</WoodLog>
 			<AJO_PileOfBooks>1</AJO_PileOfBooks>
 		</costList>
 		<comps>
@@ -75,6 +79,7 @@
 		<description>A bookshelf with a variety of books. \nBoosts writing speed by 10% when placed near a writing table. Only two bookshelves can be linked to a single writing table.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/Bookshelf/Bookshelf</texPath>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconPath>Cupro/Object/Furniture/Bookshelf/Bookshelf_MenuIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
@@ -88,8 +93,8 @@
 			<Beauty>25</Beauty>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
 		</statBases>
+		<costStuffCount>60</costStuffCount>
 		<costList>
-			<WoodLog>60</WoodLog>
 			<AJO_PileOfBooks>3</AJO_PileOfBooks>
 		</costList>
 		<comps>
@@ -108,6 +113,7 @@
 		<description>A bookcase with a wide variety of books. \nBoosts writing speed by 20% when placed near a writing table. Up to four bookcases can be linked to a single writing table.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/Bookcase/Bookcase</texPath>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconPath>Cupro/Object/Furniture/Bookcase/Bookcase_MenuIcon</uiIconPath>
 		<altitudeLayer>Pawn</altitudeLayer>
@@ -121,8 +127,8 @@
 			<Beauty>50</Beauty>
 			<EntertainmentStrengthFactor>1.15</EntertainmentStrengthFactor>
 		</statBases>
+		<costStuffCount>100</costStuffCount>
 		<costList>
-			<WoodLog>100</WoodLog>
 			<AJO_PileOfBooks>5</AJO_PileOfBooks>
 		</costList>
 		<comps>
@@ -243,6 +249,7 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -252,9 +259,13 @@
 					<li>AJO_Bookcase</li>
 				</linkableFacilities>
 			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
 		</comps>
-		<placeWorkers>
+			<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 	</ThingDef>
 

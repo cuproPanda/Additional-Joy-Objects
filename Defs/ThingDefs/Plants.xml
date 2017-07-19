@@ -32,7 +32,7 @@
 			</sowTags>
 			<growMinGlow>0.6</growMinGlow>
 			<growDays>8</growDays>
-			<lifespanFraction>3</lifespanFraction>
+			<lifespanFraction>5</lifespanFraction>
 			<wildCommonalityMaxFraction>0.5</wildCommonalityMaxFraction>
 			<wildBiomes>
 				<TropicalRainforest>0.10</TropicalRainforest>
@@ -81,7 +81,7 @@
 			</sowTags>
 			<growMinGlow>0.3</growMinGlow>
 			<growDays>3</growDays>
-			<lifespanFraction>3</lifespanFraction>
+			<lifespanFraction>5</lifespanFraction>
 		</plant>
 	</ThingDef>
 
