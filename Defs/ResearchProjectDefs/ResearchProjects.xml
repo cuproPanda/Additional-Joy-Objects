@@ -13,6 +13,20 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
+		<defName>AJO_PerodyneProduction</defName>
+		<label>perodyne production</label>
+		<description>Learn to produce the Euphoria-inducing painkillers perodyne.</description>
+		<tab>cP</tab>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>AJO_ArcadeConstruction</defName>
 		<label>Arcade construction</label>
 		<description>Allows colonists to copy game cartridges and assemble arcades.</description>
@@ -23,8 +37,8 @@
 			<li>ElectricSmelting</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 </ResearchProjectDefs>

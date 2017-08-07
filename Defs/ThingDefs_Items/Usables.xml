@@ -18,11 +18,12 @@
 			<MarketValue>5</MarketValue>
 		</statBases>
 		<thingCategories>
-			<li>FoodMeals</li>
+			<li>Drugs</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<foodType>Fluid, Processed</foodType>
+			<drugCategory>Social</drugCategory>
 			<nutrition>0.02</nutrition>
 			<joy>0.10</joy>
 			<joyKind>Meditative</joyKind>

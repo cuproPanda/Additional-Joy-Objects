@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Resources>
 
-	<ThingDef Name="ResourceBase" Abstract="True">
-		<thingClass>ThingWithComps</thingClass>
-		<label>unspecified resource</label>
-		<category>Item</category>
-		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<useHitPoints>true</useHitPoints>
-		<statBases>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<selectable>true</selectable>
-		<altitudeLayer>Item</altitudeLayer>
-		<stackLimit>75</stackLimit>
-		<comps>
-			<li>
-				<compClass>CompForbiddable</compClass>
-			</li>
-		</comps>
-		<alwaysHaulable>true</alwaysHaulable>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<rotatable>false</rotatable>
-		<pathCost>15</pathCost>
-	</ThingDef>
 
-	<!-- ========================== Inheritors ============================== -->
-
-
-	<ThingDef Name="AJO_ThingInsertion" ParentName="ResourceBase">
+	<ThingDef Name="AJO_ThingInsertion" ParentName="RoughPlantBase">
 		<defName>AJO_RainbowPetals</defName>
 		<label>rainbow petals</label>
 		<description>A small bundle of multi-colored flower petals.</description>
 		<graphicData>
 			<texPath>Cupro/Item/Material/RainbowPetals</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<MarketValue>2</MarketValue>
 			<Mass>0.03</Mass>
 		</statBases>
 		<stackLimit>100</stackLimit>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>PlantMatter</li>
 		</thingCategories>
+		<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">

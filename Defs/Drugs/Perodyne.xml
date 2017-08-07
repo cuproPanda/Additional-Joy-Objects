@@ -39,6 +39,16 @@ Side Effects:
 				</li>
 			</outcomeDoers>
 		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>AJO_PerodyneProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+			<AJO_RainbowPetals>2</AJO_RainbowPetals>
+    </costList>
 		<tickerType>Rare</tickerType>
 		<comps>
 			<li Class="CompProperties_Rottable">
