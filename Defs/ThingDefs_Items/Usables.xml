@@ -35,6 +35,12 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+		<comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+        <listOrder>900</listOrder>
+     </li>
+    </comps>
 		<tradeTags>
 			<li>AJO_JoyItem</li>
 		</tradeTags>
