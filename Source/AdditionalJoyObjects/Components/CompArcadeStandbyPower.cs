@@ -29,7 +29,7 @@ namespace AdditionalJoyObjects {
 
       // Determine the power usage based on if the arcade is being used
       if (parent.Spawned) {
-        powerComp.PowerOutput = InUse() ? fullPower : idlePower; 
+        powerComp.PowerOutput = InUse() ? -fullPower : -idlePower; 
       }
     }
 
