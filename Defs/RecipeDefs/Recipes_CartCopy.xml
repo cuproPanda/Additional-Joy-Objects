@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="AJO_CartCopyBase" Abstract="True">
 		<description>Duplicate a game cartridge's data to get more cartridges.</description>
@@ -307,4 +307,4 @@
 		</products>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

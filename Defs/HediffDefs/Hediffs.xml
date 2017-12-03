@@ -16,7 +16,7 @@
 		<stages>
 			<li>
 				<label>initial-hidden</label>
-				<everVisible>false</everVisible>
+				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>0.01</minSeverity>

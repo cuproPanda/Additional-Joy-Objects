@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Perodyne>
+<Defs>
 
 	<ThingDef ParentName="DrugPillBase">
 		<defName>AJO_Perodyne</defName>
@@ -15,7 +15,7 @@ Side Effects:
 			<texPath>Cupro/Item/Usable/Perodyne</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<stackLimit>10</stackLimit>
+		<stackLimit>100</stackLimit>
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -86,7 +86,7 @@ Side Effects:
 		<stages>
 			<li>
 				<label>initial-hidden</label>
-				<everVisible>false</everVisible>
+				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<minSeverity>0.01</minSeverity>
@@ -361,7 +361,7 @@ Side Effects:
 		</stages>
 	</ThoughtDef>
 
-</Perodyne>
+</Defs>
 
 
 

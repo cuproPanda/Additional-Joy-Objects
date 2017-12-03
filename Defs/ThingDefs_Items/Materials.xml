@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
 
 
 	<ThingDef Name="AJO_ThingInsertion" ParentName="RoughPlantBase">
@@ -173,7 +173,7 @@
 		</tradeTags>
 	</ThingDef>
 
-</Resources>
+</Defs>
 
 
 

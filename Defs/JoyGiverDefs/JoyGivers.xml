@@ -18,21 +18,6 @@
 	</JoyGiverDef>
 
 	<JoyGiverDef>
-		<defName>AJO_PlayCards</defName>
-		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
-		<baseChance>2</baseChance>
-		<thingDefs>
-			<li>AJO_CardTable</li>
-		</thingDefs>
-		<jobDef>AJO_PlayCards</jobDef>
-		<joyKind>Passive</joyKind>
-		<requiredCapacities>
-			<li>Sight</li>
-			<li>Manipulation</li>
-		</requiredCapacities>
-	</JoyGiverDef>
-
-	<JoyGiverDef>
 		<defName>AJO_PlayRimColony</defName>
 		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
 		<baseChance>2.5</baseChance>
@@ -120,21 +105,6 @@
 			<li>AJO_SpectagoTea</li>
 		</thingDefs>
 		<joyKind>Gluttonous</joyKind>
-		<requiredCapacities>
-			<li>Eating</li>
-			<li>Manipulation</li>
-		</requiredCapacities>
-	</JoyGiverDef>
-
-	<JoyGiverDef>
-		<defName>AJO_DosePerodyne</defName>
-		<giverClass>JoyGiver_Ingest</giverClass>
-		<baseChance>1</baseChance>
-		<pctPawnsEverDo>0.7</pctPawnsEverDo>
-		<thingDefs>
-			<li>AJO_Perodyne</li>
-		</thingDefs>
-		<joyKind>Chemical</joyKind>
 		<requiredCapacities>
 			<li>Eating</li>
 			<li>Manipulation</li>

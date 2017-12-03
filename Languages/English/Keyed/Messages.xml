@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<AJO_ModName>Additional Joy Objects</AJO_ModName>
+
+	<!-- Settings -->
+	<AJO_Label_ArcadeJoyBool>Arcade, Playing gives skill XP</AJO_Label_ArcadeJoyBool>
+	<AJO_Label_ArcadeJoyGain>Arcade, joy gain multiplier: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</AJO_Label_ArcadeJoyGain>
+	<AJO_ToolTip_ArcadeJoyBool>Whether or not the arcades give a small amount of experience towards certain skills when playing.</AJO_ToolTip_ArcadeJoyBool>
+	<AJO_ToolTip_ArcadeJoyGain>How quickly colonists gain skill points for the arcade's skill.</AJO_ToolTip_ArcadeJoyGain>
+
 	<!-- Placement Restrictors -->
 	<AJO_MustBePlacedOnWall>{0} must be placed on a wall.</AJO_MustBePlacedOnWall>
 	

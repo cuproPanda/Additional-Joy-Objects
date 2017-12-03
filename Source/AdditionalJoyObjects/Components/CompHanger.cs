@@ -19,7 +19,7 @@ namespace AdditionalJoyObjects {
       base.CompTickRare();
 
       if (Props.hangingType == HangingType.None) {
-        Log.Warning(parent.def.defName + " doesn't have a HangingType defined, please notify the mod author.");
+        Log.Warning(parent.def.defName + " doesn't have a hangingType defined, please notify the mod author.");
       }
 
       if (Props.hangingType == HangingType.Wall) {

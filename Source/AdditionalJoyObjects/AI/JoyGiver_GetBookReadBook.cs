@@ -7,6 +7,8 @@ using Verse.AI;
 namespace AdditionalJoyObjects {
 
   public class JoyGiver_GetBookReadBook : JoyGiver_InteractBuildingSitAdjacent {
+
+
     protected override Job TryGivePlayJob(Pawn pawn, Thing t) {
       Thing chair = null;
       Thing bookcase = null;

@@ -15,18 +15,6 @@
 	</JobDef>
 
 	<JobDef>
-		<defName>AJO_PlayCards</defName>
-		<driverClass>JobDriver_SitFacingBuilding</driverClass>
-		<reportString>Playing a card game.</reportString>
-		<joyDuration>5000</joyDuration>
-		<joyMaxParticipants>4</joyMaxParticipants>
-		<joyGainRate>0.8</joyGainRate>
-		<joySkill>Intellectual</joySkill>
-		<joyXpPerTick>0.001</joyXpPerTick>
-		<joyKind>Passive</joyKind>
-	</JobDef>
-
-	<JobDef>
 		<defName>AJO_PlayRimColony</defName>
 		<driverClass>JobDriver_SitFacingBuilding</driverClass>
 		<reportString>Playing RimColony.</reportString>
@@ -81,147 +69,95 @@
 		<joyKind>Study</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef Name="AJO_ArcadeJobBase" Abstract="True">
+		<driverClass>AdditionalJoyObjects.JobDriver_PlayArcade</driverClass>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.2</joyGainRate>
+		<joyXpPerTick>0.01</joyXpPerTick>
+	</JobDef>
+
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeRS</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Rum Swirled.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Construction</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeMC</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing MintCraft.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Crafting</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeHL</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Halva Life.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Shooting</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingDexterity</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeES</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Elder Scones.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Melee</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingDexterity</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeBG</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Baguettris.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Intellectual</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeCB</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Cooking Baba.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Cooking</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadePS</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Plants Vs. Salamis.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Growing</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingDexterity</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadePK</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Psycho Knots.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Artistic</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingCerebral</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeSP</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Speltunky.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Mining</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingDexterity</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeTZ</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing The Zimz.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Social</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>Social</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeTV</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Trauma Vendor.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Medicine</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>GamingDexterity</joyKind>
 	</JobDef>
 
-	<JobDef>
+	<JobDef ParentName="AJO_ArcadeJobBase">
 		<defName>AJO_PlayArcadeGD</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing Glutendogs.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>1</joyMaxParticipants>
-		<joyGainRate>1.2</joyGainRate>
 		<joySkill>Animals</joySkill>
-		<joyXpPerTick>0.01</joyXpPerTick>
 		<joyKind>Social</joyKind>
 	</JobDef>
 

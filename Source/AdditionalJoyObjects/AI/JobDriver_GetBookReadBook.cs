@@ -47,17 +47,18 @@ namespace AdditionalJoyObjects {
       // Go to the bookcase
       yield return Toils_Goto.GotoCell(TargetIndex.B, PathEndMode.InteractionCell);
 
-      // Get a book
-      Toil getBook = new Toil();
-      getBook.handlingFacing = true;
-      getBook.tickAction = () => {
-        choosing = true;
-        base.WatchTickAction();
-        pawn.Drawer.rotator.FaceCell(TargetB.Cell);
-      };
-      getBook.defaultCompleteMode = ToilCompleteMode.Delay;
-      getBook.defaultDuration = 60;
-      getBook.AddFinishAction(() => {
+			// Get a book
+			Toil getBook = new Toil() {
+				handlingFacing = true,
+				tickAction = () => {
+					choosing = true;
+					base.WatchTickAction();
+					pawn.rotationTracker.FaceCell(TargetB.Cell);
+				},
+				defaultCompleteMode = ToilCompleteMode.Delay,
+				defaultDuration = 60
+			};
+			getBook.AddFinishAction(() => {
         // Get the randomized name of the book being read
         name = Rand.Range(0, bookNames.Count);
         reading = true;
@@ -72,19 +73,20 @@ namespace AdditionalJoyObjects {
       yield return Toils_Goto.GotoCell(TargetIndex.A, PathEndMode.InteractionCell);
 
       // Read the book
-      Toil read = new Toil();
       JoyKindDef joyKind = AjoDefOf.AJO_ReadBook.joyKind;
-      read.socialMode = RandomSocialMode.Off;
-      read.tickAction = () => {
-        base.WatchTickAction();
-        // Give extra joy based on the variety of books
-        if (bookcase != null) {
-          pawn.needs.joy.GainJoy(bookOptionsBuff * 0.000144f, joyKind);
-        }
-      };
-      read.defaultCompleteMode = ToilCompleteMode.Delay;
-      read.defaultDuration = CurJob.def.joyDuration;
-      read.AddFinishAction(() => {
+			Toil read = new Toil() {
+				socialMode = RandomSocialMode.Off,
+				tickAction = () => {
+					base.WatchTickAction();
+					// Give extra joy based on the variety of books
+					if (bookcase != null) {
+						pawn.needs.joy.GainJoy(bookOptionsBuff * 0.000144f, joyKind);
+					}
+				},
+				defaultCompleteMode = ToilCompleteMode.Delay,
+				defaultDuration = job.def.joyDuration
+			};
+			read.AddFinishAction(() => {
         Room room = pawn.GetRoom();
         if (room != null) {
           int scoreStageIndex = RoomStatDefOf.Impressiveness.GetScoreStageIndex(room.GetStat(RoomStatDefOf.Impressiveness));

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>AJO_SpectagoTea</defName>
 		<label>spectago tea</label>
-		<description>A delicious preparation of brewed spectago leaves and water. Very pleasurable to drink.</description>
+		<description>A delicious preparation of brewed spectago leaves and water. Pleasurable to drink.</description>
 		<graphicData>
 			<texPath>Cupro/Item/Usable/SpectagoTea</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -14,7 +14,7 @@
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
-			<Mass>0.1</Mass>
+			<Mass>0.3</Mass>
 			<MarketValue>5</MarketValue>
 		</statBases>
 		<thingCategories>
@@ -28,7 +28,16 @@
 			<joy>0.10</joy>
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
 			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>10</chairSearchRadius>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AJO_SpectagoTea</hediffDef>
@@ -46,7 +55,7 @@
 		</tradeTags>
 	</ThingDef>
 
-</Resources>
+</Defs>
 
 
 

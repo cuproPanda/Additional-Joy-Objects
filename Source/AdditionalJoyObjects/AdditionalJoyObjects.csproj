@@ -31,26 +31,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=0.17.6351.26908, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Assembly-CSharp, Version=0.17.6362.34395, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\RimWorld1557Win\RimWorld1557Win_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\RimWorld_Beta18\RimWorld1722Win_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\RimWorld914Win\RimWorld914Win_Data\Managed\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RimWorld_Beta18\RimWorld1722Win_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\JobDriver_Dartboard.cs" />
     <Compile Include="AI\JobDriver_GetBookReadBook.cs" />
     <Compile Include="AI\JoyGiver_GetBookReadBook.cs" />
-    <Compile Include="Building_Arcade.cs" />
-    <Compile Include="JoyGiver_PlayArcade.cs" />
+    <Compile Include="Buildings\Building_Arcade.cs" />
+    <Compile Include="AI\JoyGiver_PlayArcade.cs" />
+    <Compile Include="AI\JobDriver_PlayArcade.cs" />
     <Compile Include="Static\AjoDefOf.cs" />
     <Compile Include="Buildings\Building_Chandelier.cs" />
     <Compile Include="Buildings\Building_ChandelierBowl.cs" />
@@ -59,8 +58,10 @@
     <Compile Include="Components\CompProperties_Hanger.cs" />
     <Compile Include="Components\CompWallAddon.cs" />
     <Compile Include="Defs\BookNameDef.cs" />
-    <Compile Include="Enums\HangingType.cs" />
+    <Compile Include="Enums\hangingType.cs" />
     <Compile Include="Enums\WallHeight.cs" />
+    <Compile Include="Utils\JoyMod.cs" />
+    <Compile Include="Utils\JoySettings.cs" />
     <Compile Include="Utils\PatchOperationFindMod.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_AgainstWall.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Chandelier.cs" />

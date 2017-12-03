@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingCategoryDef>
+		<defName>AJO_Arcades</defName>
+		<label>arcades</label>
+		<parent>Items</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AJO_ArcadeCarts</defName>
+		<label>cartridges</label>
+		<parent>AJO_Arcades</parent>
+	</ThingCategoryDef>
+
+</Defs>

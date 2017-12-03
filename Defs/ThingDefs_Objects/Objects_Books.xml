@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BookStorageBase" ParentName="BuildingBase" Abstract="True">
 		<graphicData>
@@ -204,10 +204,10 @@
 
 
 	<ThingDef ParentName="FurnitureBase">
-		<DefName>AJO_WritingTable</DefName>
+		<defName>AJO_WritingTable</defName>
 		<label>writing table</label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A simple table for writing at.</Description>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A simple table for writing at.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/WritingTable/WritingTable</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -238,7 +238,7 @@
 			<Beauty>10</Beauty>
 		</statBases>
 		<size>(1,1)</size>
-		<DesignationCategory>Production</DesignationCategory>
+		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>40</pathCost>
 		<hasInteractionCell>true</hasInteractionCell>
@@ -270,4 +270,4 @@
 	</ThingDef>
 
 
-</ThingDefs>
+</Defs>

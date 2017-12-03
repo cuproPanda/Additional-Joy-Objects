@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="ChanPart_Base" ParentName="FurnitureBase" Abstract="True">
 		<category>Building</category>
@@ -12,7 +12,7 @@
 		<selectable>true</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<altitudeLayer>FlyingItem</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
 		<pathCost>0</pathCost>
 		<statBases>
 			<Flammability>0</Flammability>
@@ -34,7 +34,8 @@
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 		<selectable>false</selectable>
-		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<designationCategory />
 		<tickerType>Rare</tickerType>
 		<tradeability>Never</tradeability>
 	</ThingDef>
@@ -49,7 +50,7 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<altitudeLayer>FlyingItem</altitudeLayer>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<tickerType>Rare</tickerType>
 		<placeWorkers>
 			<li>AdditionalJoyObjects.PlaceWorker_Roofed</li>
@@ -58,15 +59,15 @@
 		<tradeTags>
 			<li>Furniture</li>
 		</tradeTags>
-		<Comps>
+		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
 			<li Class="AdditionalJoyObjects.CompProperties_Hanger">
-				<HangingType>Ceiling</HangingType>
+				<hangingType>Ceiling</hangingType>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-		</Comps>
+		</comps>
 	</ThingDef>
 
 
@@ -88,7 +89,7 @@
 			<Beauty>10</Beauty>
 		</statBases>
 		<costStuffCount>25</costStuffCount>
-		<Comps>
+		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>75</basePowerConsumption>
@@ -103,7 +104,7 @@
 				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
 				<minQualityForArtistic>Masterwork</minQualityForArtistic>
 			</li>
-		</Comps>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Support_Base">
@@ -121,7 +122,7 @@
 			<Beauty>20</Beauty>
 		</statBases>
 		<costStuffCount>45</costStuffCount>
-		<Comps>
+		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>150</basePowerConsumption>
@@ -136,7 +137,7 @@
 				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
-		</Comps>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ChanPart_Support_Base">
@@ -154,7 +155,7 @@
 			<Beauty>30</Beauty>
 		</statBases>
 		<costStuffCount>70</costStuffCount>
-		<Comps>
+		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>250</basePowerConsumption>
@@ -169,7 +170,7 @@
 				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
 				<minQualityForArtistic>Superior</minQualityForArtistic>
 			</li>
-		</Comps>
+		</comps>
 	</ThingDef>
 
 
@@ -203,4 +204,4 @@
 		<size>(3,3)</size>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

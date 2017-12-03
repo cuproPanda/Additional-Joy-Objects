@@ -1,32 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefinitions>
-
-	<ThingDef Name="UnfinishedBase" Abstract="True">
-		<thingClass>UnfinishedThing</thingClass>
-		<category>Item</category>
-		<label>Unfinished thing</label>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<altitudeLayer>Item</altitudeLayer>
-		<useHitPoints>true</useHitPoints>
-		<isUnfinishedThing>true</isUnfinishedThing>
-		<selectable>true</selectable>
-		<tradeability>Never</tradeability>
-		<drawerType>RealtimeOnly</drawerType>
-		<statBases>
-			<MaxHitPoints>10</MaxHitPoints>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<alwaysHaulable>true</alwaysHaulable>
-		<rotatable>false</rotatable>
-		<pathCost>15</pathCost>
-		<thingCategories>
-			<li>Unfinished</li>
-		</thingCategories>
-	</ThingDef>
+<Defs>
 
 	<ThingDef ParentName="UnfinishedBase">
 		<defName>AJO_UnfinishedPainting</defName>
@@ -51,4 +24,4 @@
 		</stuffCategories>
 	</ThingDef>
 
-</ThingDefinitions>
+</Defs>

@@ -9,15 +9,15 @@ namespace AdditionalJoyObjects {
   public class PlaceWorker_AgainstWall : PlaceWorker {
 
 
-    public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
 
       // Get the tile behind this object
       IntVec3 c = loc - rot.FacingCell;
       // Determine if the tile is an edifice
-      Building edifice = c.GetEdifice(Map);
+      Building edifice = c.GetEdifice(map);
 
       // Don't place outside of the map
-      if (!c.InBounds(Map) || !loc.InBounds(Map)) {
+      if (!c.InBounds(map) || !loc.InBounds(map)) {
         return false;
       }
 

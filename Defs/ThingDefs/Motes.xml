@@ -1,23 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="MoteBase" Abstract="True">
-		<thingClass>MoteThrown</thingClass>
-		<label>Mote</label>
-		<category>Mote</category>
-		<graphicData>
-			<graphicClass>Graphic_Mote</graphicClass>
-			<shaderType>Mote</shaderType>
-		</graphicData>
-		<altitudeLayer>MoteLow</altitudeLayer>
-		<tickerType>Normal</tickerType>
-		<useHitPoints>false</useHitPoints>
-		<isSaveable>false</isSaveable>
-		<rotatable>false</rotatable>
-	</ThingDef>
-
 	<ThingDef Name="DartBase" ParentName="MoteBase" Abstract="True">
-		<altitudeLayer>FlyingItem</altitudeLayer>
+		<altitudeLayer>Projectile</altitudeLayer>
 		<mote>
       <collide>true</collide>
       <solidTime>2.0</solidTime>

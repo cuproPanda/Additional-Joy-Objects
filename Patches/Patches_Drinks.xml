@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- If Drinks is found, merge categories -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="AdditionalJoyObjects.PatchOperationFindMod">
+				<modName>Cupro's Drinks - Core</modName>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "AJO_SpectagoTea"]/thingCategories</xpath>
+				<value>
+					<thingCategories><li>CPD_Drinks</li></thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

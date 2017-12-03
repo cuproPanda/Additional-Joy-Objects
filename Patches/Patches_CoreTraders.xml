@@ -3,9 +3,9 @@
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
-		<Operations>
+		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
 				<value>
 					<li Class="StockGenerator_Tag">
 						<tradeTag>AJO_Joy</tradeTag>
@@ -32,7 +32,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
 				<value>
 					<li Class="StockGenerator_Tag">
 						<tradeTag>AJO_JoyItem</tradeTag>
@@ -59,7 +59,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
 				<value>
 					<li Class="StockGenerator_Tag">
 						<tradeTag>AJO_JoyItem</tradeTag>
@@ -86,7 +86,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
 				<value>
 					<li Class="StockGenerator_Tag">
 						<tradeTag>AJO_JoyItem</tradeTag>
@@ -112,7 +112,7 @@
 					</li>
 				</value>
 			</li>
-		</Operations>
+		</operations>
 	</Operation>
 
 </Patch>

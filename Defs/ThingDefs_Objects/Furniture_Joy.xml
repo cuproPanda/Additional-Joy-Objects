@@ -1,44 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
-
-	<ThingDef Name="BuildingBase" Abstract="True">
-		<category>Building</category>
-		<thingClass>Building</thingClass>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<repairEffect>Repair</repairEffect>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
-	</ThingDef>
-
-	<ThingDef Name="FurnitureBase" ParentName="BuildingBase" Abstract="True">
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-		</comps>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
-	</ThingDef>
-
-	<ThingDef Name="HighQualityFurnitureBase" ParentName="BuildingBase" Abstract="True">
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
-				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
-		<inspectorTabs>
-			<li>ITab_Art</li>
-		</inspectorTabs>
-		<DesignationCategory>Furniture</DesignationCategory>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
-	</ThingDef>
+<Defs>
 
 	<ThingDef Name="OnWallBase" ParentName="BuildingBase" Abstract="True">
 		<graphicData>
@@ -53,12 +14,13 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>0</pathCost>
 		<castEdgeShadows>false</castEdgeShadows>
+		<clearBuildingArea>false</clearBuildingArea>
 		<useHitPoints>true</useHitPoints>
 		<tickerType>Rare</tickerType>
 		<comps>
 			<li Class="AdditionalJoyObjects.CompProperties_Hanger">
-				<HangingType>Wall</HangingType>
-				<WallHeight>High</WallHeight>
+				<hangingType>Wall</hangingType>
+				<wallHeight>High</wallHeight>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -100,29 +62,6 @@
 
 
 	<ThingDef ParentName="JoyTableBase">
-		<defName>AJO_CardTable</defName>
-		<label>card table</label>
-		<description>A table specially made for playing a wide variety of card games. Suitable for 1-4 players </description>
-		<graphicData>
-			<texPath>Cupro/Object/Furniture/CardTable</texPath>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<statBases>
-			<WorkToBuild>10000</WorkToBuild>
-			<Mass>7</Mass>
-			<Beauty>15</Beauty>
-		</statBases>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<costList>
-			<Cloth>10</Cloth>
-		</costList>
-		<designationCategory>Joy</designationCategory>
-	</ThingDef>
-
-	<ThingDef ParentName="JoyTableBase">
 		<defName>AJO_RimColony</defName>
 		<label>RimColony</label>
 		<description>RimColony is a game about building and sustaining a colony after crash landing on a rim world. Some roaming trader had a twisted sense of humor bringing this along.</description>
@@ -134,6 +73,7 @@
 			<Mass>7</Mass>
 			<Beauty>20</Beauty>
 		</statBases>
+		<designationCategory />
 		<tradeTags>
 			<li>Exotic</li>
 			<li>AJO_Joy</li>
@@ -186,4 +126,4 @@
 		<designationCategory>Joy</designationCategory>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>
