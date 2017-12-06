@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Placement Restrictors -->
+  <!--<AJO_MustBePlacedOnWall>{0}必須靠墻而建。</AJO_MustBePlacedOnWall>-->
+
+  <!-- Chandelier -->
+  <!--<AJO_ObjectTooTall>{0}太高了，不能在{1}上放置</AJO_ObjectTooTall>-->
+  <!--<AJO_NeedsRoof>{0}需要放置於屋頂下</AJO_NeedsRoof>-->
+
+  <!-- Book Reading Job -->
+  <!--<AJO_Reading>正在閱讀</AJO_Reading>-->
+  <!--<AJO_Choosing>正在挑選圖書</AJO_Choosing>-->
+
+</LanguageData>

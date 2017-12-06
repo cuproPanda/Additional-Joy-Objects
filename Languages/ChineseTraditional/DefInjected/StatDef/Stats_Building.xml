@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_WritingSpeedFactor.label>當前房間印象</AJO_WritingSpeedFactor.label>
+  <AJO_WritingSpeedFactor.description>人們的寫作速度乘以此值。</AJO_WritingSpeedFactor.description>
+  <AJO_WritingSpeedFactor.parts.0.customLabel>印象</AJO_WritingSpeedFactor.parts.0.customLabel>
+
+
+</LanguageData>

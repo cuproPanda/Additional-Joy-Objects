@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Furniture -->
+
+  <AJO_BookRack.label>书荚</AJO_BookRack.label>
+  <AJO_BookRack.description>装有几本书的小书架。\n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书荚。</AJO_BookRack.description>
+  <AJO_BookRack_Blueprint.label>书荚 (蓝图)</AJO_BookRack_Blueprint.label>
+  <AJO_BookRack_Blueprint_Install.label>书荚 (蓝图)</AJO_BookRack_Blueprint_Install.label>
+  <AJO_BookRack_Frame.label>书荚 (建造中)</AJO_BookRack_Frame.label>
+  <AJO_BookRack_Frame.description>装有几本书的小书架 \n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书荚。</AJO_BookRack_Frame.description>
+
+  <AJO_Bookshelf.label>书架</AJO_Bookshelf.label>
+  <AJO_Bookshelf.description>放有各种书籍的书架。\n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书架。</AJO_Bookshelf.description>
+  <AJO_Bookshelf_Blueprint.label>书架 (蓝图)</AJO_Bookshelf_Blueprint.label>
+  <AJO_Bookshelf_Blueprint_Install.label>书架 (蓝图)</AJO_Bookshelf_Blueprint_Install.label>
+  <AJO_Bookshelf_Frame.label>书架 (建造中)</AJO_Bookshelf_Frame.label>
+  <AJO_Bookshelf_Frame.description>放有各种书籍的书架。\n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书架。</AJO_Bookshelf_Frame.description>
+
+  <AJO_Bookcase.label>书柜</AJO_Bookcase.label>
+  <AJO_Bookcase.description>放有各种书籍的书柜。\n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书柜。</AJO_Bookcase.description>
+  <AJO_Bookcase_Blueprint.label>书柜 (蓝图)</AJO_Bookcase_Blueprint.label>
+  <AJO_Bookcase_Blueprint_Install.label>书柜 (蓝图)</AJO_Bookcase_Blueprint_Install.label>
+  <AJO_Bookcase_Frame.label>书柜 (建造中)</AJO_Bookcase_Frame.label>
+  <AJO_Bookcase_Frame.description>放有各种书籍的书柜。\n放置在写字台附近可提高5％写作速度。一个写字台只能连接一个书柜。</AJO_Bookcase_Frame.description>
+
+  <AJO_ReadingTable.label>书桌</AJO_ReadingTable.label>
+  <AJO_ReadingTable.description>一个高度合适的专为阅读而设计的小桌子，当放置在书架附近时，殖民者可以阅读。</AJO_ReadingTable.description>
+  <AJO_ReadingTable_Blueprint.label>书桌 (蓝图)</AJO_ReadingTable_Blueprint.label>
+  <AJO_ReadingTable_Blueprint_Install.label>书桌 (蓝图)</AJO_ReadingTable_Blueprint_Install.label>
+  <AJO_ReadingTable_Frame.label>书桌 (建造中)</AJO_ReadingTable_Frame.label>
+  <AJO_ReadingTable_Frame.description>一个高度合适的专为阅读而设计的小桌子，当放置在书架附近时，殖民者可以阅读。</AJO_ReadingTable_Frame.description>
+
+
+  <!-- Production -->
+
+  <AJO_WritingTable.label>写字台</AJO_WritingTable.label>
+  <AJO_WritingTable.description>写作用的简单桌子。</AJO_WritingTable.description>
+  <AJO_WritingTable_Blueprint.label>写字台 (蓝图)</AJO_WritingTable_Blueprint.label>
+  <AJO_WritingTable_Blueprint_Install.label>写字台 (蓝图)</AJO_WritingTable_Blueprint_Install.label>
+  <AJO_WritingTable_Frame.label>写字台 (建造中)</AJO_WritingTable_Frame.label>
+  <AJO_WritingTable_Frame.description>写作用的简单桌子。</AJO_WritingTable_Frame.description>
+
+
+</LanguageData>

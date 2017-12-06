@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.0>art_description_root->這件[painting] [depicts][image]的景象</AJO_ArtDescription_Painting.rulePack.rulesStrings.0>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.1>art_description_root->這件[painting] 從[image]中抽象出了[depiction]</AJO_ArtDescription_Painting.rulePack.rulesStrings.1>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.2>art_description_root->在這件[painting] 中[image]表達了[depiction]</AJO_ArtDescription_Painting.rulePack.rulesStrings.2>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.3>painting->繪畫</AJO_ArtDescription_Painting.rulePack.rulesStrings.3>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.4>painting->作品</AJO_ArtDescription_Painting.rulePack.rulesStrings.4>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.5>painting->畫片</AJO_ArtDescription_Painting.rulePack.rulesStrings.5>
+  <AJO_ArtDescription_Painting.rulePack.rulesStrings.6>painting->畫布</AJO_ArtDescription_Painting.rulePack.rulesStrings.6>
+
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.0>art_description_root->這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.0>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.1>art_description_root->這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.1>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.2>art_description_root->這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.2>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.3>art_description_root->這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.3>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.4>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.4>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.5>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.5>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.6>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.6>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.7>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.7>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.8>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.8>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.9>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.9>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.10>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.10>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.11>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.11>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.12>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.12>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.13>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.13>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.14>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.14>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.15>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.15>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.16>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.16>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.17>這本[book]講述了一個 [bookMood]的故事，它的情節是[bookImage]</AJO_ArtDescription_Book.rulePack.rulesStrings.17>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.18>這本[book]講述了一個 [bookMood]的故事，它的情節是[image4w]</AJO_ArtDescription_Book.rulePack.rulesStrings.18>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.19>book->書</AJO_ArtDescription_Book.rulePack.rulesStrings.19>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.20>book->小冊子</AJO_ArtDescription_Book.rulePack.rulesStrings.20>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.21>book->小說</AJO_ArtDescription_Book.rulePack.rulesStrings.21>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.22>bookMood->有趣</AJO_ArtDescription_Book.rulePack.rulesStrings.22>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.23>bookMood->新奇</AJO_ArtDescription_Book.rulePack.rulesStrings.23>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.24>bookMood->無聊</AJO_ArtDescription_Book.rulePack.rulesStrings.24>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.25>bookMood->扣人心弦</AJO_ArtDescription_Book.rulePack.rulesStrings.25>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.26>bookMood->樂觀</AJO_ArtDescription_Book.rulePack.rulesStrings.26>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.27>bookMood->恐怖</AJO_ArtDescription_Book.rulePack.rulesStrings.27>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.28>bookMood->搞笑</AJO_ArtDescription_Book.rulePack.rulesStrings.28>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.29>bookMood->勝利者</AJO_ArtDescription_Book.rulePack.rulesStrings.29>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.30>bookMood->悲傷</AJO_ArtDescription_Book.rulePack.rulesStrings.30>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.31>bookMood->令人沮喪</AJO_ArtDescription_Book.rulePack.rulesStrings.31>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.32>bookMood->令人驕傲</AJO_ArtDescription_Book.rulePack.rulesStrings.32>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.33>bookMood->令人尷尬</AJO_ArtDescription_Book.rulePack.rulesStrings.33>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.34>bookMood->充滿愛意</AJO_ArtDescription_Book.rulePack.rulesStrings.34>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.35>bookMood->無聊</AJO_ArtDescription_Book.rulePack.rulesStrings.35>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.36>bookMood->觸目驚心</AJO_ArtDescription_Book.rulePack.rulesStrings.36>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.37>bookMood->一顆賽艇</AJO_ArtDescription_Book.rulePack.rulesStrings.37>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.38>bookMood->令人放鬆</AJO_ArtDescription_Book.rulePack.rulesStrings.38>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.39>bookMood->異乎尋常</AJO_ArtDescription_Book.rulePack.rulesStrings.39>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.40>bookImage->一個[outlander]被一群[outlander]所包圍。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.40>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.41>bookImage->一個[outlander]正在與一群[quantity_adjphrase]的[outlander]玩[game]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.41>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.42>bookImage->一個[outlander][subject_desc] 拿著一把[weapon]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.42>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.43>bookImage->一個孤獨的[outlander]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.43>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.44>bookImage->一個[adjective]的[outlander] 穿著一件[apparel]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.44>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.45>bookImage->一個空的[apparel][subject_desc]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.45>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.46>bookImage->一個[adjective]的[terrainfeature]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.46>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.47>bookImage->[animal]在玩[game]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.47>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.48>bookImage->一隻[animal]穿著一件[apparel] [subject_desc]。[part2]</AJO_ArtDescription_Book.rulePack.rulesStrings.48>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.49>image4w->一個來自21世紀的[subject_desc] 正在玩rimworld。這個故事是[bookstyle_adj]</AJO_ArtDescription_Book.rulePack.rulesStrings.49>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.50>part2->[bookextra_sentence] [bookextra_sentence]</AJO_ArtDescription_Book.rulePack.rulesStrings.50>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.51>part2->[bookextra_sentence] [Bstyle_sentence]</AJO_ArtDescription_Book.rulePack.rulesStrings.51>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.52>part2->這個故事是[bookstyle_adj]</AJO_ArtDescription_Book.rulePack.rulesStrings.52>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.53>part2->[Bstyle_sentence]</AJO_ArtDescription_Book.rulePack.rulesStrings.53>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.54>subject_desc->■過天空</AJO_ArtDescription_Book.rulePack.rulesStrings.54>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.55>subject_desc->懸浮在空中</AJO_ArtDescription_Book.rulePack.rulesStrings.55>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.56>subject_desc->站在地上</AJO_ArtDescription_Book.rulePack.rulesStrings.56>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.57>subject_desc->向左移動</AJO_ArtDescription_Book.rulePack.rulesStrings.57>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.58>subject_desc->向右移動</AJO_ArtDescription_Book.rulePack.rulesStrings.58>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.59>subject_desc->站在一張桌子上</AJO_ArtDescription_Book.rulePack.rulesStrings.59>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.60>subject_desc->透過玻璃看見</AJO_ArtDescription_Book.rulePack.rulesStrings.60>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.61>subject_desc->輪廓中表達的</AJO_ArtDescription_Book.rulePack.rulesStrings.61>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.62>subject_desc->騎在一隻[animal]上穿著一件[apparel]</AJO_ArtDescription_Book.rulePack.rulesStrings.62>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.63>subject_desc->看著[adjective]</AJO_ArtDescription_Book.rulePack.rulesStrings.63>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.64>bookextra_sentence->圖畫旁是一群[quantity_adjphrase]的[animal]。</AJO_ArtDescription_Book.rulePack.rulesStrings.64>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.65>bookextra_sentence->那是[community][Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.65>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.66>bookextra_sentence->那是[terrainfeature][Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.66>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.67>bookextra_sentence->那是[animal][Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.67>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.68>bookextra_sentence->這個主題在[terrainfeature]之前。</AJO_ArtDescription_Book.rulePack.rulesStrings.68>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.69>bookextra_sentence->這個故事發生在[community]之中。</AJO_ArtDescription_Book.rulePack.rulesStrings.69>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.70>bookextra_sentence->這個故事似乎發生在[community]之外。</AJO_ArtDescription_Book.rulePack.rulesStrings.70>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.71>bookextra_sentence->圖案的下半部分由[terrainfeature]主導。</AJO_ArtDescription_Book.rulePack.rulesStrings.71>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.72>bookextra_sentence->一個[outlander] [idle_verb_progressive] [Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.72>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.73>bookextra_sentence->一隻[animal] [idle_verb_progressive] [Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.73>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.74>bookextra_sentence->如果你眯起眼睛，封面圖像的[composition]揭示了[animal]的輪廓。</AJO_ArtDescription_Book.rulePack.rulesStrings.74>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.75>bookextra_sentence->bookextra_sentence->整個封面形象是由一群[animal]精心組合而成的。</AJO_ArtDescription_Book.rulePack.rulesStrings.75>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.76>bookextra_sentence->一個[outlander]微笑著俯視著一切。</AJO_ArtDescription_Book.rulePack.rulesStrings.76>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.77>bookextra_sentence->一隻已死亡[animal]的[idle_verb_progressive][Bside_position]。</AJO_ArtDescription_Book.rulePack.rulesStrings.77>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.78>bookextra_sentence->[concept][idle_verb_progressive][Bside_position]的個性化描述。</AJO_ArtDescription_Book.rulePack.rulesStrings.78>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.79>bookextra_sentence->一隻[animal] [Bside_position]似乎象徵著[concept].</AJO_ArtDescription_Book.rulePack.rulesStrings.79>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.80>bookextra_sentence->一套[quantity_adjphrase]的一群[outlander] [idle_verb_progressive] [Bside_position].</AJO_ArtDescription_Book.rulePack.rulesStrings.80>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.81>bookextra_sentence->這個故事發生在[terrainfeature]附近建成的[community]。</AJO_ArtDescription_Book.rulePack.rulesStrings.81>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.82>bookstyle_adj->非原創的</AJO_ArtDescription_Book.rulePack.rulesStrings.82>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.83>bookstyle_adj->簡單的</AJO_ArtDescription_Book.rulePack.rulesStrings.83>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.84>bookstyle_adj->覆雜而現實的</AJO_ArtDescription_Book.rulePack.rulesStrings.84>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.85>bookstyle_adj->超現實主義的</AJO_ArtDescription_Book.rulePack.rulesStrings.85>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.86>bookstyle_adj->古典的</AJO_ArtDescription_Book.rulePack.rulesStrings.86>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.87>bookstyle_adj->現代的</AJO_ArtDescription_Book.rulePack.rulesStrings.87>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.88>bookstyle_adj->象徵性的</AJO_ArtDescription_Book.rulePack.rulesStrings.88>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.89>bookstyle_adj->業餘但有吸引力的</AJO_ArtDescription_Book.rulePack.rulesStrings.89>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.90>bookstyle_adj->注重細節的</AJO_ArtDescription_Book.rulePack.rulesStrings.90>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.91>bookstyle_adj->寫意的</AJO_ArtDescription_Book.rulePack.rulesStrings.91>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.92>bookstyle_adj->表現主義的</AJO_ArtDescription_Book.rulePack.rulesStrings.92>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.93>bookstyle_adj->寫實的</AJO_ArtDescription_Book.rulePack.rulesStrings.93>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.94>bookstyle_adj->達達主義的</AJO_ArtDescription_Book.rulePack.rulesStrings.94>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.95>bookstyle_adj->通俗易懂的</AJO_ArtDescription_Book.rulePack.rulesStrings.95>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.96>bookstyle_adj->有寓意的</AJO_ArtDescription_Book.rulePack.rulesStrings.96>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.97>bookstyle_adj->抽象的</AJO_ArtDescription_Book.rulePack.rulesStrings.97>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.98>bookstyle_adj->新古典主義的</AJO_ArtDescription_Book.rulePack.rulesStrings.98>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.99>bookstyle_adj->浪漫的</AJO_ArtDescription_Book.rulePack.rulesStrings.99>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.100>bookstyle_adj->淫蕩的</AJO_ArtDescription_Book.rulePack.rulesStrings.100>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.101>bookstyle_adj->聲色豐滿的</AJO_ArtDescription_Book.rulePack.rulesStrings.101>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.102>bookstyle_adj->深切的</AJO_ArtDescription_Book.rulePack.rulesStrings.102>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.103>bookstyle_adj->戲劇性的</AJO_ArtDescription_Book.rulePack.rulesStrings.103>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.104>bookstyle_adj->充滿喜劇色彩的</AJO_ArtDescription_Book.rulePack.rulesStrings.104>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.105>bookstyle_adj->諷刺的</AJO_ArtDescription_Book.rulePack.rulesStrings.105>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.106>bookstyle_adj->悲慘的</AJO_ArtDescription_Book.rulePack.rulesStrings.106>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.107>bookstyle_adj->可怕的</AJO_ArtDescription_Book.rulePack.rulesStrings.107>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.108>bookstyle_adj->慷慨激昂的</AJO_ArtDescription_Book.rulePack.rulesStrings.108>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.109>bookstyle_adj->健談的</AJO_ArtDescription_Book.rulePack.rulesStrings.109>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.110>bookstyle_adj->乾淨的</AJO_ArtDescription_Book.rulePack.rulesStrings.110>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.111>bookstyle_adj->充滿對話的</AJO_ArtDescription_Book.rulePack.rulesStrings.111>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.112>bookstyle_adj->適合誦讀的</AJO_ArtDescription_Book.rulePack.rulesStrings.112>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.113>bookstyle_adj->破碎的</AJO_ArtDescription_Book.rulePack.rulesStrings.113>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.114>bookstyle_adj->離題的</AJO_ArtDescription_Book.rulePack.rulesStrings.114>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.115>bookstyle_adj->省略的</AJO_ArtDescription_Book.rulePack.rulesStrings.115>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.116>bookstyle_adj->雄辯的</AJO_ArtDescription_Book.rulePack.rulesStrings.116>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.117>bookstyle_adj->顯著的</AJO_ArtDescription_Book.rulePack.rulesStrings.117>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.118>bookstyle_adj->發人深省的</AJO_ArtDescription_Book.rulePack.rulesStrings.118>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.119>bookstyle_adj->書信體的</AJO_ArtDescription_Book.rulePack.rulesStrings.119>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.120>bookstyle_adj->委婉的</AJO_ArtDescription_Book.rulePack.rulesStrings.120>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.121>bookstyle_adj->符合語言習慣的</AJO_ArtDescription_Book.rulePack.rulesStrings.121>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.122>bookstyle_adj->不善辭令的</AJO_ArtDescription_Book.rulePack.rulesStrings.122>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.123>bookstyle_adj->支離破碎的</AJO_ArtDescription_Book.rulePack.rulesStrings.123>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.124>bookstyle_adj->附加說明的</AJO_ArtDescription_Book.rulePack.rulesStrings.124>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.125>bookstyle_adj->風景如畫的</AJO_ArtDescription_Book.rulePack.rulesStrings.125>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.126>bookstyle_adj->有詩意的</AJO_ArtDescription_Book.rulePack.rulesStrings.126>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.127>bookstyle_adj->雜亂無章的</AJO_ArtDescription_Book.rulePack.rulesStrings.127>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.128>bookstyle_adj->辭藻華麗的</AJO_ArtDescription_Book.rulePack.rulesStrings.128>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.129>bookstyle_adj->莎士比亞風格的</AJO_ArtDescription_Book.rulePack.rulesStrings.129>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.130>bookstyle_adj->曖昧的</AJO_ArtDescription_Book.rulePack.rulesStrings.130>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.131>bookstyle_adj->冗長的</AJO_ArtDescription_Book.rulePack.rulesStrings.131>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.132>Bstyle_sentence->封面圖片似乎表示[concept]的概念。</AJO_ArtDescription_Book.rulePack.rulesStrings.132>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.133>Bstyle_sentence->這個作品注入了[concept]的概念，擁有[bookstyle_adj]風格。</AJO_ArtDescription_Book.rulePack.rulesStrings.133>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.134>Bstyle_sentence->這個作品提出了[concept]的概念。</AJO_ArtDescription_Book.rulePack.rulesStrings.134>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.135>Bstyle_sentence->這個作品寫的是一個[bookstyle_adj]風格。</AJO_ArtDescription_Book.rulePack.rulesStrings.135>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.136>Bstyle_sentence->這個中心情節[bookstyle_adj]風格與[bookstyle_adj]描寫風格很相配。</AJO_ArtDescription_Book.rulePack.rulesStrings.136>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.137>Bstyle_sentence->封面圖像中幾乎每一個形狀都是圍繞著[composition]。</AJO_ArtDescription_Book.rulePack.rulesStrings.137>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.138>Bstyle_sentence->這個作品和[composition]相配有一種[bookstyle_adj]感覺。</AJO_ArtDescription_Book.rulePack.rulesStrings.138>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.139>Bstyle_sentence->這個的整體構圖是[composition]。</AJO_ArtDescription_Book.rulePack.rulesStrings.139>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.140>Bstyle_sentence->這個的風格是[bookstyle_adj]且[bookstyle_adj]。</AJO_ArtDescription_Book.rulePack.rulesStrings.140>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.141>Bstyle_sentence->封面形象完全缺乏[concept]和[concept]。</AJO_ArtDescription_Book.rulePack.rulesStrings.141>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.142>Bstyle_sentence->封面形象以某種方式表達了[concept]和[concept]。</AJO_ArtDescription_Book.rulePack.rulesStrings.142>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.143>Bstyle_sentence->封面圖像的[composition]結構似乎與這本書[bookstyle_adj]風格衝突。</AJO_ArtDescription_Book.rulePack.rulesStrings.143>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.144>Bside_position->在一旁</AJO_ArtDescription_Book.rulePack.rulesStrings.144>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.145>Bside_position->在畫面邊緣</AJO_ArtDescription_Book.rulePack.rulesStrings.145>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.146>Bside_position->在背景中</AJO_ArtDescription_Book.rulePack.rulesStrings.146>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.147>Bside_position->在遠處</AJO_ArtDescription_Book.rulePack.rulesStrings.147>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.148>Bside_position->在畫面下方</AJO_ArtDescription_Book.rulePack.rulesStrings.148>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.149>Bside_position->在畫面上方</AJO_ArtDescription_Book.rulePack.rulesStrings.149>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.150>Bside_position->在主題之下</AJO_ArtDescription_Book.rulePack.rulesStrings.150>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.151>Bside_position->在焦點之外</AJO_ArtDescription_Book.rulePack.rulesStrings.151>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.152>Bside_position->在畫面左半部分</AJO_ArtDescription_Book.rulePack.rulesStrings.152>
+  <AJO_ArtDescription_Book.rulePack.rulesStrings.153>Bside_position->在畫面右半部分</AJO_ArtDescription_Book.rulePack.rulesStrings.153>
+
+
+</LanguageData>

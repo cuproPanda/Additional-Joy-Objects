@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Inheritors -->
+
+  <!--<ChanPart_1x1_Support.label>小吊燈</ChanPart_1x1_Support.label>-->
+  <!--<ChanPart_1x1_Support.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_1x1_Support.description>-->
+  <!--<ChanPart_1x1_Support_Blueprint.label>小吊燈 (藍圖)</ChanPart_1x1_Support_Blueprint.label>-->
+  <!--<ChanPart_1x1_Support_Blueprint_Install.label>小吊燈 (藍圖)</ChanPart_1x1_Support_Blueprint_Install.label>-->
+  <!--<ChanPart_1x1_Support_Frame.label>小吊燈(建造中)</ChanPart_1x1_Support_Frame.label>-->
+  <!--<ChanPart_1x1_Support_Frame.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_1x1_Support_Frame.description>-->
+
+  <!--<ChanPart_2x2_Support.label>吊燈</ChanPart_2x2_Support.label>-->
+  <!--<ChanPart_2x2_Support.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_2x2_Support.description>-->
+  <!--<ChanPart_2x2_Support_Blueprint.label>吊燈 (藍圖)</ChanPart_2x2_Support_Blueprint.label>-->
+  <!--<ChanPart_2x2_Support_Blueprint_Install.label>吊燈 (藍圖)</ChanPart_2x2_Support_Blueprint_Install.label>-->
+  <!--<ChanPart_2x2_Support_Frame.label>吊燈(建造中)</ChanPart_2x2_Support_Frame.label>-->
+  <!--<ChanPart_2x2_Support_Frame.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_2x2_Support_Frame.description>-->
+
+  <!--<ChanPart_3x3_Support.label>大吊燈</ChanPart_3x3_Support.label>-->
+  <!--<ChanPart_3x3_Support.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_3x3_Support.description>-->
+  <!--<ChanPart_3x3_Support_Blueprint.label>大吊燈 (藍圖)</ChanPart_3x3_Support_Blueprint.label>-->
+  <!--<ChanPart_3x3_Support_Blueprint_Install.label>大吊燈 (藍圖)</ChanPart_3x3_Support_Blueprint_Install.label>-->
+  <!--<ChanPart_3x3_Support_Frame.label>大吊燈(建造中)</ChanPart_3x3_Support_Frame.label>-->
+  <!--<ChanPart_3x3_Support_Frame.description>一個簡單的吊燈，下面有一個玻璃燈盞，可以從掛在天花板上。</ChanPart_3x3_Support_Frame.description>-->
+
+
+  <!-- Bowl -->
+
+  <!--<ChanPart_1x1_Bowl.label>燈盞</ChanPart_1x1_Bowl.label>-->
+  <!--<ChanPart_1x1_Bowl.description>燈盞</ChanPart_1x1_Bowl.description>-->
+  <!--<ChanPart_1x1_Bowl_Blueprint_Install.label>燈盞 (藍圖)</ChanPart_1x1_Bowl_Blueprint_Install.label>-->
+
+  <!--<ChanPart_2x2_Bowl.label>燈盞</ChanPart_2x2_Bowl.label>-->
+  <!--<ChanPart_2x2_Bowl.description>燈盞</ChanPart_2x2_Bowl.description>-->
+  <!--<ChanPart_2x2_Bowl_Blueprint_Install.label>燈盞 (藍圖)</ChanPart_2x2_Bowl_Blueprint_Install.label>-->
+
+  <!--<ChanPart_3x3_Bowl.label>燈盞</ChanPart_3x3_Bowl.label>-->
+  <!--<ChanPart_3x3_Bowl.description>燈盞</ChanPart_3x3_Bowl.description>-->
+  <!--<ChanPart_3x3_Bowl_Blueprint_Install.label>燈盞 (藍圖)</ChanPart_3x3_Bowl_Blueprint_Install.label>-->
+
+
+  <!-- Joy Tables -->
+
+  <!--<AJO_CardTable.label>牌桌</AJO_CardTable.label>-->
+  <!--<AJO_CardTable.description>一張特別為玩各種紙牌遊戲而製作的桌子，適合1-4個玩家。</AJO_CardTable.description>-->
+  <!--<AJO_CardTable_Blueprint.label>牌桌 (藍圖)</AJO_CardTable_Blueprint.label>-->
+  <!--<AJO_CardTable_Blueprint_Install.label>牌桌 (藍圖)</AJO_CardTable_Blueprint_Install.label>-->
+  <!--<AJO_CardTable_Frame.label>牌桌(建造中)</AJO_CardTable_Frame.label>-->
+  <!--<AJO_CardTable_Frame.description>一張特別為玩各種紙牌遊戲而製作的桌子，適合1-4個玩家。</AJO_CardTable_Frame.description>-->
+
+  <!--<AJO_RimColony.label>邊緣桌游</AJO_RimColony.label>-->
+  <!--<AJO_RimColony.description>邊緣桌游是關於在邊緣世界建造和維持一個殖民地的遊戲，一些漫游的交易者帶來了少許扭曲的幽默感。</AJO_RimColony.description>-->
+  <!--<AJO_RimColony_Blueprint_Install.label>邊緣桌游 (藍圖)</AJO_RimColony_Blueprint_Install.label>-->
+
+
+  <!-- Furniture -->
+
+  <!--<AJO_Dartboard.label>飛鏢</AJO_Dartboard.label>-->
+  <!--<AJO_Dartboard.description>經常出現在酒吧小玩意，玩家從遠處扔飛鏢，試圖讓他們命中板上的某些區域，可以進行放鬆，甚至訓練手眼協調。</AJO_Dartboard.description>-->
+  <!--<AJO_Dartboard_Blueprint.label>飛鏢 (藍圖)</AJO_Dartboard_Blueprint.label>-->
+  <!--<AJO_Dartboard_Blueprint_Install.label>飛鏢 (藍圖)</AJO_Dartboard_Blueprint_Install.label>-->
+  <!--<AJO_Dartboard_Frame.label>飛鏢(建造中)</AJO_Dartboard_Frame.label>-->
+  <!--<AJO_Dartboard_Frame.description>經常出現在酒吧小玩意，玩家從遠處扔飛鏢，試圖讓他們命中板上的某些區域，可以進行放鬆，甚至訓練手眼協調。</AJO_Dartboard_Frame.description>-->
+
+
+</LanguageData>

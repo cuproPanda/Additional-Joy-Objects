@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_SpectagoTea.label>斯佩蒂戈茶</AJO_SpectagoTea.label>
+  <AJO_SpectagoTea.description>精心製作的茶葉與熱水的藝術品，愉快地享用吧。</AJO_SpectagoTea.description>
+  <AJO_SpectagoTea.ingestible.ingestCommandString>喝{0}</AJO_SpectagoTea.ingestible.ingestCommandString>
+  <AJO_SpectagoTea.ingestible.ingestReportString>正在喝{0}.</AJO_SpectagoTea.ingestible.ingestReportString>
+
+
+</LanguageData>

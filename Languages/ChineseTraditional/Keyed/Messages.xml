@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_ModName>多樣化娛樂</AJO_ModName>
+
+  <!-- Settings -->
+  <AJO_Label_ArcadeJoyBool>玩街機可學習技能</AJO_Label_ArcadeJoyBool>
+  <AJO_Label_ArcadeJoyGain>玩街機時經驗獲取乘數： &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</AJO_Label_ArcadeJoyGain>
+  <AJO_ToolTip_ArcadeJoyBool>玩街機時是否可以增漲特定技能經驗值。</AJO_ToolTip_ArcadeJoyBool>
+  <AJO_ToolTip_ArcadeJoyGain>玩街機時獲得特定技能經驗值的速度。</AJO_ToolTip_ArcadeJoyGain>
+
+  <!-- Placement Restrictors -->
+  <AJO_MustBePlacedOnWall>{0}必須靠墻而建。</AJO_MustBePlacedOnWall>
+
+  <!-- Chandelier -->
+  <AJO_ObjectTooTall>{0}太高了，不能在{1}上放置</AJO_ObjectTooTall>
+  <AJO_NeedsRoof>{0}需要放置於屋頂下</AJO_NeedsRoof>
+
+  <!-- Book Reading Job -->
+  <AJO_Reading>正在閱讀</AJO_Reading>
+  <AJO_Choosing>正在挑選圖書</AJO_Choosing>
+
+  <!-- Arcade -->
+  <AJO_CommandArcadeSetOwnerDesc>指定這個街機屬於特定的殖民者.如果所有者被指定，只有被列為所有者的殖民者可以使用這個街機。</AJO_CommandArcadeSetOwnerDesc>
+
+</LanguageData>

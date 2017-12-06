@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PerodyneHigh.label>佩诺蒂恩</PerodyneHigh.label>
+  <PerodyneHigh.stages.0.label>初始-隐藏</PerodyneHigh.stages.0.label>
+  <PerodyneHigh.stages.1.label>舒爽</PerodyneHigh.stages.1.label>
+  <PerodyneHigh.stages.2.label>胡思乱想</PerodyneHigh.stages.2.label>
+  <PerodyneHigh.stages.3.label>麻痹</PerodyneHigh.stages.3.label>
+  <PerodyneHigh.stages.4.label>飘飘欲仙</PerodyneHigh.stages.4.label>
+  <PerodyneHigh.stages.5.label>疲惫不堪</PerodyneHigh.stages.5.label>
+
+
+  <!-- Perodyne addiction -->
+
+  <PerodyneTolerance.label>佩诺蒂恩耐受</PerodyneTolerance.label>
+  <PerodyneTolerance.stages.0.label>small</PerodyneTolerance.stages.0.label>
+  <PerodyneTolerance.stages.1.label>轻微</PerodyneTolerance.stages.1.label>
+  <PerodyneTolerance.stages.2.label>加重</PerodyneTolerance.stages.2.label>
+  <PerodyneTolerance.stages.3.label>严重</PerodyneTolerance.stages.3.label>
+
+  <PerodyneAddiction.label>佩诺蒂恩依赖</PerodyneAddiction.label>
+  <PerodyneAddiction.stages.1.label>消退</PerodyneAddiction.stages.1.label>
+
+
+</LanguageData>

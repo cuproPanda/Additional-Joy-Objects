@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Joy Tables -->
+
+  <AJO_RimColony.label>边缘桌游</AJO_RimColony.label>
+  <AJO_RimColony.description>边缘桌游是关于在边缘世界建造和维持一个殖民地的游戏，一些漫游的交易者带来了少许扭曲的幽默感。</AJO_RimColony.description>
+  <AJO_RimColony_Blueprint_Install.label>边缘桌游 (蓝图)</AJO_RimColony_Blueprint_Install.label>
+
+
+  <!-- Furniture -->
+
+  <AJO_Dartboard.label>飞镖</AJO_Dartboard.label>
+  <AJO_Dartboard.description>经常出现在酒吧小玩意，玩家从远处扔飞镖，试图让他们命中板上的某些区域，可以进行放松，甚至训练手眼协调。</AJO_Dartboard.description>
+  <AJO_Dartboard_Blueprint.label>飞镖 (蓝图)</AJO_Dartboard_Blueprint.label>
+  <AJO_Dartboard_Blueprint_Install.label>飞镖 (蓝图)</AJO_Dartboard_Blueprint_Install.label>
+  <AJO_Dartboard_Frame.label>飞镖 (建造中)</AJO_Dartboard_Frame.label>
+  <AJO_Dartboard_Frame.description>经常出现在酒吧小玩意，玩家从远处扔飞镖，试图让他们命中板上的某些区域，可以进行放松，甚至训练手眼协调。</AJO_Dartboard_Frame.description>
+
+
+</LanguageData>

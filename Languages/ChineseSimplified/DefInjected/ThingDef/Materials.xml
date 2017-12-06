@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_RainbowPetals.label>彩虹花瓣</AJO_RainbowPetals.label>
+  <AJO_RainbowPetals.description>一小束多彩花瓣。</AJO_RainbowPetals.description>
+
+  <AJO_PileOfBooks.label>一堆书</AJO_PileOfBooks.label>
+  <AJO_PileOfBooks.description>随机分类的书籍。</AJO_PileOfBooks.description>
+
+  <AJO_PaintingSupplies.label>绘画套件</AJO_PaintingSupplies.label>
+  <AJO_PaintingSupplies.description>各种各样的画笔和油漆，适合任何艺术家。</AJO_PaintingSupplies.description>
+  <AJO_PaintingSupplies.stuffProps.stuffAdjective>绘画套件</AJO_PaintingSupplies.stuffProps.stuffAdjective>
+
+  <AJO_Paper.label>纸</AJO_Paper.label>
+  <AJO_Paper.description>平坦流畅，用于写作。</AJO_Paper.description>
+
+  <AJO_BlankBook.label>空白的书</AJO_BlankBook.label>
+  <AJO_BlankBook.description>一本用于写作的书。</AJO_BlankBook.description>
+  <AJO_BlankBook.stuffProps.stuffAdjective>空白的书</AJO_BlankBook.stuffProps.stuffAdjective>
+
+  <AJO_WrittenBook.label>写满字的书</AJO_WrittenBook.label>
+  <AJO_WrittenBook.description>一本由殖民者写的书。</AJO_WrittenBook.description>
+
+
+</LanguageData>

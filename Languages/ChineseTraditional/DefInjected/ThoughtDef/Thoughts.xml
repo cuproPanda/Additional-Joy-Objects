@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_SpectagoTea.stages.0.label>initial-hidden</AJO_SpectagoTea.stages.0.label>
+  <AJO_SpectagoTea.stages.0.description>Should not appear.</AJO_SpectagoTea.stages.0.description>
+  <AJO_SpectagoTea.stages.1.label>warm</AJO_SpectagoTea.stages.1.label>
+  <AJO_SpectagoTea.stages.1.description>It's nice to have a warm cuppa.</AJO_SpectagoTea.stages.1.description>
+  <AJO_SpectagoTea.stages.2.label>relaxed</AJO_SpectagoTea.stages.2.label>
+  <AJO_SpectagoTea.stages.2.description>I feel a bit more relaxed after that drink. That's good.</AJO_SpectagoTea.stages.2.description>
+
+  <AJO_ReadInImpressiveLibrary.stages.3.label>decent library</AJO_ReadInImpressiveLibrary.stages.3.label>
+  <AJO_ReadInImpressiveLibrary.stages.3.description>I read a book in a decent library.</AJO_ReadInImpressiveLibrary.stages.3.description>
+  <AJO_ReadInImpressiveLibrary.stages.4.label>slightly impressive library</AJO_ReadInImpressiveLibrary.stages.4.label>
+  <AJO_ReadInImpressiveLibrary.stages.4.description>I read a book in a nice library.</AJO_ReadInImpressiveLibrary.stages.4.description>
+  <AJO_ReadInImpressiveLibrary.stages.5.label>somewhat impressive library</AJO_ReadInImpressiveLibrary.stages.5.label>
+  <AJO_ReadInImpressiveLibrary.stages.5.description>I had a great time reading in an impressive library.</AJO_ReadInImpressiveLibrary.stages.5.description>
+  <AJO_ReadInImpressiveLibrary.stages.6.label>very impressive library</AJO_ReadInImpressiveLibrary.stages.6.label>
+  <AJO_ReadInImpressiveLibrary.stages.6.description>I had a great time reading in a very impressive library.</AJO_ReadInImpressiveLibrary.stages.6.description>
+  <AJO_ReadInImpressiveLibrary.stages.7.label>extremely impressive library</AJO_ReadInImpressiveLibrary.stages.7.label>
+  <AJO_ReadInImpressiveLibrary.stages.7.description>I had a great time reading in an extremely impressive library. I could stay there forever.</AJO_ReadInImpressiveLibrary.stages.7.description>
+  <AJO_ReadInImpressiveLibrary.stages.8.label>unbelievably impressive library</AJO_ReadInImpressiveLibrary.stages.8.label>
+  <AJO_ReadInImpressiveLibrary.stages.8.description>I had a great time reading in an unbelievably impressive library. I could stay there forever.</AJO_ReadInImpressiveLibrary.stages.8.description>
+  <AJO_ReadInImpressiveLibrary.stages.9.label>wondrously impressive library</AJO_ReadInImpressiveLibrary.stages.9.label>
+  <AJO_ReadInImpressiveLibrary.stages.9.description>I had a great time reading in a wonderful library. I could stay there forever.</AJO_ReadInImpressiveLibrary.stages.9.description>
+
+
+</LanguageData>

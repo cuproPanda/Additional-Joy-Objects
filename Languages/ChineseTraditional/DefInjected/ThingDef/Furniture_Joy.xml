@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Joy Tables -->
+
+  <AJO_RimColony.label>邊緣桌游</AJO_RimColony.label>
+  <AJO_RimColony.description>邊緣桌游是關於在邊緣世界建造和維持一個殖民地的遊戲，一些漫游的交易者帶來了少許扭曲的幽默感。</AJO_RimColony.description>
+  <AJO_RimColony_Blueprint_Install.label>邊緣桌游 (藍圖)</AJO_RimColony_Blueprint_Install.label>
+
+
+  <!-- Furniture -->
+
+  <AJO_Dartboard.label>飛鏢</AJO_Dartboard.label>
+  <AJO_Dartboard.description>經常出現在酒吧小玩意，玩家從遠處扔飛鏢，試圖讓他們命中板上的某些區域，可以進行放鬆，甚至訓練手眼協調。</AJO_Dartboard.description>
+  <AJO_Dartboard_Blueprint.label>飛鏢 (藍圖)</AJO_Dartboard_Blueprint.label>
+  <AJO_Dartboard_Blueprint_Install.label>飛鏢 (藍圖)</AJO_Dartboard_Blueprint_Install.label>
+  <AJO_Dartboard_Frame.label>飛鏢(建造中)</AJO_Dartboard_Frame.label>
+  <AJO_Dartboard_Frame.description>經常出現在酒吧小玩意，玩家從遠處扔飛鏢，試圖讓他們命中板上的某些區域，可以進行放鬆，甚至訓練手眼協調。</AJO_Dartboard_Frame.description>
+
+
+</LanguageData>

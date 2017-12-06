@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_MakePainting.label>畫一幅畫</AJO_MakePainting.label>
+  <AJO_MakePainting.description>畫一幅畫。</AJO_MakePainting.description>
+  <AJO_MakePainting.jobString>繪畫中。</AJO_MakePainting.jobString>
+
+  <AJO_CookPaint.label>製作顏料套裝</AJO_CookPaint.label>
+  <AJO_CookPaint.description>將煮沸植物花瓣形成的膠狀物與其他色素混合而成。</AJO_CookPaint.description>
+  <AJO_CookPaint.jobString>正在製作顏料套裝。</AJO_CookPaint.jobString>
+
+  <AJO_CookTemperaPaint.label>製作溫和顏料套裝</AJO_CookTemperaPaint.label>
+  <AJO_CookTemperaPaint.description>將煮沸植物花瓣形成的膠狀物與其他色素和雞蛋混合而成。</AJO_CookTemperaPaint.description>
+  <AJO_CookTemperaPaint.jobString>正在製作顏料套裝。</AJO_CookTemperaPaint.jobString>
+
+  <AJO_BrewSpectagoTea.label>泡制斯佩蒂戈茶</AJO_BrewSpectagoTea.label>
+  <AJO_BrewSpectagoTea.description>用滾燙的熱水泡開斯佩蒂戈茶。</AJO_BrewSpectagoTea.description>
+  <AJO_BrewSpectagoTea.jobString>正在泡斯佩蒂戈茶。</AJO_BrewSpectagoTea.jobString>
+
+  <AJO_BrewSpectagoTeaBulk.label>批量泡制斯佩蒂戈茶</AJO_BrewSpectagoTeaBulk.label>
+  <AJO_BrewSpectagoTeaBulk.description>用滾燙的熱水泡開斯佩蒂戈茶。</AJO_BrewSpectagoTeaBulk.description>
+  <AJO_BrewSpectagoTeaBulk.jobString>正在泡斯佩蒂戈茶。</AJO_BrewSpectagoTeaBulk.jobString>
+
+  <AJO_BrewPaper.label>造紙</AJO_BrewPaper.label>
+  <AJO_BrewPaper.description>將木材或棉花製成纖維混合物，然後將其乾燥成片。</AJO_BrewPaper.description>
+  <AJO_BrewPaper.jobString>正在造紙。</AJO_BrewPaper.jobString>
+
+  <AJO_BindBook.label>裝訂書本</AJO_BindBook.label>
+  <AJO_BindBook.description>將紙張裝訂成冊。</AJO_BindBook.description>
+  <AJO_BindBook.jobString>正在裝訂書本。</AJO_BindBook.jobString>
+
+  <AJO_WriteBook.label>寫書</AJO_WriteBook.label>
+  <AJO_WriteBook.description>寫一部短篇小說。</AJO_WriteBook.description>
+  <AJO_WriteBook.jobString>正在寫作。</AJO_WriteBook.jobString>
+
+  <AJO_CollateBook.label>校整書籍</AJO_CollateBook.label>
+  <AJO_CollateBook.description>將書籍校對、整理，便於存放。</AJO_CollateBook.description>
+  <AJO_CollateBook.jobString>正在校整書籍。</AJO_CollateBook.jobString>
+
+
+</LanguageData>

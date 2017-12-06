@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_SpectagoTea.stages.0.label>初始-隐藏</AJO_SpectagoTea.stages.0.label>
+  <AJO_SpectagoTea.stages.0.description>不应该出现。</AJO_SpectagoTea.stages.0.description>
+  <AJO_SpectagoTea.stages.1.label>暖身</AJO_SpectagoTea.stages.1.label>
+  <AJO_SpectagoTea.stages.1.description>一杯热茶真是舒服。</AJO_SpectagoTea.stages.1.description>
+  <AJO_SpectagoTea.stages.2.label>放松</AJO_SpectagoTea.stages.2.label>
+  <AJO_SpectagoTea.stages.2.description>那饮料的让我放松了下来，真不错。</AJO_SpectagoTea.stages.2.description>
+
+  <AJO_ReadInImpressiveLibrary.stages.3.label>体面的图书馆</AJO_ReadInImpressiveLibrary.stages.3.label>
+  <AJO_ReadInImpressiveLibrary.stages.3.description>我在体面的图书馆读了一本书。</AJO_ReadInImpressiveLibrary.stages.3.description>
+  <AJO_ReadInImpressiveLibrary.stages.4.label>小有印象的图书馆</AJO_ReadInImpressiveLibrary.stages.4.label>
+  <AJO_ReadInImpressiveLibrary.stages.4.description>我在小有印象的图书馆读了一本书。</AJO_ReadInImpressiveLibrary.stages.4.description>
+  <AJO_ReadInImpressiveLibrary.stages.5.label>印象有些深刻的图书馆</AJO_ReadInImpressiveLibrary.stages.5.label>
+  <AJO_ReadInImpressiveLibrary.stages.5.description>我在印象有些深刻的图书馆度过了一段快乐的时光。</AJO_ReadInImpressiveLibrary.stages.5.description>
+  <AJO_ReadInImpressiveLibrary.stages.6.label>印象非常深刻的图书馆</AJO_ReadInImpressiveLibrary.stages.6.label>
+  <AJO_ReadInImpressiveLibrary.stages.6.description>我在印象非常深刻的图书馆度过了一段快乐的时光。</AJO_ReadInImpressiveLibrary.stages.6.description>
+  <AJO_ReadInImpressiveLibrary.stages.7.label>印象极度深刻的图书馆</AJO_ReadInImpressiveLibrary.stages.7.label>
+  <AJO_ReadInImpressiveLibrary.stages.7.description>我在印象极度深刻的图书馆度过了一段快乐的时光。我真想永远待在那儿。</AJO_ReadInImpressiveLibrary.stages.7.description>
+  <AJO_ReadInImpressiveLibrary.stages.8.label>难以置信的图书馆</AJO_ReadInImpressiveLibrary.stages.8.label>
+  <AJO_ReadInImpressiveLibrary.stages.8.description>我在难以置信的图书馆度过了一段快乐的时光。我真想永远待在那儿。</AJO_ReadInImpressiveLibrary.stages.8.description>
+  <AJO_ReadInImpressiveLibrary.stages.9.label>奇迹非凡的图书馆</AJO_ReadInImpressiveLibrary.stages.9.label>
+  <AJO_ReadInImpressiveLibrary.stages.9.description>我在奇迹非凡的图书馆度过了一段快乐的时光。我真想永远待在那儿。</AJO_ReadInImpressiveLibrary.stages.9.description>
+
+
+</LanguageData>

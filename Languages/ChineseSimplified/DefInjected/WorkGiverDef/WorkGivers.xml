@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_DoBillsMakePainting.label>在画架上绘画</AJO_DoBillsMakePainting.label>
+  <AJO_DoBillsMakePainting.verb>绘画</AJO_DoBillsMakePainting.verb>
+  <AJO_DoBillsMakePainting.gerund>正在绘画</AJO_DoBillsMakePainting.gerund>
+
+  <AJO_DoBillsWritingTable.label>写书</AJO_DoBillsWritingTable.label>
+  <AJO_DoBillsWritingTable.verb>写书</AJO_DoBillsWritingTable.verb>
+  <AJO_DoBillsWritingTable.gerund>正在写书</AJO_DoBillsWritingTable.gerund>
+
+  <AJO_DoBillsArcadeConstruction.label>制作游戏机</AJO_DoBillsArcadeConstruction.label>
+  <AJO_DoBillsArcadeConstruction.verb>制作游戏机</AJO_DoBillsArcadeConstruction.verb>
+  <AJO_DoBillsArcadeConstruction.gerund>正在制作游戏机</AJO_DoBillsArcadeConstruction.gerund>
+
+
+</LanguageData>

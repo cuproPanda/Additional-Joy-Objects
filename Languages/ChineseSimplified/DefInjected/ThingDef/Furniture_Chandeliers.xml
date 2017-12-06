@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Inheritors -->
+
+  <ChanPart_1x1_Support.label>小吊灯</ChanPart_1x1_Support.label>
+  <ChanPart_1x1_Support.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_1x1_Support.description>
+  <ChanPart_1x1_Support_Blueprint.label>小吊灯 (蓝图)</ChanPart_1x1_Support_Blueprint.label>
+  <ChanPart_1x1_Support_Blueprint_Install.label>小吊灯 (蓝图)</ChanPart_1x1_Support_Blueprint_Install.label>
+  <ChanPart_1x1_Support_Frame.label>小吊灯 (建造中)</ChanPart_1x1_Support_Frame.label>
+  <ChanPart_1x1_Support_Frame.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_1x1_Support_Frame.description>
+
+  <ChanPart_2x2_Support.label>吊灯</ChanPart_2x2_Support.label>
+  <ChanPart_2x2_Support.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_2x2_Support.description>
+  <ChanPart_2x2_Support_Blueprint.label>吊灯 (蓝图)</ChanPart_2x2_Support_Blueprint.label>
+  <ChanPart_2x2_Support_Blueprint_Install.label>吊灯 (蓝图)</ChanPart_2x2_Support_Blueprint_Install.label>
+  <ChanPart_2x2_Support_Frame.label>吊灯 (建造中)</ChanPart_2x2_Support_Frame.label>
+  <ChanPart_2x2_Support_Frame.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_2x2_Support_Frame.description>
+
+  <ChanPart_3x3_Support.label>大吊灯</ChanPart_3x3_Support.label>
+  <ChanPart_3x3_Support.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_3x3_Support.description>
+  <ChanPart_3x3_Support_Blueprint.label>大吊灯(蓝图)</ChanPart_3x3_Support_Blueprint.label>
+  <ChanPart_3x3_Support_Blueprint_Install.label>大吊灯 (蓝图)</ChanPart_3x3_Support_Blueprint_Install.label>
+  <ChanPart_3x3_Support_Frame.label>大吊灯 (建造中)</ChanPart_3x3_Support_Frame.label>
+  <ChanPart_3x3_Support_Frame.description>一个简单的吊灯，下面有一个玻璃灯盏，可以从挂在天花板上。</ChanPart_3x3_Support_Frame.description>
+
+
+  <!-- Bowl -->
+
+  <ChanPart_1x1_Bowl.label>灯盏</ChanPart_1x1_Bowl.label>
+  <ChanPart_1x1_Bowl.description>灯盏</ChanPart_1x1_Bowl.description>
+  <ChanPart_1x1_Bowl_Blueprint_Install.label>灯盏 (蓝图)</ChanPart_1x1_Bowl_Blueprint_Install.label>
+
+  <ChanPart_2x2_Bowl.label>灯盏</ChanPart_2x2_Bowl.label>
+  <ChanPart_2x2_Bowl.description>灯盏</ChanPart_2x2_Bowl.description>
+  <ChanPart_2x2_Bowl_Blueprint_Install.label>灯盏 (蓝图)</ChanPart_2x2_Bowl_Blueprint_Install.label>
+
+  <ChanPart_3x3_Bowl.label>灯盏</ChanPart_3x3_Bowl.label>
+  <ChanPart_3x3_Bowl.description>灯盏</ChanPart_3x3_Bowl.description>
+  <ChanPart_3x3_Bowl_Blueprint_Install.label>灯盏 (蓝图)</ChanPart_3x3_Bowl_Blueprint_Install.label>
+
+
+</LanguageData>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Empty Arcade -->
+
+  <!--<AJO_ArcadeEmpty.label>遊戲機</AJO_ArcadeEmpty.label>-->
+  <!--<AJO_ArcadeEmpty.description>尚未安裝遊戲的遊戲機。</AJO_ArcadeEmpty.description>-->
+
+
+  <!-- Arcade Construction -->
+
+  <!--<AJO_TableArcadeConstruction.label>遊戲機組裝台</AJO_TableArcadeConstruction.label>-->
+  <!--<AJO_TableArcadeConstruction.description>用於製作遊戲機和複製遊戲的工作台。</AJO_TableArcadeConstruction.description>-->
+  <!--<AJO_TableArcadeConstruction_Blueprint.label>遊戲機組裝台 (藍圖)</AJO_TableArcadeConstruction_Blueprint.label>-->
+  <!--<AJO_TableArcadeConstruction_Frame.label>遊戲機組裝台 (建造中)</AJO_TableArcadeConstruction_Frame.label>-->
+  <!--<AJO_TableArcadeConstruction_Frame.description>用於製作遊戲機和拷貝遊戲的工作台。</AJO_TableArcadeConstruction_Frame.description>-->
+
+
+  <!-- Inheritors -->
+
+  <!--<AJO_CartRS.label>磁盤，儲存了天際線</AJO_CartRS.label>-->
+  <!--<AJO_CartRS.description>頂尖城市模擬遊戲。</AJO_CartRS.description>-->
+
+  <!--<AJO_ArcadeRS.label>遊戲機，裝載了天際線</AJO_ArcadeRS.label>-->
+  <!--<AJO_ArcadeRS.description>頂尖城市模擬遊戲。</AJO_ArcadeRS.description>-->
+  <!--<AJO_ArcadeRS_Blueprint_Install.label>遊戲機，裝載了天際線 (藍圖)</AJO_ArcadeRS_Blueprint_Install.label>-->
+
+  <!--<AJO_CartMC.label>磁盤，儲存了群星</AJO_CartMC.label>-->
+  <!--<AJO_CartMC.description>再玩一個月我就不玩了...欸，怎麼天亮了？</AJO_CartMC.description>-->
+
+  <!--<AJO_ArcadeMC.label>遊戲機，裝載了群星</AJO_ArcadeMC.label>-->
+  <!--<AJO_ArcadeMC.description>再玩一個月我就不玩了...欸，怎麼天亮了？</AJO_ArcadeMC.description>-->
+  <!--<AJO_ArcadeMC_Blueprint_Install.label>遊戲機，裝載了群星 (藍圖)</AJO_ArcadeMC_Blueprint_Install.label>-->
+
+  <!--<AJO_CartHL.label>磁盤，儲存了星露谷物語</AJO_CartHL.label>-->
+  <!--<AJO_CartHL.description>綠帽谷污語。</AJO_CartHL.description>-->
+
+  <!--<AJO_ArcadeHL.label>遊戲機，裝載了星露谷物語</AJO_ArcadeHL.label>-->
+  <!--<AJO_ArcadeHL.description>綠帽谷污語。</AJO_ArcadeHL.description>-->
+  <!--<AJO_ArcadeHL_Blueprint_Install.label>遊戲機，裝載了星露穀物語 (藍圖)</AJO_ArcadeHL_Blueprint_Install.label>-->
+
+  <!--<AJO_CartES.label>磁盤，儲存了泰拉瑞亞</AJO_CartES.label>-->
+  <!--<AJO_CartES.description>有毒的遊戲。</AJO_CartES.description>-->
+
+  <!--<AJO_ArcadeES.label>遊戲機，裝載了泰拉瑞亞</AJO_ArcadeES.label>-->
+  <!--<AJO_ArcadeES.description>有毒的遊戲。</AJO_ArcadeES.description>-->
+  <!--<AJO_ArcadeES_Blueprint_Install.label>遊戲機，裝載了泰拉瑞亞 (藍圖)</AJO_ArcadeES_Blueprint_Install.label>-->
+
+  <!--<AJO_CartBG.label>磁盤，儲存了放逐之城</AJO_CartBG.label>-->
+  <!--<AJO_CartBG.description>亂倫之城。</AJO_CartBG.description>-->
+
+  <!--<AJO_ArcadeBG.label>遊戲機，裝載了放逐之城</AJO_ArcadeBG.label>-->
+  <!--<AJO_ArcadeBG.description>亂倫之城。</AJO_ArcadeBG.description>-->
+  <!--<AJO_ArcadeBG_Blueprint_Install.label>遊戲機，裝載了放逐之城 (藍圖)</AJO_ArcadeBG_Blueprint_Install.label>-->
+
+  <!--<AJO_CartCB.label>磁盤，儲存了上古卷軸</AJO_CartCB.label>-->
+  <!--<AJO_CartCB.description>少女卷軸。</AJO_CartCB.description>-->
+
+  <!--<AJO_ArcadeCB.label>遊戲機，裝載了上古卷軸</AJO_ArcadeCB.label>-->
+  <!--<AJO_ArcadeCB.description>少女卷軸。</AJO_ArcadeCB.description>-->
+  <!--<AJO_ArcadeCB_Blueprint_Install.label>遊戲機，裝載了上古卷軸 (藍圖)</AJO_ArcadeCB_Blueprint_Install.label>-->
+
+  <!--<AJO_CartPS.label>磁盤，儲存了異星工廠</AJO_CartPS.label>-->
+  <!--<AJO_CartPS.description>有毒的遊戲。</AJO_CartPS.description>-->
+
+  <!--<AJO_ArcadePS.label>遊戲機，裝載了異星工廠</AJO_ArcadePS.label>-->
+  <!--<AJO_ArcadePS.description>有毒的遊戲。</AJO_ArcadePS.description>-->
+  <!--<AJO_ArcadePS_Blueprint_Install.label>遊戲機，裝載了異星工廠 (藍圖)</AJO_ArcadePS_Blueprint_Install.label>-->
+
+  <!--<AJO_CartPK.label>磁盤，儲存了監獄建築師</AJO_CartPK.label>-->
+  <!--<AJO_CartPK.description>太陽監獄。</AJO_CartPK.description>-->
+
+  <!--<AJO_ArcadePK.label>遊戲機，裝載了監獄建築師</AJO_ArcadePK.label>-->
+  <!--<AJO_ArcadePK.description>太陽監獄。</AJO_ArcadePK.description>-->
+  <!--<AJO_ArcadePK_Blueprint_Install.label>遊戲機，裝載了監獄建築師 (藍圖)</AJO_ArcadePK_Blueprint_Install.label>-->
+
+  <!--<AJO_CartSP.label>磁盤，儲存了邊緣世界</AJO_CartSP.label>-->
+  <!--<AJO_CartSP.description>十八禁遊戲。</AJO_CartSP.description>-->
+
+  <!--<AJO_ArcadeSP.label>遊戲機，裝載了邊緣世界</AJO_ArcadeSP.label>-->
+  <!--<AJO_ArcadeSP.description>十八禁遊戲。</AJO_ArcadeSP.description>-->
+  <!--<AJO_ArcadeSP_Blueprint_Install.label>遊戲機，裝載了邊緣世界 (藍圖)</AJO_ArcadeSP_Blueprint_Install.label>-->
+
+  <!--<AJO_CartTZ.label>磁盤，儲存了總統萬歲</AJO_CartTZ.label>-->
+  <!--<AJO_CartTZ.description>巴掌大地的地主。</AJO_CartTZ.description>-->
+
+  <!--<AJO_ArcadeTZ.label>遊戲機，裝載了總統萬歲</AJO_ArcadeTZ.label>-->
+  <!--<AJO_ArcadeTZ.description>巴掌大地的地主。</AJO_ArcadeTZ.description>-->
+  <!--<AJO_ArcadeTZ_Blueprint_Install.label>遊戲機，裝載了總統萬歲 (藍圖)</AJO_ArcadeTZ_Blueprint_Install.label>-->
+
+  <!--<AJO_CartTV.label>磁盤，儲存了帝國時代</AJO_CartTV.label>-->
+  <!--<AJO_CartTV.description>伐伐伐伐伐...木工！</AJO_CartTV.description>-->
+
+  <!--<AJO_ArcadeTV.label>遊戲機，裝載了帝國時代</AJO_ArcadeTV.label>-->
+  <!--<AJO_ArcadeTV.description>伐伐伐伐伐...木工！</AJO_ArcadeTV.description>-->
+  <!--<AJO_ArcadeTV_Blueprint_Install.label>遊戲機，裝載了帝國時代 (藍圖)</AJO_ArcadeTV_Blueprint_Install.label>-->
+
+  <!--<AJO_CartGD.label>磁盤，儲存了紅色警戒</AJO_CartGD.label>-->
+  <!--<AJO_CartGD.description>Shake it,baby!</AJO_CartGD.description>-->
+
+  <!--<AJO_ArcadeGD.label>遊戲機，裝載了紅色警戒</AJO_ArcadeGD.label>-->
+  <!--<AJO_ArcadeGD.description>Shake it,baby!</AJO_ArcadeGD.description>-->
+  <!--<AJO_ArcadeGD_Blueprint_Install.label>遊戲機，裝載了紅色警戒 (藍圖)</AJO_ArcadeGD_Blueprint_Install.label>-->
+
+
+</LanguageData>

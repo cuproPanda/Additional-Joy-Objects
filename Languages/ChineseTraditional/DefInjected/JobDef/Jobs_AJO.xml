@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<AJO_PlayDarts.reportString>正在玩飛鏢。</AJO_PlayDarts.reportString>-->
+  <!--<AJO_PlayCards.reportString>正在玩紙牌。</AJO_PlayCards.reportString>-->
+  <!--<AJO_PlayRimColony.reportString>正在玩邊緣桌游。</AJO_PlayRimColony.reportString>-->
+  <!--<AJO_ReadBook.reportString>正在坐著讀書。</AJO_ReadBook.reportString>-->
+  <!--<AJO_SkimBook.reportString>正在瀏覽畫冊。</AJO_SkimBook.reportString>-->
+  <!--<AJO_Doodle.reportString>正在塗鴉。</AJO_Doodle.reportString>-->
+  <!--<AJO_InterpretArt.reportString>欣賞藝術。</AJO_InterpretArt.reportString>-->
+  <!--<AJO_PlayArcadeRS.reportString>正在玩天際線。</AJO_PlayArcadeRS.reportString>-->
+  <!--<AJO_PlayArcadeMC.reportString>正在玩群星。</AJO_PlayArcadeMC.reportString>-->
+  <!--<AJO_PlayArcadeHL.reportString>正在玩星露谷物語。</AJO_PlayArcadeHL.reportString>-->
+  <!--<AJO_PlayArcadeES.reportString>正在玩泰拉瑞亞。</AJO_PlayArcadeES.reportString>-->
+  <!--<AJO_PlayArcadeBG.reportString>正在玩放逐之城。</AJO_PlayArcadeBG.reportString>-->
+  <!--<AJO_PlayArcadeCB.reportString>正在玩上古卷軸。</AJO_PlayArcadeCB.reportString>-->
+  <!--<AJO_PlayArcadePS.reportString>正在玩異星工廠。</AJO_PlayArcadePS.reportString>-->
+  <!--<AJO_PlayArcadePK.reportString>正在玩監獄建築師。</AJO_PlayArcadePK.reportString>-->
+  <!--<AJO_PlayArcadeSP.reportString>正在玩邊緣世界。</AJO_PlayArcadeSP.reportString>-->
+  <!--<AJO_PlayArcadeTZ.reportString>正在玩總統萬歲。</AJO_PlayArcadeTZ.reportString>-->
+  <!--<AJO_PlayArcadeTV.reportString>正在玩帝國時代。</AJO_PlayArcadeTV.reportString>-->
+  <!--<AJO_PlayArcadeGD.reportString>正在玩紅色警戒。</AJO_PlayArcadeGD.reportString>-->
+
+
+</LanguageData>

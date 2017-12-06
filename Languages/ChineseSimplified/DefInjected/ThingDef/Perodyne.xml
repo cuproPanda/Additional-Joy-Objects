@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_Perodyne.label>佩诺蒂恩</AJO_Perodyne.label>
+  <AJO_Perodyne.description>令人兴奋的止痛药，伴有视力衰退、头晕眼花、口干舌燥、语言能力受损等副作用。</AJO_Perodyne.description>
+  <AJO_Perodyne.ingestible.ingestCommandString>使用{0}</AJO_Perodyne.ingestible.ingestCommandString>
+  <AJO_Perodyne.ingestible.ingestReportString>使用{0}中。</AJO_Perodyne.ingestible.ingestReportString>
+
+
+</LanguageData>

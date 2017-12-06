@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_MakeArcadeEmpty.label>製作遊戲機</AJO_MakeArcadeEmpty.label>
+  <AJO_MakeArcadeEmpty.description>製作遊戲機用於裝載遊戲。</AJO_MakeArcadeEmpty.description>
+  <AJO_MakeArcadeEmpty.jobString>正在製作遊戲機。</AJO_MakeArcadeEmpty.jobString>
+
+  <AJO_MakeArcadeRS.label>安裝天際線</AJO_MakeArcadeRS.label>
+  <AJO_MakeArcadeRS.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeRS.description>
+  <AJO_MakeArcadeRS.jobString>正在安裝遊戲。</AJO_MakeArcadeRS.jobString>
+
+  <AJO_MakeArcadeMC.label>安裝群星</AJO_MakeArcadeMC.label>
+  <AJO_MakeArcadeMC.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeMC.description>
+  <AJO_MakeArcadeMC.jobString>正在安裝遊戲。</AJO_MakeArcadeMC.jobString>
+
+  <AJO_MakeArcadeHL.label>安裝星露谷物語</AJO_MakeArcadeHL.label>
+  <AJO_MakeArcadeHL.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeHL.description>
+  <AJO_MakeArcadeHL.jobString>正在安裝遊戲。</AJO_MakeArcadeHL.jobString>
+
+  <AJO_MakeArcadeES.label>安裝泰拉瑞亞</AJO_MakeArcadeES.label>
+  <AJO_MakeArcadeES.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeES.description>
+  <AJO_MakeArcadeES.jobString>正在安裝遊戲。</AJO_MakeArcadeES.jobString>
+
+  <AJO_MakeArcadeBG.label>安裝放逐之城</AJO_MakeArcadeBG.label>
+  <AJO_MakeArcadeBG.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeBG.description>
+  <AJO_MakeArcadeBG.jobString>正在安裝遊戲。</AJO_MakeArcadeBG.jobString>
+
+  <AJO_MakeArcadeCB.label>安裝上古卷軸</AJO_MakeArcadeCB.label>
+  <AJO_MakeArcadeCB.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeCB.description>
+  <AJO_MakeArcadeCB.jobString>正在安裝遊戲。</AJO_MakeArcadeCB.jobString>
+
+  <AJO_MakeArcadePS.label>安裝異星工廠</AJO_MakeArcadePS.label>
+  <AJO_MakeArcadePS.description>將遊戲安裝進遊戲機。</AJO_MakeArcadePS.description>
+  <AJO_MakeArcadePS.jobString>正在安裝遊戲。</AJO_MakeArcadePS.jobString>
+
+  <AJO_MakeArcadePK.label>安裝監獄建築師</AJO_MakeArcadePK.label>
+  <AJO_MakeArcadePK.description>將遊戲安裝進遊戲機。</AJO_MakeArcadePK.description>
+  <AJO_MakeArcadePK.jobString>正在安裝遊戲。</AJO_MakeArcadePK.jobString>
+
+  <AJO_MakeArcadeSP.label>安裝邊緣世界</AJO_MakeArcadeSP.label>
+  <AJO_MakeArcadeSP.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeSP.description>
+  <AJO_MakeArcadeSP.jobString>正在安裝遊戲。</AJO_MakeArcadeSP.jobString>
+
+  <AJO_MakeArcadeTZ.label>安裝總統萬歲</AJO_MakeArcadeTZ.label>
+  <AJO_MakeArcadeTZ.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeTZ.description>
+  <AJO_MakeArcadeTZ.jobString>正在安裝遊戲。</AJO_MakeArcadeTZ.jobString>
+
+  <AJO_MakeArcadeTV.label>安裝帝國時代</AJO_MakeArcadeTV.label>
+  <AJO_MakeArcadeTV.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeTV.description>
+  <AJO_MakeArcadeTV.jobString>正在安裝遊戲。</AJO_MakeArcadeTV.jobString>
+
+  <AJO_MakeArcadeGD.label>安裝紅色警戒</AJO_MakeArcadeGD.label>
+  <AJO_MakeArcadeGD.description>將遊戲安裝進遊戲機。</AJO_MakeArcadeGD.description>
+  <AJO_MakeArcadeGD.jobString>正在安裝遊戲。</AJO_MakeArcadeGD.jobString>
+
+
+</LanguageData>

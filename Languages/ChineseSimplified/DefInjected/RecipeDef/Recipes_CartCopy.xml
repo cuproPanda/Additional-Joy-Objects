@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_CopyCartRS.label>拷贝天际线</AJO_CopyCartRS.label>
+  <AJO_CopyCartRS.description>复制游戏到新的磁盘。</AJO_CopyCartRS.description>
+  <AJO_CopyCartRS.jobString>正在拷贝游戏。</AJO_CopyCartRS.jobString>
+
+  <AJO_CopyCartMC.label>拷贝群星</AJO_CopyCartMC.label>
+  <AJO_CopyCartMC.description>复制游戏到新的磁盘。</AJO_CopyCartMC.description>
+  <AJO_CopyCartMC.jobString>正在拷贝游戏。</AJO_CopyCartMC.jobString>
+
+  <AJO_CopyCartHL.label>拷贝星露谷物语</AJO_CopyCartHL.label>
+  <AJO_CopyCartHL.description>复制游戏到新的磁盘。</AJO_CopyCartHL.description>
+  <AJO_CopyCartHL.jobString>正在拷贝游戏。</AJO_CopyCartHL.jobString>
+
+  <AJO_CopyCartES.label>拷贝泰拉瑞亚</AJO_CopyCartES.label>
+  <AJO_CopyCartES.description>复制游戏到新的磁盘。</AJO_CopyCartES.description>
+  <AJO_CopyCartES.jobString>正在拷贝游戏。</AJO_CopyCartES.jobString>
+
+  <AJO_CopyCartBG.label>拷贝放逐之城</AJO_CopyCartBG.label>
+  <AJO_CopyCartBG.description>复制游戏到新的磁盘。</AJO_CopyCartBG.description>
+  <AJO_CopyCartBG.jobString>正在拷贝游戏。</AJO_CopyCartBG.jobString>
+
+  <AJO_CopyCartCB.label>拷贝上古卷轴</AJO_CopyCartCB.label>
+  <AJO_CopyCartCB.description>复制游戏到新的磁盘。</AJO_CopyCartCB.description>
+  <AJO_CopyCartCB.jobString>正在拷贝游戏。</AJO_CopyCartCB.jobString>
+
+  <AJO_CopyCartPS.label>拷贝异星工厂</AJO_CopyCartPS.label>
+  <AJO_CopyCartPS.description>复制游戏到新的磁盘。</AJO_CopyCartPS.description>
+  <AJO_CopyCartPS.jobString>正在拷贝游戏。</AJO_CopyCartPS.jobString>
+
+  <AJO_CopyCartPK.label>拷贝监狱建筑师</AJO_CopyCartPK.label>
+  <AJO_CopyCartPK.description>复制游戏到新的磁盘。</AJO_CopyCartPK.description>
+  <AJO_CopyCartPK.jobString>正在拷贝游戏。</AJO_CopyCartPK.jobString>
+
+  <AJO_CopyCartSP.label>拷贝边缘世界</AJO_CopyCartSP.label>
+  <AJO_CopyCartSP.description>复制游戏到新的磁盘。</AJO_CopyCartSP.description>
+  <AJO_CopyCartSP.jobString>正在拷贝游戏。</AJO_CopyCartSP.jobString>
+
+  <AJO_CopyCartTZ.label>拷贝海岛大亨</AJO_CopyCartTZ.label>
+  <AJO_CopyCartTZ.description>复制游戏到新的磁盘。</AJO_CopyCartTZ.description>
+  <AJO_CopyCartTZ.jobString>正在拷贝游戏。</AJO_CopyCartTZ.jobString>
+
+  <AJO_CopyCartTV.label>拷贝帝国时代</AJO_CopyCartTV.label>
+  <AJO_CopyCartTV.description>复制游戏到新的磁盘。</AJO_CopyCartTV.description>
+  <AJO_CopyCartTV.jobString>正在拷贝游戏。</AJO_CopyCartTV.jobString>
+
+  <AJO_CopyCartGD.label>拷贝红色警戒</AJO_CopyCartGD.label>
+  <AJO_CopyCartGD.description>复制游戏到新的磁盘。</AJO_CopyCartGD.description>
+  <AJO_CopyCartGD.jobString>正在拷贝游戏。</AJO_CopyCartGD.jobString>
+
+
+</LanguageData>

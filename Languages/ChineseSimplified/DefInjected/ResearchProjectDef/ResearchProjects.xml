@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_TemperaPainting.label>水彩画</AJO_TemperaPainting.label>
+  <AJO_TemperaPainting.description>通过用蛋清混合色素，可以画出更好的水彩画。</AJO_TemperaPainting.description>
+
+  <AJO_PerodyneProduction.label>佩诺蒂恩制作</AJO_PerodyneProduction.label>
+  <AJO_PerodyneProduction.description>研究如何制作兴奋型止痛药佩诺蒂恩。</AJO_PerodyneProduction.description>
+
+  <AJO_ArcadeConstruction.label>制作游戏机</AJO_ArcadeConstruction.label>
+  <AJO_ArcadeConstruction.description>允许殖民者拷贝游戏和制作游戏机。</AJO_ArcadeConstruction.description>
+
+
+</LanguageData>

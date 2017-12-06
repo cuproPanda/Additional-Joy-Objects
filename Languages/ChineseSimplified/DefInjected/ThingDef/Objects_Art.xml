@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Furniture -->
+
+  <AJO_Painting.label>绘画</AJO_Painting.label>
+  <AJO_Painting.description>一幅画，可以覆盖丑陋的洞。</AJO_Painting.description>
+  <AJO_Painting_Blueprint_Install.label>绘画 (蓝图)</AJO_Painting_Blueprint_Install.label>
+
+
+  <!-- Production -->
+
+  <AJO_Easel.label>绘画架</AJO_Easel.label>
+  <AJO_Easel.description>用于绘画的画架。</AJO_Easel.description>
+  <AJO_Easel_Blueprint.label>绘画架 (蓝图)</AJO_Easel_Blueprint.label>
+  <AJO_Easel_Blueprint_Install.label>绘画架 (蓝图)</AJO_Easel_Blueprint_Install.label>
+  <AJO_Easel_Frame.label>绘画架 (建造中)</AJO_Easel_Frame.label>
+  <AJO_Easel_Frame.description>用于绘画的画架。</AJO_Easel_Frame.description>
+
+
+  <!-- Packages -->
+
+  <AJO_MinifiedPainting.label>绘画</AJO_MinifiedPainting.label>
+
+
+</LanguageData>

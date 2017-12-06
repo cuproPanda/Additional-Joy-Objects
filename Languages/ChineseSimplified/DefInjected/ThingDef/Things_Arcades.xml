@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Empty Arcade -->
+
+  <AJO_ArcadeEmpty.label>游戏机</AJO_ArcadeEmpty.label>
+  <AJO_ArcadeEmpty.description>尚未安装游戏的游戏机。</AJO_ArcadeEmpty.description>
+
+
+  <!-- Arcade Construction -->
+
+  <AJO_TableArcadeConstruction.label>游戏机组装台</AJO_TableArcadeConstruction.label>
+  <AJO_TableArcadeConstruction.description>用于制作游戏机和拷贝游戏的工作台。</AJO_TableArcadeConstruction.description>
+  <AJO_TableArcadeConstruction_Blueprint.label>游戏机组装台 (蓝图)</AJO_TableArcadeConstruction_Blueprint.label>
+  <AJO_TableArcadeConstruction_Frame.label>游戏机组装台 (建造中)</AJO_TableArcadeConstruction_Frame.label>
+  <AJO_TableArcadeConstruction_Frame.description>用于制作游戏机和拷贝游戏的工作台。</AJO_TableArcadeConstruction_Frame.description>
+
+
+  <!-- Inheritors -->
+
+  <AJO_CartRS.label>磁盘，储存了天际线</AJO_CartRS.label>
+  <AJO_CartRS.description>顶尖城市模拟游戏。</AJO_CartRS.description>
+
+  <AJO_ArcadeRS.label>游戏机，装载了天际线</AJO_ArcadeRS.label>
+  <AJO_ArcadeRS.description>顶尖城市模拟游戏。</AJO_ArcadeRS.description>
+  <AJO_ArcadeRS_Blueprint_Install.label>游戏机，装载了天际线 (蓝图)</AJO_ArcadeRS_Blueprint_Install.label>
+
+  <AJO_CartMC.label>磁盘，储存了群星</AJO_CartMC.label>
+  <AJO_CartMC.description>再玩一个月我就不玩了...欸，怎么天亮了？</AJO_CartMC.description>
+
+  <AJO_ArcadeMC.label>游戏机，装载了群星</AJO_ArcadeMC.label>
+  <AJO_ArcadeMC.description>再玩一个月我就不玩了...欸，怎么天亮了？</AJO_ArcadeMC.description>
+  <AJO_ArcadeMC_Blueprint_Install.label>游戏机，装载了群星 (蓝图)</AJO_ArcadeMC_Blueprint_Install.label>
+
+  <AJO_CartHL.label>磁盘，储存了星露谷物语</AJO_CartHL.label>
+  <AJO_CartHL.description>绿帽谷污语。</AJO_CartHL.description>
+
+  <AJO_ArcadeHL.label>游戏机，装载了星露谷物语</AJO_ArcadeHL.label>
+  <AJO_ArcadeHL.description>绿帽谷污语。</AJO_ArcadeHL.description>
+  <AJO_ArcadeHL_Blueprint_Install.label>游戏机，装载了星露谷物语 (蓝图)</AJO_ArcadeHL_Blueprint_Install.label>
+
+  <AJO_CartES.label>磁盘，储存了泰拉瑞亚</AJO_CartES.label>
+  <AJO_CartES.description>有毒的游戏。</AJO_CartES.description>
+
+  <AJO_ArcadeES.label>游戏机，装载了泰拉瑞亚</AJO_ArcadeES.label>
+  <AJO_ArcadeES.description>有毒的游戏。</AJO_ArcadeES.description>
+  <AJO_ArcadeES_Blueprint_Install.label>游戏机，装载了泰拉瑞亚 (蓝图)</AJO_ArcadeES_Blueprint_Install.label>
+
+  <AJO_CartBG.label>磁盘，储存了放逐之城</AJO_CartBG.label>
+  <AJO_CartBG.description>乱伦之城。</AJO_CartBG.description>
+
+  <AJO_ArcadeBG.label>游戏机，装载了放逐之城</AJO_ArcadeBG.label>
+  <AJO_ArcadeBG.description>乱伦之城。</AJO_ArcadeBG.description>
+  <AJO_ArcadeBG_Blueprint_Install.label>游戏机，装载了放逐之城 (蓝图)</AJO_ArcadeBG_Blueprint_Install.label>
+
+  <AJO_CartCB.label>磁盘，储存了上古卷轴</AJO_CartCB.label>
+  <AJO_CartCB.description>少女卷轴。</AJO_CartCB.description>
+
+  <AJO_ArcadeCB.label>游戏机，装载了上古卷轴</AJO_ArcadeCB.label>
+  <AJO_ArcadeCB.description>少女卷轴。</AJO_ArcadeCB.description>
+  <AJO_ArcadeCB_Blueprint_Install.label>游戏机，装载了上古卷轴 (蓝图)</AJO_ArcadeCB_Blueprint_Install.label>
+
+  <AJO_CartPS.label>磁盘，储存了异星工厂</AJO_CartPS.label>
+  <AJO_CartPS.description>有毒的游戏。</AJO_CartPS.description>
+
+  <AJO_ArcadePS.label>游戏机，装载了异星工厂</AJO_ArcadePS.label>
+  <AJO_ArcadePS.description>有毒的游戏。</AJO_ArcadePS.description>
+  <AJO_ArcadePS_Blueprint_Install.label>游戏机，装载了异星工厂 (蓝图)</AJO_ArcadePS_Blueprint_Install.label>
+
+  <AJO_CartPK.label>磁盘，储存了监狱建筑师</AJO_CartPK.label>
+  <AJO_CartPK.description>太阳监狱。</AJO_CartPK.description>
+
+  <AJO_ArcadePK.label>游戏机，装载了监狱建筑师</AJO_ArcadePK.label>
+  <AJO_ArcadePK.description>太阳监狱。</AJO_ArcadePK.description>
+  <AJO_ArcadePK_Blueprint_Install.label>游戏机，装载了监狱建筑师 (蓝图)</AJO_ArcadePK_Blueprint_Install.label>
+
+  <AJO_CartSP.label>磁盘，储存了边缘世界</AJO_CartSP.label>
+  <AJO_CartSP.description>十八禁游戏。</AJO_CartSP.description>
+
+  <AJO_ArcadeSP.label>游戏机，装载了边缘世界</AJO_ArcadeSP.label>
+  <AJO_ArcadeSP.description>十八禁游戏。</AJO_ArcadeSP.description>
+  <AJO_ArcadeSP_Blueprint_Install.label>游戏机，装载了边缘世界 (蓝图)</AJO_ArcadeSP_Blueprint_Install.label>
+
+  <AJO_CartTZ.label>磁盘，储存了海岛大亨</AJO_CartTZ.label>
+  <AJO_CartTZ.description>巴掌大地的地主。</AJO_CartTZ.description>
+
+  <AJO_ArcadeTZ.label>游戏机，装载了海岛大亨</AJO_ArcadeTZ.label>
+  <AJO_ArcadeTZ.description>巴掌大地的地主。</AJO_ArcadeTZ.description>
+  <AJO_ArcadeTZ_Blueprint_Install.label>游戏机，装载了海岛大亨 (蓝图)</AJO_ArcadeTZ_Blueprint_Install.label>
+
+  <AJO_CartTV.label>磁盘，储存了帝国时代</AJO_CartTV.label>
+  <AJO_CartTV.description>伐伐伐伐伐...木工！</AJO_CartTV.description>
+
+  <AJO_ArcadeTV.label>游戏机，装载了帝国时代</AJO_ArcadeTV.label>
+  <AJO_ArcadeTV.description>伐伐伐伐伐...木工！</AJO_ArcadeTV.description>
+  <AJO_ArcadeTV_Blueprint_Install.label>游戏机，装载了帝国时代 (蓝图)</AJO_ArcadeTV_Blueprint_Install.label>
+
+  <AJO_CartGD.label>磁盘，储存了红色警戒</AJO_CartGD.label>
+  <AJO_CartGD.description>Shake it,baby!</AJO_CartGD.description>
+
+  <AJO_ArcadeGD.label>游戏机，装载了红色警戒</AJO_ArcadeGD.label>
+  <AJO_ArcadeGD.description>Shake it,baby!</AJO_ArcadeGD.description>
+  <AJO_ArcadeGD_Blueprint_Install.label>游戏机，装载了红色警戒 (蓝图)</AJO_ArcadeGD_Blueprint_Install.label>
+
+
+</LanguageData>

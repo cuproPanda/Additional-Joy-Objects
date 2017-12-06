@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PerodyneHigh.stages.0.label>初始-隱藏</PerodyneHigh.stages.0.label>
+  <PerodyneHigh.stages.0.description>不應該出現。</PerodyneHigh.stages.0.description>
+  <PerodyneHigh.stages.1.label>舒爽</PerodyneHigh.stages.1.label>
+  <PerodyneHigh.stages.1.description>我現在感覺很放鬆。</PerodyneHigh.stages.1.description>
+  <PerodyneHigh.stages.2.label>胡思亂想</PerodyneHigh.stages.2.label>
+  <PerodyneHigh.stages.2.description>一切都感覺很好。</PerodyneHigh.stages.2.description>
+  <PerodyneHigh.stages.3.label>麻痺</PerodyneHigh.stages.3.label>
+  <PerodyneHigh.stages.3.description>一切都是那麼有趣，但我很難察覺到。</PerodyneHigh.stages.3.description>
+  <PerodyneHigh.stages.4.label>飄飄欲仙</PerodyneHigh.stages.4.label>
+  <PerodyneHigh.stages.4.description>我覺得我在水底深處，在這裡沒有什麼可以打擾我。</PerodyneHigh.stages.4.description>
+  <PerodyneHigh.stages.5.label>疲憊不堪</PerodyneHigh.stages.5.label>
+  <PerodyneHigh.stages.5.description>額嗯...</PerodyneHigh.stages.5.description>
+
+
+  <!-- Perodyne addiction -->
+
+  <PerodyneWithdrawal.stages.1.label>佩諾蒂恩消退</PerodyneWithdrawal.stages.1.label>
+  <PerodyneWithdrawal.stages.1.description>我真懷念那飄飄欲仙的感覺。</PerodyneWithdrawal.stages.1.description>
+
+
+</LanguageData>
