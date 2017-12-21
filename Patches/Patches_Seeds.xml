@@ -70,6 +70,7 @@
 						<defName>AJO_SeedSpectago</defName>
 						<label>spectago seeds</label>
 						<plant>AJO_PlantOutdoorSpectago</plant>
+						<graphicData><texPath>Cupro/Item/Material/Seeds/SeedSpectago</texPath></graphicData>
 					</SeedsPlease.SeedDef>
 				</value>
 			</li>
