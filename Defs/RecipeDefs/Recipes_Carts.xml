@@ -31,6 +31,63 @@
 
 
 
+	<RecipeDef>
+		<defName>AJO_MakeCartHomebrew</defName>
+		<label>Make homebrew cart</label>
+		<description>Create a homemade game cartridge to put in an arcade.</description>
+		<jobString>Creating cartridge.</jobString>
+		<workAmount>8000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Repair</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<unfinishedThingDef>AJO_UnfinishedCart</unfinishedThingDef>
+		<products>
+			<AJO_CartHomebrew>1</AJO_CartHomebrew>
+		</products>
+		<recipeUsers>
+			<li>AJO_TableArcadeConstruction</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="AJO_CartCopyBase">
+		<defName>AJO_CopyCartHomebrew</defName>
+		<label>Copy Homebrew cart</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartHomebrew</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartHomebrew</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_CartHomebrew>2</AJO_CartHomebrew>
+		</products>
+	</RecipeDef>
+
 	<RecipeDef ParentName="AJO_CartCopyBase">
 		<defName>AJO_CopyCartRS</defName>
 		<label>Copy Rum Swirled</label>

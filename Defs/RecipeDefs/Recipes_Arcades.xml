@@ -67,6 +67,29 @@
 
 
 	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
+		<defName>AJO_MakeArcadeHomebrew</defName>
+		<label>Install Homebrew cart</label>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_CartHomebrew</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_CartHomebrew</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_ArcadeHomebrew>1</AJO_ArcadeHomebrew>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="AJO_ArcadeRecipeBase">
 		<defName>AJO_MakeArcadeRS</defName>
 		<label>Install Rum Swirled</label>
 		<ingredients>

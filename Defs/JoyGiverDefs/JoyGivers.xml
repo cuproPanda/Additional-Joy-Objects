@@ -127,6 +127,15 @@
 
 
 	<JoyGiverDef ParentName="jgArcadeBase">
+		<defName>AJO_PlayArcadeHomebrew</defName>
+		<thingDefs>
+			<li>AJO_ArcadeHomebrew</li>
+		</thingDefs>
+		<jobDef>AJO_PlayArcadeHomebrew</jobDef>
+		<joyKind>Passive</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef ParentName="jgArcadeBase">
 		<defName>AJO_PlayArcadeRS</defName>
 		<thingDefs>
 			<li>AJO_ArcadeRS</li>

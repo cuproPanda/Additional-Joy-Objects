@@ -39,6 +39,9 @@
 			<li>Exotic</li>
 			<li>AJO_Joy</li>
 		</tradeTags>
+    <building>
+      <isJoySource>true</isJoySource>
+    </building>
 		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -187,6 +190,26 @@
 	<!-- ========================== Inheritors ============================== -->
 
 
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartHomebrew</defName>
+		<label>Cartridge, Homebrew</label>
+		<description>A simple game made by colonists which provides joy.</description>
+	</ThingDef>
+	<ThingDef ParentName="ArcadeBase">
+		<defName>AJO_ArcadeHomebrew</defName>
+		<label>Arcade, Homebrew</label>
+		<description>A simple game made by colonists which provides joy.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Homebrew/Homebrew</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartHomebrew>1</AJO_CartHomebrew>
+		</costList>
+		<killedLeavings>
+			<AJO_CartHomebrew>1</AJO_CartHomebrew>
+		</killedLeavings>
+	</ThingDef>
+	
 	<ThingDef ParentName="CartBase">
 		<defName>AJO_CartRS</defName>
 		<label>Cartridge, Rum Swirled</label>

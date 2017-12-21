@@ -69,6 +69,16 @@
 		<joyKind>Study</joyKind>
 	</JobDef>
 
+	<JobDef>
+		<defName>AJO_PlayArcadeHomebrew</defName>
+		<reportString>Playing arcade game.</reportString>
+		<driverClass>AdditionalJoyObjects.JobDriver_PlayArcade</driverClass>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1</joyGainRate>
+		<joyKind>Passive</joyKind>
+	</JobDef>
+
 	<JobDef Name="AJO_ArcadeJobBase" Abstract="True">
 		<driverClass>AdditionalJoyObjects.JobDriver_PlayArcade</driverClass>
 		<joyDuration>4000</joyDuration>

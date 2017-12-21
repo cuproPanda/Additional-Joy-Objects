@@ -48,6 +48,9 @@
 			<Flammability>1.0</Flammability>
 			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
 		</statBases>
+    <building>
+      <isJoySource>true</isJoySource>
+    </building>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -108,6 +111,7 @@
 			<Cloth>5</Cloth>
 		</costList>
 		<building>
+      <isJoySource>true</isJoySource>
 			<watchBuildingStandDistanceRange>
 				<min>5</min>
 				<max>5</max>

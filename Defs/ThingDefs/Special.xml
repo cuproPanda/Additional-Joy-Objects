@@ -24,4 +24,13 @@
 		</stuffCategories>
 	</ThingDef>
 
+	<ThingDef ParentName="UnfinishedBase">
+    <defName>AJO_UnfinishedCart</defName>
+    <label>unfinished arcade cart</label>
+    <graphicData>
+      <texPath>Cupro/Item/Unfinished/UnfinishedCart</texPath>
+    </graphicData>
+    <stuffCategories />
+  </ThingDef>
+
 </Defs>
