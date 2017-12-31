@@ -23,7 +23,7 @@
 			<li>DrugProduction</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
